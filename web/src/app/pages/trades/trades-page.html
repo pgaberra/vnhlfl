@@ -1,0 +1,117 @@
+<div class="page">
+  <header class="page-head">
+    <p class="eyebrow">Byteshandeln</p>
+    <h1>Trades</h1>
+    <p class="lede">Vem tradear mest, med vem, och vilka spelare har bytt lag flest gånger?</p>
+  </header>
+
+  @if (index(); as idx) {
+    <div class="chips" role="group" aria-label="Säsong">
+      <button
+        type="button"
+        class="chip"
+        [attr.aria-pressed]="seasonId() === null"
+        (click)="pick(null)"
+      >
+        Alla säsonger
+      </button>
+      @for (s of seasons(); track s.id) {
+        <button
+          type="button"
+          class="chip"
+          [attr.aria-pressed]="seasonId() === s.id"
+          (click)="pick(s.id)"
+        >
+          {{ s.label }}
+        </button>
+      }
+    </div>
+
+    @if (stats(); as st) {
+      <section class="summary" aria-label="Sammanfattning">
+        <p>
+          <strong>{{ st.completed }}</strong> genomförda trades med
+          <strong>{{ st.players }}</strong> spelare inblandade.
+          <strong>{{ st.stopped }}</strong> trades stoppades (veto eller motbud).
+        </p>
+        @if (missing()) {
+          <p class="hint">Tradeloggen saknar ännu {{ missing() }}.</p>
+        }
+      </section>
+
+      <div class="grid-3">
+        <section class="card" aria-labelledby="traders">
+          <h2 id="traders">Flest trades</h2>
+          <ol class="ranking">
+            @for (row of st.traders; track row.item.id) {
+              <li>
+                <app-manager-link [manager]="row.item" />
+                <span class="bar" [style.--w]="row.count / st.traders[0].count"></span>
+                <span class="count">{{ row.count }}</span>
+              </li>
+            }
+          </ol>
+        </section>
+
+        <section class="card" aria-labelledby="partners">
+          <h2 id="partners">Vanligaste paren</h2>
+          <ol class="ranking">
+            @for (row of st.partners; track $index) {
+              <li>
+                <span class="pair">
+                  <app-manager-link [manager]="row.item[0]" />
+                  <span class="muted">och</span>
+                  <app-manager-link [manager]="row.item[1]" />
+                </span>
+                <span class="count">{{ row.count }}</span>
+              </li>
+            }
+          </ol>
+        </section>
+
+        <section class="card" aria-labelledby="players">
+          <h2 id="players">Mest tradade spelare</h2>
+          <ol class="ranking">
+            @for (row of st.players10; track row.item) {
+              <li>
+                <span>{{ row.item }}</span>
+                <span class="bar" [style.--w]="row.count / st.players10[0].count"></span>
+                <span class="count">{{ row.count }}</span>
+              </li>
+            }
+          </ol>
+        </section>
+      </div>
+
+      <section class="card" aria-labelledby="biggest">
+        <h2 id="biggest">Största trades</h2>
+        <div class="trade-list">
+          @for (trade of st.biggest; track trade.id) {
+            <app-trade-card [trade]="trade" [index]="idx" />
+          }
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="all">
+        <div class="card-head">
+          <h2 id="all">Alla trades</h2>
+          <p class="hint">Senaste först. {{ list().length }} st.</p>
+        </div>
+        <div class="trade-list">
+          @for (trade of list().slice(0, shown()); track trade.id) {
+            <app-trade-card [trade]="trade" [index]="idx" />
+          }
+        </div>
+        @if (shown() < list().length) {
+          <button type="button" class="btn" (click)="more()">
+            Visa fler ({{ list().length - shown() }} kvar)
+          </button>
+        }
+      </section>
+    } @else {
+      <app-load-state [refs]="[data.trades]" />
+    }
+  } @else {
+    <app-load-state [refs]="[data.league]" />
+  }
+</div>

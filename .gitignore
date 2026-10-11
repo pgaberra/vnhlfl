@@ -1,0 +1,28 @@
+# The founder's raw spreadsheets and anything else that names real people.
+# Never commit these: the repo is public (see DECISIONS.md).
+source-data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Angular
+node_modules/
+web/dist/
+web/.angular/
+web/coverage/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# The shared blueprint lives one level up and names servers; never copy it in.
+INFRASTRUCTURE.md
+.claude/settings.local.json
+*.egg-info/

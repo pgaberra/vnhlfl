@@ -1,0 +1,289 @@
+<div class="page">
+  @if (index(); as idx) {
+    @if (manager(); as m) {
+      <header class="page-head">
+        <p class="eyebrow">GM-profil</p>
+        <h1>{{ name() }}</h1>
+        @if (formerNames().length) {
+          <p class="lede">Har även spelat som {{ formerNames().join(', ') }}.</p>
+        }
+      </header>
+
+      <section class="tiles" aria-label="Karriären i siffror">
+        @for (t of tiles(); track t.label) {
+          <app-stat-tile [label]="t.label" [value]="t.value" [sub]="t.sub" />
+        }
+      </section>
+
+      <section class="card" aria-labelledby="journey">
+        <div class="card-head">
+          <h2 id="journey">Divisionsresan</h2>
+          @if (hasTiers()) {
+            <p class="hint">
+              Div 1 är högst. Pilen visar upp- eller nedflyttning till säsongen efter.
+            </p>
+          }
+        </div>
+        <ol class="journey">
+          @for (s of seasons(); track s.team.id) {
+            <li [class.tier-1]="s.division.tier === 1">
+              <span class="j-season">{{ s.division.seasonLabel }}</span>
+              <span class="j-div">{{ s.division.name }}</span>
+              <span class="j-rank">
+                @if (s.team.final; as f) {
+                  @if (f.rank === 1) {
+                    <svg lucideTrophy class="icon trophy" aria-hidden="true"></svg>
+                  }
+                  {{ f.rank | ordinal }}
+                } @else {
+                  <span class="muted">lämnade</span>
+                }
+              </span>
+              @switch (s.move) {
+                @case ('up') {
+                  <span class="j-move up"
+                    ><svg lucideArrowUp class="icon" aria-hidden="true"></svg>Upp</span
+                  >
+                }
+                @case ('down') {
+                  <span class="j-move down"
+                    ><svg lucideArrowDown class="icon" aria-hidden="true"></svg>Ner</span
+                  >
+                }
+              }
+            </li>
+          }
+        </ol>
+      </section>
+
+      <section class="card" aria-labelledby="seasons">
+        <h2 id="seasons">Säsong för säsong</h2>
+        <div class="table-scroll">
+          <table class="data">
+            <thead>
+              <tr>
+                <th scope="col">Säsong</th>
+                <th scope="col">Lag</th>
+                <th scope="col">Division</th>
+                <th scope="col" class="num">Plac.</th>
+                <th scope="col" class="num">V-F-O</th>
+                <th scope="col" class="num">Vinst%</th>
+                <th scope="col" class="num">Poäng</th>
+                <th scope="col" class="num">Moves</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (s of seasons(); track s.team.id) {
+                <tr>
+                  <td>
+                    <a
+                      [routerLink]="['/sasong', s.team.seasonId]"
+                      [queryParams]="{ div: s.team.divisionId }"
+                      >{{ s.division.seasonLabel }}</a
+                    >
+                  </td>
+                  <td class="name">
+                    {{ s.team.name }}
+                    @if (s.team.replaces; as r) {
+                      <span class="note">tog över {{ idx.team.get(r.teamId)?.name }}</span>
+                    }
+                    @if (s.team.replacedBy; as r) {
+                      <span class="note"
+                        >lämnade, ersattes av {{ idx.team.get(r.teamId)?.name }}</span
+                      >
+                    }
+                  </td>
+                  <td>
+                    <span class="badge" [class.tier-1]="s.division.tier === 1">{{
+                      s.division.name
+                    }}</span>
+                  </td>
+                  @if (s.team.final; as f) {
+                    <td class="num">
+                      @if (f.rank === 1) {
+                        <svg lucideTrophy class="icon trophy" aria-label="Mästare"></svg>
+                      }
+                      {{ f.rank | ordinal }}
+                      @if (f.clinched) {
+                        <abbr class="playoff" title="Gick till slutspel">*</abbr>
+                      }
+                    </td>
+                    <td class="num">{{ f | record }}</td>
+                    <td class="num">
+                      {{ (f.wins + f.ties / 2) / (f.wins + f.losses + f.ties) | pct }}
+                    </td>
+                    <td class="num">{{ f.pointsFor | points }}</td>
+                    <td class="num">{{ f.moves | num }}</td>
+                  } @else {
+                    <td class="num muted" colspan="5">Ingen sluttabell</td>
+                  }
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="hint">* = gick till slutspel. Slutplaceringen räknar in slutspelet.</p>
+      </section>
+
+      <section class="card" aria-labelledby="timeline">
+        <div class="card-head">
+          <h2 id="timeline">Placering över säsongen</h2>
+          <p class="hint">Blå linje = {{ name() }}. Grått = övriga lag i divisionen.</p>
+        </div>
+        @if (rankCharts(); as charts) {
+          @if (charts.length) {
+            <div class="charts">
+              @for (c of charts; track c.season.team.id) {
+                <figure>
+                  <figcaption>
+                    {{ c.season.division.seasonLabel }} · {{ c.season.division.name }}
+                  </figcaption>
+                  <app-rank-chart
+                    [series]="c.series"
+                    [highlight]="[c.season.team.id]"
+                    [teamCount]="c.teamCount"
+                    [playoffSpots]="c.playoffSpots"
+                    [height]="200"
+                    [label]="'Placering ' + c.season.division.seasonLabel"
+                  />
+                </figure>
+              }
+            </div>
+          } @else {
+            <p class="empty">Det finns inga veckotabeller för de här säsongerna ännu.</p>
+          }
+        } @else {
+          <app-load-state [refs]="[data.standings]" />
+        }
+      </section>
+
+      <section class="card" aria-labelledby="h2h">
+        <div class="card-head">
+          <h2 id="h2h">
+            <svg lucideSwords class="icon" aria-hidden="true"></svg>
+            Inbördes möten
+          </h2>
+        </div>
+        <p class="empty">
+          Matchresultaten är inte inlästa ännu. När de hämtas från Yahoo visas här
+          {{ name() }}s facit mot varje motståndare.
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="trades">
+        <div class="card-head">
+          <h2 id="trades">Trades</h2>
+          <a routerLink="/trades">Alla trades</a>
+        </div>
+        @if (trades(); as t) {
+          <div class="tiles small">
+            <app-stat-tile
+              label="Genomförda"
+              [value]="t.completed"
+              [sub]="t.players + ' spelare in'"
+            />
+            <app-stat-tile
+              label="Stoppade"
+              [value]="t.notCompleted"
+              [sub]="'vetoade eller motbud'"
+            />
+          </div>
+          @if (t.partners.length) {
+            <div>
+              <h3>Vanligaste tradepartners</h3>
+              <ol class="partners">
+                @for (p of t.partners; track p.item[1].id) {
+                  <li>
+                    <app-manager-link [manager]="p.item[1]" />
+                    <span class="muted"
+                      >{{ p.count }} {{ p.count === 1 ? 'trade' : 'trades' }}</span
+                    >
+                  </li>
+                }
+              </ol>
+            </div>
+          }
+          <div class="trade-list">
+            @for (trade of t.list; track trade.id) {
+              <app-trade-card [trade]="trade" [index]="idx" [perspective]="m.id" />
+            } @empty {
+              <p class="empty">Inga trades registrerade.</p>
+            }
+          </div>
+          <p class="hint">
+            Tradeloggen täcker {{ idx.league.coverage.trades.length }} av
+            {{ idx.seasons.length }} säsonger.
+          </p>
+        } @else {
+          <app-load-state [refs]="[data.trades]" />
+        }
+      </section>
+
+      <section class="card" aria-labelledby="draft">
+        <div class="card-head">
+          <h2 id="draft">Draftval</h2>
+          <a routerLink="/draft">Alla drafter</a>
+        </div>
+        @if (drafts(); as list) {
+          @for (d of list; track d.season.team.id; let first = $first) {
+            <details [open]="first">
+              <summary>
+                {{ d.season.division.seasonLabel }} · {{ d.season.division.name }}
+                <span class="muted">· förstaval {{ d.picks[0].player }}</span>
+              </summary>
+              <div class="table-scroll">
+                <table class="data">
+                  <thead>
+                    <tr>
+                      <th scope="col" class="num">Rnd</th>
+                      <th scope="col" class="num">
+                        {{ d.picks[0].format === 'auction' ? 'Pris' : 'Val' }}
+                      </th>
+                      <th scope="col">Spelare</th>
+                      <th scope="col" class="num">Liga-ADP</th>
+                      <th scope="col" class="num" title="Positivt = valdes senare än ligasnittet">
+                        Mot ADP
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    @for (p of d.picks; track $index) {
+                      <tr>
+                        <td class="num">{{ p.round }}</td>
+                        <td class="num">
+                          {{ p.format === 'auction' ? '$' + (p.bid ?? '–') : (p.overall ?? '–') }}
+                        </td>
+                        <td>{{ p.player }}</td>
+                        <td class="num">{{ p.adpLeague | num: 1 }}</td>
+                        <td
+                          class="num"
+                          [class.up]="(p.delta ?? 0) >= 10"
+                          [class.down]="(p.delta ?? 0) <= -10"
+                        >
+                          {{
+                            p.delta === null ? '' : (p.delta > 0 ? '+' : '') + (p.delta | num: 0)
+                          }}
+                        </td>
+                      </tr>
+                    }
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          } @empty {
+            <p class="empty">Inga draftval registrerade.</p>
+          }
+        } @else {
+          <app-load-state [refs]="[data.draft]" />
+        }
+      </section>
+    } @else {
+      <header class="page-head">
+        <h1>Hittade ingen sådan GM</h1>
+        <p class="lede">Länken kan vara gammal. <a routerLink="/gm">Sök bland alla GM:s</a>.</p>
+      </header>
+    }
+  } @else {
+    <app-load-state [refs]="[data.league]" />
+  }
+</div>

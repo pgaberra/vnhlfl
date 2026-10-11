@@ -1,0 +1,91 @@
+.hero {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.hero h1 {
+  font-size: var(--text-3xl);
+  max-width: 40rem;
+}
+
+.search {
+  display: grid;
+  gap: var(--space-2);
+  max-width: 32rem;
+  margin-top: var(--space-2);
+}
+
+.input-wrap {
+  position: relative;
+  display: block;
+}
+
+.input-wrap .icon {
+  position: absolute;
+  left: var(--space-3);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+}
+
+.input-wrap input {
+  width: 100%;
+  padding-left: 2.25rem;
+}
+
+.matches {
+  list-style: none;
+  margin: 0;
+  padding: var(--space-2) 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.matches li {
+  padding: var(--space-2) var(--space-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: baseline;
+}
+
+.tiles {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+}
+
+.champions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.champions li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.season {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  min-width: 3.5rem;
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: var(--text-2xl);
+  }
+}

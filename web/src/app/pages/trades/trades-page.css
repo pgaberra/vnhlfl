@@ -1,0 +1,50 @@
+.summary {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.ranking {
+  margin: 0;
+  padding-left: var(--space-5);
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.ranking li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 4rem 2rem;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ranking li:has(.pair) {
+  grid-template-columns: minmax(0, 1fr) 2rem;
+}
+
+/* Single-series magnitude bar: one hue, thin, rounded data end. */
+.bar {
+  height: 6px;
+  border-radius: 0 3px 3px 0;
+  background: var(--chart-series);
+  width: calc(var(--w) * 100%);
+}
+
+.count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.pair {
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.35em;
+}
+
+.trade-list {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr));
+}

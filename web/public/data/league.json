@@ -1,0 +1,8543 @@
+{
+ "nameMode": "team",
+ "seasons": [
+  {
+   "id": "2021-22",
+   "label": "2021/22",
+   "divisions": [
+    {
+     "id": "2021-22-div-eken",
+     "name": "Div Eken",
+     "tier": null,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2021-22:gaxsjo-hockeyheads",
+      "2021-22:sea-bass",
+      "2021-22:lule-devils",
+      "2021-22:flippmacka-hc",
+      "2021-22:teamstoof",
+      "2021-22:henriks-peerless-team",
+      "2021-22:kvicklund",
+      "2021-22:donnedain",
+      "2021-22:eken",
+      "2021-22:boomtown-rats",
+      "2021-22:jespers-impressive-team",
+      "2021-22:truck-driver-d",
+      "2021-22:pitepojkar",
+      "2021-22:ovies-malrekord",
+      "2021-22:markuss-swell-team"
+     ]
+    },
+    {
+     "id": "2021-22-div-olof",
+     "name": "Div Olof",
+     "tier": null,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2021-22:stangby-canucks",
+      "2021-22:fixwell-hockey",
+      "2021-22:dropstokk-penguins",
+      "2021-22:vnhl-olof",
+      "2021-22:skridsko-mot-stolpen",
+      "2021-22:henke-panthers",
+      "2021-22:de-maktiga-algarna",
+      "2021-22:det-grona-tradet",
+      "2021-22:chuck-norris-uppercuts",
+      "2021-22:portvin-on-ice",
+      "2021-22:amazingastor",
+      "2021-22:team-wrongass",
+      "2021-22:hjobos-varsta-hc",
+      "2021-22:victors-victorious-team",
+      "2021-22:hallbo-hc"
+     ]
+    },
+    {
+     "id": "2021-22-div-patrik",
+     "name": "Div Patrik",
+     "tier": null,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2021-22:vnhl-patrik",
+      "2021-22:sandby-boys",
+      "2021-22:uttran-north-stars",
+      "2021-22:skbg-elite",
+      "2021-22:andy-flyers",
+      "2021-22:ragdolls",
+      "2021-22:too-hot-to-yandle",
+      "2021-22:haninge-musketorerna",
+      "2021-22:uport-slackerz",
+      "2021-22:blue-forest",
+      "2021-22:kingston-bagpipes",
+      "2021-22:mac-attack",
+      "2021-22:umepenguins",
+      "2021-22:alexanders-expert-team",
+      "2021-22:the-miracle-squad"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2022-23",
+   "label": "2022/23",
+   "divisions": [
+    {
+     "id": "2022-23-div-1-gretzky",
+     "name": "Div 1 Gretzky",
+     "tier": 1,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2022-23:andy-flyers",
+      "2022-23:sandby-boys",
+      "2022-23:gaxsjo-hockeyheads",
+      "2022-23:sea-bass",
+      "2022-23:stangby-canucks",
+      "2022-23:vnhl-olof",
+      "2022-23:uttran-north-stars",
+      "2022-23:fixwell-hockey",
+      "2022-23:flippmacka-hc",
+      "2022-23:teamstoof",
+      "2022-23:lule-devils",
+      "2022-23:skbg-elite",
+      "2022-23:vnhl-patrik",
+      "2022-23:dropstokk-penguins"
+     ]
+    },
+    {
+     "id": "2022-23-div-2-jagr",
+     "name": "Div 2 Jagr",
+     "tier": 2,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2022-23:de-maktiga-algarna",
+      "2022-23:chuck-norris-uppercuts",
+      "2022-23:kvicklund",
+      "2022-23:haninge-musketorerna",
+      "2022-23:blue-forest",
+      "2022-23:henke-panthers",
+      "2022-23:too-hot-to-yandle",
+      "2022-23:donnedain",
+      "2022-23:det-grona-tradet",
+      "2022-23:portvin-on-ice",
+      "2022-23:eken",
+      "2022-23:ragdolls",
+      "2022-23:henriks-peerless-team",
+      "2022-23:uport-slackerz"
+     ]
+    },
+    {
+     "id": "2022-23-div-3-messier",
+     "name": "Div 3 Messier",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2022-23:mac-attack",
+      "2022-23:team-wrongass",
+      "2022-23:truck-driver-d",
+      "2022-23:boomtown-rats",
+      "2022-23:ovies-malrekord",
+      "2022-23:team-zuuuuc",
+      "2022-23:amazingastor",
+      "2022-23:wizpens-kanoner",
+      "2022-23:kingston-bagpipes",
+      "2022-23:alexanders-expert-team",
+      "2022-23:hjobos-varsta-hc",
+      "2022-23:jespers-impressive-team",
+      "2022-23:victors-victorious-team",
+      "2022-23:sunnes-pagar"
+     ]
+    },
+    {
+     "id": "2022-23-div-4-gordie",
+     "name": "Div 4 Gordie",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2022-23:pigga-pagar",
+      "2022-23:sampa",
+      "2022-23:nknp",
+      "2022-23:bamsingarna",
+      "2022-23:eddtillimdead",
+      "2022-23:bros-before-ahos",
+      "2022-23:de-a-bara-a-ak",
+      "2022-23:thunbergs-melting-icecaps",
+      "2022-23:2-girls-no-cup",
+      "2022-23:cristers-groovy-team",
+      "2022-23:vallsjo-mcrangers",
+      "2022-23:hak-eye",
+      "2022-23:jagrs-hockeyfrilla",
+      "2022-23:crosbys-knightmares",
+      "2022-23:pac-mans-dreamteam"
+     ]
+    },
+    {
+     "id": "2022-23-div-4-howe",
+     "name": "Div 4 Howe",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2022-23:njurunda-devils",
+      "2022-23:wealdstone-raiders",
+      "2022-23:eastfield-snigels",
+      "2022-23:pastore-bob",
+      "2022-23:chicago-blackhaks",
+      "2022-23:trillie-trillionaire",
+      "2022-23:too-lucky-for-you",
+      "2022-23:fogass-canadiens",
+      "2022-23:highvalley-tjakkers",
+      "2022-23:team-tung",
+      "2022-23:torpadie-trashers",
+      "2022-23:rubens-nuts",
+      "2022-23:monkrapids-top-corns",
+      "2022-23:mikelikehockey",
+      "2022-23:roberts-rad-team"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2023-24",
+   "label": "2023/24",
+   "divisions": [
+    {
+     "id": "2023-24-div-1-gretzky",
+     "name": "Div 1 Gretzky",
+     "tier": 1,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2023-24:njurunda-devils",
+      "2023-24:sampa",
+      "2023-24:stangby-canucks",
+      "2023-24:chuck-norris-uppercuts",
+      "2023-24:uttran-north-stars",
+      "2023-24:sandby-boys",
+      "2023-24:sea-bass",
+      "2023-24:gaxsjo-hockeyheads",
+      "2023-24:de-maktiga-algarna",
+      "2023-24:kvicklund",
+      "2023-24:vnhl-olof",
+      "2023-24:mac-attack",
+      "2023-24:pigga-pagar",
+      "2023-24:andy-flyers"
+     ]
+    },
+    {
+     "id": "2023-24-div-2-jagr",
+     "name": "Div 2 Jagr",
+     "tier": 2,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:teamstoof",
+      "2023-24:henke-panthers",
+      "2023-24:too-hot-to-yandle",
+      "2023-24:blue-forest",
+      "2023-24:team-zuuuuc",
+      "2023-24:trillie-trillionaire",
+      "2023-24:amazingastor",
+      "2023-24:wealdstone-raiders",
+      "2023-24:vnhl-patrik",
+      "2023-24:skbg-elite",
+      "2023-24:stenfors",
+      "2023-24:det-grona-tradet",
+      "2023-24:truck-driver-d",
+      "2023-24:nknp",
+      "2023-24:bamsingarna",
+      "2023-24:bamsingarna-2-0"
+     ]
+    },
+    {
+     "id": "2023-24-div-2-jaromir",
+     "name": "Div 2 Jaromir",
+     "tier": 2,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:chicago-blackhaks",
+      "2023-24:haninge-musketorerna",
+      "2023-24:flippmacka-hc",
+      "2023-24:boomtown-rats",
+      "2023-24:fixwell-hockey",
+      "2023-24:lule-devils",
+      "2023-24:team-wrongass",
+      "2023-24:ovies-malrekord",
+      "2023-24:portvin-on-ice",
+      "2023-24:eken",
+      "2023-24:eastfield-snigels",
+      "2023-24:donnedain",
+      "2023-24:pastore-bob",
+      "2023-24:eddtillimdead"
+     ]
+    },
+    {
+     "id": "2023-24-div-3-mark",
+     "name": "Div 3 Mark",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:ragdolls",
+      "2023-24:torpadie-trashers",
+      "2023-24:thunbergs-melting-icecaps",
+      "2023-24:fishbone-brothers",
+      "2023-24:cristers-groovy-team",
+      "2023-24:lords-hc",
+      "2023-24:henriks-peerless-team",
+      "2023-24:valpens-coyotes",
+      "2023-24:viktors-victorious-team",
+      "2023-24:2-girls-no-cup",
+      "2023-24:skridsko-mot-stolpen",
+      "2023-24:kingston-bagpipes",
+      "2023-24:too-lucky-for-you",
+      "2023-24:dropstokk-penguins"
+     ]
+    },
+    {
+     "id": "2023-24-div-3-messier",
+     "name": "Div 3 Messier",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:gyllene-knektarna",
+      "2023-24:martins-magnificent-team",
+      "2023-24:melwood-hc",
+      "2023-24:sunnes-pagar",
+      "2023-24:highvalley-tjakkers",
+      "2023-24:high-valley-roosters",
+      "2023-24:uport-slackerz",
+      "2023-24:de-a-bara-a-ak",
+      "2023-24:monkrapids-top-corns",
+      "2023-24:alexanders-expert-team",
+      "2023-24:patriks-mosquito-bites",
+      "2023-24:vasteras-draconian",
+      "2023-24:fogass-canadiens",
+      "2023-24:crosbys-cry-babies"
+     ]
+    },
+    {
+     "id": "2023-24-div-4-1850",
+     "name": "Div 4 1850",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:jaromir-juggernaut",
+      "2023-24:steninge-jets",
+      "2023-24:tage-of-wonders",
+      "2023-24:falukorvarna",
+      "2023-24:lundqvist-win",
+      "2023-24:backes-in-the-ussr",
+      "2023-24:byavagen-flyers",
+      "2023-24:seal-team-z",
+      "2023-24:karls-gossar-bla",
+      "2023-24:martins-amazing-team",
+      "2023-24:moves-like-jagr",
+      "2023-24:kumlabunkern",
+      "2023-24:pac-mans-dreamteam",
+      "2023-24:pusselbit-painters",
+      "2023-24:aspliden-hf",
+      "2023-24:jozos-first-rate-team",
+      "2023-24:ludvigs-legendary-team"
+     ]
+    },
+    {
+     "id": "2023-24-div-4-gordie",
+     "name": "Div 4 Gordie",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:malmoiterna",
+      "2023-24:den-blommande-loken",
+      "2023-24:rosa-faran",
+      "2023-24:anzelm-avalanche",
+      "2023-24:freddes-kings-queens",
+      "2023-24:foreberg",
+      "2023-24:thls-dream-team",
+      "2023-24:mighty-drunks",
+      "2023-24:sunnyvale-shithawks",
+      "2023-24:west-coast-express",
+      "2023-24:hockey-balboa",
+      "2023-24:manhattans-skogvaktare",
+      "2023-24:brunkers-bk",
+      "2023-24:team-all-sellers"
+     ]
+    },
+    {
+     "id": "2023-24-div-4-howe",
+     "name": "Div 4 Howe",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2023-24:ik-oddevold",
+      "2023-24:munkasen-machines",
+      "2023-24:kht-rangers",
+      "2023-24:chris-p-bacon-hc",
+      "2023-24:falu-red-colors",
+      "2023-24:club-dei-duri",
+      "2023-24:finnish-marauders",
+      "2023-24:joachims-quality-team",
+      "2023-24:salikepeter",
+      "2023-24:siggepp",
+      "2023-24:humblas-smallkarameller",
+      "2023-24:kikos-nasi-lemak",
+      "2023-24:oppenheimer-atomics",
+      "2023-24:borjebus",
+      "2023-24:eriks-excellent-team",
+      "2023-24:tonis-tip-top-team"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2024-25",
+   "label": "2024/25",
+   "divisions": [
+    {
+     "id": "2024-25-div-1-gaudreau",
+     "name": "Div 1 Gaudreau",
+     "tier": 1,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2024-25:stangby-canucks",
+      "2024-25:gyllene-knektarna",
+      "2024-25:sampa",
+      "2024-25:sea-bass",
+      "2024-25:haninge-musketorerna",
+      "2024-25:henke-panthers",
+      "2024-25:sandby-boys",
+      "2024-25:teamstoof",
+      "2024-25:njurunda-devils",
+      "2024-25:ragdolls",
+      "2024-25:chuck-norris-uppercuts",
+      "2024-25:ik-oddevold",
+      "2024-25:uttran-north-stars",
+      "2024-25:chicago-blackhaks"
+     ]
+    },
+    {
+     "id": "2024-25-div-2-jagr",
+     "name": "Div 2 Jagr",
+     "tier": 2,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:too-hot-to-yandle",
+      "2024-25:steninge-jets",
+      "2024-25:mac-attack",
+      "2024-25:boomtown-rats",
+      "2024-25:pigga-pagar",
+      "2024-25:vnhl-patrik",
+      "2024-25:fixwell-hockey",
+      "2024-25:melwood-hc",
+      "2024-25:munkasen-machines",
+      "2024-25:vnhl-olof",
+      "2024-25:trillie-trillionaire",
+      "2024-25:lule-devils",
+      "2024-25:fishbone-brothers",
+      "2024-25:team-zuuuuc"
+     ]
+    },
+    {
+     "id": "2024-25-div-2-messier",
+     "name": "Div 2 Messier",
+     "tier": 2,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:jaromir-juggernaut",
+      "2024-25:team-wrongass",
+      "2024-25:thunbergs-melting-icecaps",
+      "2024-25:blue-forest",
+      "2024-25:andy-flyers@div-2-messier",
+      "2024-25:gaxsjo-hockeyheads",
+      "2024-25:flippmacka-hc",
+      "2024-25:ovies-malrekord",
+      "2024-25:wealdstone-raiders",
+      "2024-25:kvicklund",
+      "2024-25:malmoiterna",
+      "2024-25:torpadie-trashers",
+      "2024-25:portvin-on-ice",
+      "2024-25:amazingastor",
+      "2024-25:de-maktiga-algarna"
+     ]
+    },
+    {
+     "id": "2024-25-div-3-dionne",
+     "name": "Div 3 Dionne",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:skbg-elite",
+      "2024-25:falukorvarna",
+      "2024-25:uport-slackerz",
+      "2024-25:thls-dream-team",
+      "2024-25:henriks-peerless-team",
+      "2024-25:det-grona-tradet",
+      "2024-25:falu-red-colors",
+      "2024-25:de-a-bara-a-ak",
+      "2024-25:freddes-kings-queens",
+      "2024-25:byavagen-flyers",
+      "2024-25:donnedain",
+      "2024-25:backes-in-the-ussr",
+      "2024-25:anzelm-avalanche",
+      "2024-25:sunnes-pagar"
+     ]
+    },
+    {
+     "id": "2024-25-div-3-francis",
+     "name": "Div 3 Francis",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:joachims-quality-team",
+      "2024-25:mighty-drunks",
+      "2024-25:eastfield-snigels",
+      "2024-25:finnish-marauders",
+      "2024-25:chris-p-bacon-hc",
+      "2024-25:club-dei-duri",
+      "2024-25:valpens-coyotes",
+      "2024-25:sunnyvale-shithawks",
+      "2024-25:eddtillimdead",
+      "2024-25:2-girls-no-cup",
+      "2024-25:foreberg",
+      "2024-25:high-valley-roosters",
+      "2024-25:monkrapids-top-corns",
+      "2024-25:eken"
+     ]
+    },
+    {
+     "id": "2024-25-div-3-howe",
+     "name": "Div 3 Howe",
+     "tier": 3,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:kht-rangers",
+      "2024-25:lundqvist-win",
+      "2024-25:snabba-puckar",
+      "2024-25:den-blommande-loken",
+      "2024-25:skanstull-sharks",
+      "2024-25:the-canadian-og",
+      "2024-25:cristers-groovy-team",
+      "2024-25:stenfors",
+      "2024-25:highvalley-tjakkers",
+      "2024-25:salikepeter",
+      "2024-25:truck-driver-d",
+      "2024-25:lords-hc",
+      "2024-25:pastore-bob",
+      "2024-25:karls-gossar-bla",
+      "2024-25:andy-flyers@div-3-howe",
+      "2024-25:rosa-faran",
+      "2024-25:tage-of-wonders"
+     ]
+    },
+    {
+     "id": "2024-25-div-4-lemieux",
+     "name": "Div 4 Lemieux",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:borjebus",
+      "2024-25:siggepp",
+      "2024-25:flata-kickers-alexander-b",
+      "2024-25:west-coast-express",
+      "2024-25:vasteras-draconian",
+      "2024-25:kjells-angels",
+      "2024-25:team-wakeras",
+      "2024-25:too-lucky-for-you",
+      "2024-25:borjegatan-bunnies",
+      "2024-25:crosbys-cry-babies",
+      "2024-25:gottepasen",
+      "2024-25:kikos-nasi-lemak",
+      "2024-25:metalworld-devils",
+      "2024-25:colorado-lavalamps",
+      "2024-25:bjorkarnas-stad-hc",
+      "2024-25:jozos-first-rate-team"
+     ]
+    },
+    {
+     "id": "2024-25-div-4-yzerman",
+     "name": "Div 4 Yzerman",
+     "tier": 4,
+     "draftFormat": "snake",
+     "teamIds": [
+      "2024-25:mcsorleys-bojda-blad",
+      "2024-25:dropstokk-penguins",
+      "2024-25:skridsko-mot-stolpen",
+      "2024-25:proez",
+      "2024-25:patriks-mosquito-bites",
+      "2024-25:moves-like-jagr",
+      "2024-25:the-red-lions",
+      "2024-25:gaxsjo-junior",
+      "2024-25:pusselbit-painters",
+      "2024-25:lokomotiv-hov",
+      "2024-25:gustavs-grand-team",
+      "2024-25:kingston-bagpipes",
+      "2024-25:robsons-sabres",
+      "2024-25:manhattans-skogvaktare",
+      "2024-25:brunkers-bk"
+     ]
+    }
+   ]
+  }
+ ],
+ "managers": [
+  {
+   "id": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "teamNames": [
+    "2 girls no cup"
+   ]
+  },
+  {
+   "id": "alexanders-expert-team",
+   "name": "alexander's Rad team",
+   "teamNames": [
+    "alexander's Expert Team",
+    "alexander's Rad team"
+   ]
+  },
+  {
+   "id": "amazingastor",
+   "name": "AmazingAstor",
+   "teamNames": [
+    "AmazingAstor",
+    "AmazingAstor II",
+    "AmazingAstor SE.3 EP.1",
+    "AmazingAstor SE.3 EP.2"
+   ]
+  },
+  {
+   "id": "andy-flyers",
+   "name": "Andy Flyers",
+   "teamNames": [
+    "Andy Flyers"
+   ]
+  },
+  {
+   "id": "anzelm-avalanche",
+   "name": "Anzelm Avalanche",
+   "teamNames": [
+    "Anzelm Avalanche"
+   ]
+  },
+  {
+   "id": "aspliden-hf",
+   "name": "Aspliden HF",
+   "teamNames": [
+    "Aspliden HF"
+   ]
+  },
+  {
+   "id": "backes-in-the-ussr",
+   "name": "Backes in the USSR",
+   "teamNames": [
+    "Backes in the USSR"
+   ]
+  },
+  {
+   "id": "bamsingarna",
+   "name": "Bamsingarna",
+   "teamNames": [
+    "Bamsingarna"
+   ]
+  },
+  {
+   "id": "bamsingarna-2-0",
+   "name": "Bamsingarna 2.0",
+   "teamNames": [
+    "Bamsingarna 2.0"
+   ]
+  },
+  {
+   "id": "bjorkarnas-stad-hc",
+   "name": "Björkarnas Stad HC",
+   "teamNames": [
+    "Björkarnas Stad HC"
+   ]
+  },
+  {
+   "id": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "teamNames": [
+    "Blue Forest",
+    "FriskvårdsFredag"
+   ]
+  },
+  {
+   "id": "boomtown-rats",
+   "name": "CC Cowboys",
+   "teamNames": [
+    "Boomtown Rats",
+    "CC Cowboys"
+   ]
+  },
+  {
+   "id": "borjebus",
+   "name": "Suntrip HC",
+   "teamNames": [
+    "Börjebus",
+    "Suntrip HC"
+   ]
+  },
+  {
+   "id": "borjegatan-bunnies",
+   "name": "Börjegatan Bunnies",
+   "teamNames": [
+    "Börjegatan Bunnies"
+   ]
+  },
+  {
+   "id": "bros-before-ahos",
+   "name": "Bros before Ahos",
+   "teamNames": [
+    "Bros before Ahos"
+   ]
+  },
+  {
+   "id": "brunkers-bk",
+   "name": "Brunkers BK",
+   "teamNames": [
+    "Brunkers BK"
+   ]
+  },
+  {
+   "id": "byavagen-flyers",
+   "name": "Byavägen Flyers",
+   "teamNames": [
+    "Byavägen Flyers"
+   ]
+  },
+  {
+   "id": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "teamNames": [
+    "Chicago Bläckhåks"
+   ]
+  },
+  {
+   "id": "chris-p-bacon-hc",
+   "name": "Chris P Bacon HC",
+   "teamNames": [
+    "Chris P Bacon HC"
+   ]
+  },
+  {
+   "id": "chuck-norris-uppercuts",
+   "name": "Chuck Norris",
+   "teamNames": [
+    "Chuck Norris Uppercuts",
+    "Chuck Norris Roundhouse Kicks",
+    "Chuck Norris Sandby boys",
+    "Tjock Norris",
+    "Chuck Norris"
+   ]
+  },
+  {
+   "id": "club-dei-duri",
+   "name": "Die Roten",
+   "teamNames": [
+    "Club Dei Duri",
+    "Die Roten"
+   ]
+  },
+  {
+   "id": "colorado-lavalamps",
+   "name": "Colorado LavaLamps",
+   "teamNames": [
+    "Colorado LavaLamps"
+   ]
+  },
+  {
+   "id": "cristers-groovy-team",
+   "name": "crister's Unmatched Team",
+   "teamNames": [
+    "crister's Groovy Team",
+    "crister's Cool Team",
+    "crister's Unmatched Team"
+   ]
+  },
+  {
+   "id": "crosbys-cry-babies",
+   "name": "Crosbys cry babies",
+   "teamNames": [
+    "Crosbys cry babies"
+   ]
+  },
+  {
+   "id": "crosbys-knightmares",
+   "name": "Crosbys Knightmares",
+   "teamNames": [
+    "Crosbys Knightmares"
+   ]
+  },
+  {
+   "id": "de-a-bara-a-ak",
+   "name": "De är Bara å åk",
+   "teamNames": [
+    "De Ä bara å ÅK",
+    "De är Bara å åk"
+   ]
+  },
+  {
+   "id": "de-maktiga-algarna",
+   "name": "A team has no name",
+   "teamNames": [
+    "De Mäktiga Älgarna",
+    "De Mäktiga Älvarna",
+    "De Mäktiga Elvorna",
+    "De Rullande Däcken",
+    "A team has no name"
+   ]
+  },
+  {
+   "id": "den-blommande-loken",
+   "name": "Den Blommande Löken",
+   "teamNames": [
+    "Den Blommande Löken"
+   ]
+  },
+  {
+   "id": "det-grona-tradet",
+   "name": "🌳",
+   "teamNames": [
+    "Det Gröna Trädet",
+    "🌳"
+   ]
+  },
+  {
+   "id": "donnedain",
+   "name": "De va Draipen",
+   "teamNames": [
+    "Donnedain",
+    "Henry's World-Class Team",
+    "De va Draipen"
+   ]
+  },
+  {
+   "id": "dropstokk-penguins",
+   "name": "Dropstokk Penguins",
+   "teamNames": [
+    "Dropstokk Penguins",
+    "Dropstokk",
+    "Pittsburgh Penguins"
+   ]
+  },
+  {
+   "id": "eastfield-snigels",
+   "name": "Eastfield",
+   "teamNames": [
+    "Eastfield Snigels",
+    "Eastfield Sneagles",
+    "Eastfield"
+   ]
+  },
+  {
+   "id": "eddtillimdead",
+   "name": "eddtillimdead",
+   "teamNames": [
+    "eddtillimdead"
+   ]
+  },
+  {
+   "id": "eken",
+   "name": "Eken",
+   "teamNames": [
+    "Eken",
+    "Tungelstas No 1 Eken"
+   ]
+  },
+  {
+   "id": "eriks-excellent-team",
+   "name": "Philly Tigers",
+   "teamNames": [
+    "Erik's Excellent Team",
+    "Philly Tigers"
+   ]
+  },
+  {
+   "id": "falu-red-colors",
+   "name": "Bjursås Beavers",
+   "teamNames": [
+    "Falu Red Colors",
+    "Bjursås Beavers"
+   ]
+  },
+  {
+   "id": "falukorvarna",
+   "name": "Falukorvarna",
+   "teamNames": [
+    "Falukorvarna"
+   ]
+  },
+  {
+   "id": "finnish-marauders",
+   "name": "Finnish Marauders",
+   "teamNames": [
+    "Finnish Marauders"
+   ]
+  },
+  {
+   "id": "fishbone-brothers",
+   "name": "Fishbone Brothers",
+   "teamNames": [
+    "Fishbone Brothers"
+   ]
+  },
+  {
+   "id": "fixwell-hockey",
+   "name": "Fixwell Hockey",
+   "teamNames": [
+    "Fixwell Hockey"
+   ]
+  },
+  {
+   "id": "flata-kickers-alexander-b",
+   "name": "Flata Kickers",
+   "teamNames": [
+    "Flata Kickers (Alexander B)",
+    "Flata Kickers"
+   ]
+  },
+  {
+   "id": "flippmacka-hc",
+   "name": "FLIPPMACKA HC",
+   "teamNames": [
+    "FLIPPMACKA HC"
+   ]
+  },
+  {
+   "id": "fogass-canadiens",
+   "name": "Fogass Canadiens",
+   "teamNames": [
+    "Fogass Canadiens"
+   ]
+  },
+  {
+   "id": "foreberg",
+   "name": "Föreberg Flyers",
+   "teamNames": [
+    "Föreberg",
+    "Förebergphia Flyers",
+    "Föreberg Flyers"
+   ]
+  },
+  {
+   "id": "freddes-kings-queens",
+   "name": "Fredde's Kings&Queens",
+   "teamNames": [
+    "Fredde's Kings&Queens"
+   ]
+  },
+  {
+   "id": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "teamNames": [
+    "Gåxsjö Hockey Heads"
+   ]
+  },
+  {
+   "id": "gaxsjo-junior",
+   "name": "Gåxsjö Junior",
+   "teamNames": [
+    "Gåxsjö Junior"
+   ]
+  },
+  {
+   "id": "gottepasen",
+   "name": "Gottepåsen",
+   "teamNames": [
+    "Gottepåsen"
+   ]
+  },
+  {
+   "id": "gustavs-grand-team",
+   "name": "Bronco Stars",
+   "teamNames": [
+    "Gustav's Grand Team",
+    "Bronco Stars"
+   ]
+  },
+  {
+   "id": "gyllene-knektarna",
+   "name": "Gyllene Knektarna",
+   "teamNames": [
+    "Gyllene Knektarna"
+   ]
+  },
+  {
+   "id": "hak-eye",
+   "name": "HÅK-EYE",
+   "teamNames": [
+    "HÅK-EYE"
+   ]
+  },
+  {
+   "id": "hallbo-hc",
+   "name": "Hällbo HC",
+   "teamNames": [
+    "Hällbo HC"
+   ]
+  },
+  {
+   "id": "haninge-musketorerna",
+   "name": "VNHL Musketören",
+   "teamNames": [
+    "Haninge Musketörerna",
+    "Huddinge Musketörerna",
+    "VNHL Musketören"
+   ]
+  },
+  {
+   "id": "henke-panthers",
+   "name": "Henke Panthers",
+   "teamNames": [
+    "Henke Panthers"
+   ]
+  },
+  {
+   "id": "henriks-peerless-team",
+   "name": "NoseFace",
+   "teamNames": [
+    "Henrik's Peerless team",
+    "Nose Face Killah",
+    "Westbay Sharks",
+    "NoseFace"
+   ]
+  },
+  {
+   "id": "high-valley-roosters",
+   "name": "High Valley Roosters",
+   "teamNames": [
+    "High Valley Roosters"
+   ]
+  },
+  {
+   "id": "highvalley-tjakkers",
+   "name": "HighValley Tjäkkers",
+   "teamNames": [
+    "HighValley Tjäkkers"
+   ]
+  },
+  {
+   "id": "hjobos-varsta-hc",
+   "name": "Hjobos HC",
+   "teamNames": [
+    "Hjobos Värsta HC",
+    "Hjobos HC"
+   ]
+  },
+  {
+   "id": "hockey-balboa",
+   "name": "Hockey Balboa",
+   "teamNames": [
+    "Hockey Balboa"
+   ]
+  },
+  {
+   "id": "humblas-smallkarameller",
+   "name": "Humblas smällkarameller",
+   "teamNames": [
+    "Humblas smällkarameller"
+   ]
+  },
+  {
+   "id": "ik-oddevold",
+   "name": "IK ODDEVOLD",
+   "teamNames": [
+    "IK ODDEVOLD"
+   ]
+  },
+  {
+   "id": "jagrs-hockeyfrilla",
+   "name": "Jagrs hockeyfrilla",
+   "teamNames": [
+    "Jagrs hockeyfrilla"
+   ]
+  },
+  {
+   "id": "jaromir-juggernaut",
+   "name": "Jaromir Juggernaut",
+   "teamNames": [
+    "Jaromir Juggernaut"
+   ]
+  },
+  {
+   "id": "jespers-impressive-team",
+   "name": "Jesper's ExtraordinaryTeam",
+   "teamNames": [
+    "Jesper's Impressive Team",
+    "Jesper's ExtraordinaryTeam"
+   ]
+  },
+  {
+   "id": "joachims-quality-team",
+   "name": "Bengstbol IF",
+   "teamNames": [
+    "Joachim's Quality Team",
+    "Bengstbol IF"
+   ]
+  },
+  {
+   "id": "jozos-first-rate-team",
+   "name": "Jozo's Game-Changing Team",
+   "teamNames": [
+    "Jozo's First-Rate Team",
+    "Jozo's Game-Changing Team"
+   ]
+  },
+  {
+   "id": "karls-gossar-bla",
+   "name": "Karls Gossar Blå",
+   "teamNames": [
+    "Karls Gossar Blå"
+   ]
+  },
+  {
+   "id": "kht-rangers",
+   "name": "KHT Rangers",
+   "teamNames": [
+    "KHT Rangers"
+   ]
+  },
+  {
+   "id": "kikos-nasi-lemak",
+   "name": "Kiko's Nasi Lemak",
+   "teamNames": [
+    "Kiko's Nasi Lemak"
+   ]
+  },
+  {
+   "id": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "teamNames": [
+    "Kingston Bagpipes"
+   ]
+  },
+  {
+   "id": "kjells-angels",
+   "name": "Kjells Angels",
+   "teamNames": [
+    "Kjells Angels"
+   ]
+  },
+  {
+   "id": "kumlabunkern",
+   "name": "Kumlabunkern",
+   "teamNames": [
+    "Kumlabunkern"
+   ]
+  },
+  {
+   "id": "kvicklund",
+   "name": "Kvicklund",
+   "teamNames": [
+    "Kvicklund",
+    "David Veckans NHL",
+    "Kvicklund Veckans NHL"
+   ]
+  },
+  {
+   "id": "lokomotiv-hov",
+   "name": "Lokomotiv Hov",
+   "teamNames": [
+    "Lokomotiv Hov"
+   ]
+  },
+  {
+   "id": "lords-hc",
+   "name": "Lords HC",
+   "teamNames": [
+    "Lords HC"
+   ]
+  },
+  {
+   "id": "ludvigs-legendary-team",
+   "name": "Ludvig's Legendary Team",
+   "teamNames": [
+    "Ludvig's Legendary Team"
+   ]
+  },
+  {
+   "id": "lule-devils",
+   "name": "Luleå Dolphins",
+   "teamNames": [
+    "Lule Devils",
+    "Luleå Dolphins"
+   ]
+  },
+  {
+   "id": "lundqvist-win",
+   "name": "Flippis Junior",
+   "teamNames": [
+    "Lundqvist Win",
+    "Flippis Junior"
+   ]
+  },
+  {
+   "id": "mac-attack",
+   "name": "Gudrun Hurricanes",
+   "teamNames": [
+    "Mac-attack",
+    "Gudrun Hurricanes"
+   ]
+  },
+  {
+   "id": "malmoiterna",
+   "name": "Malmö Ducks",
+   "teamNames": [
+    "Malmöiterna",
+    "Malmö Ducks"
+   ]
+  },
+  {
+   "id": "manhattans-skogvaktare",
+   "name": "Skeletor",
+   "teamNames": [
+    "Manhattans skogvaktare",
+    "Nils's Nifty Team",
+    "Skeletor"
+   ]
+  },
+  {
+   "id": "markuss-swell-team",
+   "name": "Markus's Swell Team",
+   "teamNames": [
+    "Markus's Swell Team",
+    "Marcus's Swell Team"
+   ]
+  },
+  {
+   "id": "martins-amazing-team",
+   "name": "Martin's Amazing Team",
+   "teamNames": [
+    "Martin's Amazing Team"
+   ]
+  },
+  {
+   "id": "martins-magnificent-team",
+   "name": "J'accHughes",
+   "teamNames": [
+    "Martin's Magnificent Team",
+    "J'accHughes"
+   ]
+  },
+  {
+   "id": "mcsorleys-bojda-blad",
+   "name": "McSorleys böjda blad",
+   "teamNames": [
+    "McSorleys böjda blad"
+   ]
+  },
+  {
+   "id": "melwood-hc",
+   "name": "Melwood HC",
+   "teamNames": [
+    "Melwood HC"
+   ]
+  },
+  {
+   "id": "metalworld-devils",
+   "name": "Metalworld Devils",
+   "teamNames": [
+    "Metalworld Devils"
+   ]
+  },
+  {
+   "id": "mighty-drunks",
+   "name": "Mighty Drunks",
+   "teamNames": [
+    "Mighty Drunks"
+   ]
+  },
+  {
+   "id": "mikelikehockey",
+   "name": "Mikelikehockey",
+   "teamNames": [
+    "Mikelikehockey"
+   ]
+  },
+  {
+   "id": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "teamNames": [
+    "Monkrapids Top Corns"
+   ]
+  },
+  {
+   "id": "moves-like-jagr",
+   "name": "Moves Like Jagr",
+   "teamNames": [
+    "Moves Like Jagr"
+   ]
+  },
+  {
+   "id": "munkasen-machines",
+   "name": "Munkåsen",
+   "teamNames": [
+    "Munkåsen Machines",
+    "Munkåsen Bashines",
+    "Munkåsen"
+   ]
+  },
+  {
+   "id": "njurunda-devils",
+   "name": "Apokalops Nu!",
+   "teamNames": [
+    "Njurunda Devils",
+    "Apokalops Nu!"
+   ]
+  },
+  {
+   "id": "nknp",
+   "name": "NKNP",
+   "teamNames": [
+    "NKNP"
+   ]
+  },
+  {
+   "id": "oppenheimer-atomics",
+   "name": "Oppenheimer Atomics",
+   "teamNames": [
+    "Oppenheimer Atomics"
+   ]
+  },
+  {
+   "id": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "teamNames": [
+    "Ovies Målrekord"
+   ]
+  },
+  {
+   "id": "pac-mans-dreamteam",
+   "name": "New York Pacmans",
+   "teamNames": [
+    "Pac-man's dreamteam",
+    "New York Pacmans"
+   ]
+  },
+  {
+   "id": "pastore-bob",
+   "name": "Pastore Bob",
+   "teamNames": [
+    "Pastore Bob"
+   ]
+  },
+  {
+   "id": "patriks-mosquito-bites",
+   "name": "Mosquitos",
+   "teamNames": [
+    "Patrik's Mosquito Bites",
+    "Mosquitos"
+   ]
+  },
+  {
+   "id": "pigga-pagar",
+   "name": "Pigga Pågar",
+   "teamNames": [
+    "Pigga Pågar"
+   ]
+  },
+  {
+   "id": "pitepojkar",
+   "name": "Pitepojkar",
+   "teamNames": [
+    "Pitepojkar"
+   ]
+  },
+  {
+   "id": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "teamNames": [
+    "Portvin on Ice"
+   ]
+  },
+  {
+   "id": "proez",
+   "name": "Flint Tropics",
+   "teamNames": [
+    "Proez",
+    "Flint Tropics"
+   ]
+  },
+  {
+   "id": "pusselbit-painters",
+   "name": "Pusselbit Painters",
+   "teamNames": [
+    "Pusselbit Painters"
+   ]
+  },
+  {
+   "id": "ragdolls",
+   "name": "Ragdolls 13",
+   "teamNames": [
+    "Ragdolls",
+    "Ragdolls 13"
+   ]
+  },
+  {
+   "id": "roberts-rad-team",
+   "name": "Robert's Rad Team",
+   "teamNames": [
+    "Robert's Rad Team"
+   ]
+  },
+  {
+   "id": "robsons-sabres",
+   "name": "Robson's Sabres",
+   "teamNames": [
+    "Robson's Sabres"
+   ]
+  },
+  {
+   "id": "rosa-faran",
+   "name": "Rosa Faran",
+   "teamNames": [
+    "Rosa Faran"
+   ]
+  },
+  {
+   "id": "rubens-nuts",
+   "name": "Rubens Nuts",
+   "teamNames": [
+    "Rubens Nuts"
+   ]
+  },
+  {
+   "id": "salikepeter",
+   "name": "Salikepeter HC",
+   "teamNames": [
+    "Salikepeter",
+    "Salikepeter HC"
+   ]
+  },
+  {
+   "id": "sampa",
+   "name": "Happy Sampa Skaters",
+   "teamNames": [
+    "Sampa",
+    "Happy Sampa Skaters"
+   ]
+  },
+  {
+   "id": "sandby-boys",
+   "name": "Sandby Boys",
+   "teamNames": [
+    "Sandby Boys",
+    "Sandby Tkachuks",
+    "Gaudreaus Boys"
+   ]
+  },
+  {
+   "id": "sea-bass",
+   "name": "Seabass",
+   "teamNames": [
+    "Seabass"
+   ]
+  },
+  {
+   "id": "seal-team-z",
+   "name": "Seal Team Z",
+   "teamNames": [
+    "Seal Team Z"
+   ]
+  },
+  {
+   "id": "siggepp",
+   "name": "SiggePP",
+   "teamNames": [
+    "SiggePP"
+   ]
+  },
+  {
+   "id": "skanstull-sharks",
+   "name": "Skanstull Sharks",
+   "teamNames": [
+    "Skanstull Sharks"
+   ]
+  },
+  {
+   "id": "skbg-elite",
+   "name": "SKBG ELITE",
+   "teamNames": [
+    "SKBG ELITE"
+   ]
+  },
+  {
+   "id": "skridsko-mot-stolpen",
+   "name": "trollskott",
+   "teamNames": [
+    "Skridsko Mot Stolpen",
+    "Skridsko mot stolpe",
+    "VOODOO",
+    "trollskott"
+   ]
+  },
+  {
+   "id": "snabba-puckar",
+   "name": "Snabba Puckar",
+   "teamNames": [
+    "Snabba Puckar"
+   ]
+  },
+  {
+   "id": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "teamNames": [
+    "Stångby Canucks"
+   ]
+  },
+  {
+   "id": "stenfors",
+   "name": "🪨🌊",
+   "teamNames": [
+    "Stenfors",
+    "🪨🌊©️",
+    "🪨🌊"
+   ]
+  },
+  {
+   "id": "steninge-jets",
+   "name": "Steninge Jets",
+   "teamNames": [
+    "Steninge Jets"
+   ]
+  },
+  {
+   "id": "sunnes-pagar",
+   "name": "Sunnes Pågar",
+   "teamNames": [
+    "Sunnes Pågar"
+   ]
+  },
+  {
+   "id": "sunnyvale-shithawks",
+   "name": "042 Shithawks",
+   "teamNames": [
+    "Sunnyvale Shithawks",
+    "042 Shithawks"
+   ]
+  },
+  {
+   "id": "tage-of-wonders",
+   "name": "Tage of Wonders",
+   "teamNames": [
+    "Tage of Wonders"
+   ]
+  },
+  {
+   "id": "team-all-sellers",
+   "name": "Team All Sellers",
+   "teamNames": [
+    "Team All Sellers"
+   ]
+  },
+  {
+   "id": "team-tung",
+   "name": "TEAM TUNG",
+   "teamNames": [
+    "TEAM TUNG"
+   ]
+  },
+  {
+   "id": "team-wakeras",
+   "name": "Team wakeras",
+   "teamNames": [
+    "Team wakeras"
+   ]
+  },
+  {
+   "id": "team-wrongass",
+   "name": "Mr Wrongass",
+   "teamNames": [
+    "Team Wrongass",
+    "Mr Wrongass"
+   ]
+  },
+  {
+   "id": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "teamNames": [
+    "Team Zuuuuc",
+    "Fittadora Flyers"
+   ]
+  },
+  {
+   "id": "teamstoof",
+   "name": "Teamstoof",
+   "teamNames": [
+    "Teamstoof"
+   ]
+  },
+  {
+   "id": "the-canadian-og",
+   "name": "The Canadian OG",
+   "teamNames": [
+    "The Canadian OG"
+   ]
+  },
+  {
+   "id": "the-miracle-squad",
+   "name": "The miacle squad",
+   "teamNames": [
+    "The Miracle Squad",
+    "The miacle squad"
+   ]
+  },
+  {
+   "id": "the-red-lions",
+   "name": "The red lions",
+   "teamNames": [
+    "The red lions"
+   ]
+  },
+  {
+   "id": "thls-dream-team",
+   "name": "THLs Dream Team",
+   "teamNames": [
+    "THLs Dream Team"
+   ]
+  },
+  {
+   "id": "thunbergs-melting-icecaps",
+   "name": "Thunbergs Melting IceCaps",
+   "teamNames": [
+    "Thunbergs Melting IceCaps"
+   ]
+  },
+  {
+   "id": "tonis-tip-top-team",
+   "name": "Toni's Tip-Top Team",
+   "teamNames": [
+    "Toni's Tip-Top Team"
+   ]
+  },
+  {
+   "id": "too-hot-to-yandle",
+   "name": "Too Hot To Yandle",
+   "teamNames": [
+    "Too Hot To Yandle"
+   ]
+  },
+  {
+   "id": "too-lucky-for-you",
+   "name": "Too lucky for you!",
+   "teamNames": [
+    "Too lucky for you!"
+   ]
+  },
+  {
+   "id": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "teamNames": [
+    "Torpadie Trashers"
+   ]
+  },
+  {
+   "id": "trillie-trillionaire",
+   "name": "thr!lli van!lli",
+   "teamNames": [
+    "Trillie Trillionaire",
+    "Thrillie Trillonaire",
+    "Trillie Trillionarie",
+    "thr!lli van!lli"
+   ]
+  },
+  {
+   "id": "truck-driver-d",
+   "name": "TruckDanne",
+   "teamNames": [
+    "Truck Driver D",
+    "TruckDanne"
+   ]
+  },
+  {
+   "id": "umepenguins",
+   "name": "UmePenguins",
+   "teamNames": [
+    "UmePenguins"
+   ]
+  },
+  {
+   "id": "uport-slackerz",
+   "name": "Uport Slackers",
+   "teamNames": [
+    "Uport SlackerZ",
+    "Uport Slackers"
+   ]
+  },
+  {
+   "id": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "teamNames": [
+    "Uttran North Stars"
+   ]
+  },
+  {
+   "id": "vallsjo-mcrangers",
+   "name": "VälIsjö McRangers",
+   "teamNames": [
+    "Vällsjö McRangers",
+    "VälIsjö McRangers"
+   ]
+  },
+  {
+   "id": "valpens-coyotes",
+   "name": "Valpens förvirrade hjärna",
+   "teamNames": [
+    "Valpens Coyotes",
+    "Valpens förvirrade hjärna"
+   ]
+  },
+  {
+   "id": "vasteras-draconian",
+   "name": "Västerås Draconian",
+   "teamNames": [
+    "Västerås Draconian"
+   ]
+  },
+  {
+   "id": "victors-victorious-team",
+   "name": "Victor's Unreal Team",
+   "teamNames": [
+    "Victor's Victorious Team",
+    "Victor's Unreal Team"
+   ]
+  },
+  {
+   "id": "viktors-victorious-team",
+   "name": "Viktor's Victorious Team",
+   "teamNames": [
+    "Viktor's Victorious Team"
+   ]
+  },
+  {
+   "id": "vnhl-olof",
+   "name": "Winnesota",
+   "teamNames": [
+    "VNHL Olof",
+    "Olof",
+    "VNHL 010f",
+    "Winnesota"
+   ]
+  },
+  {
+   "id": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "teamNames": [
+    "VNHL Patrik"
+   ]
+  },
+  {
+   "id": "wealdstone-raiders",
+   "name": "Free Fallin' Sons of Keith",
+   "teamNames": [
+    "Wealdstone Raiders",
+    "Sons of Keith",
+    "No Sons of Keith",
+    "Free Fallin' Sons of Keith"
+   ]
+  },
+  {
+   "id": "west-coast-express",
+   "name": "West Coast Express",
+   "teamNames": [
+    "West Coast Express"
+   ]
+  },
+  {
+   "id": "wizpens-kanoner",
+   "name": "Wizpens Kanoner",
+   "teamNames": [
+    "Wizpens Kanoner"
+   ]
+  }
+ ],
+ "teams": [
+  {
+   "id": "2021-22:alexanders-expert-team",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "alexanders-expert-team",
+   "name": "alexander's Expert Team",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 19,
+    "ties": 0,
+    "pointsFor": 4145.4,
+    "fab": 25,
+    "waiver": 3,
+    "moves": 61
+   }
+  },
+  {
+   "id": "2021-22:amazingastor",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "amazingastor",
+   "name": "AmazingAstor",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 11,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5245.65,
+    "fab": 32,
+    "waiver": 1,
+    "moves": 39
+   }
+  },
+  {
+   "id": "2021-22:andy-flyers",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5170.85,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2021-22:blue-forest",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "blue-forest",
+   "name": "Blue Forest",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 12,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5029.75,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2021-22:boomtown-rats",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "boomtown-rats",
+   "name": "Boomtown Rats",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 7,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4455.65,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 54
+   },
+   "replaces": {
+    "teamId": "2021-22:markuss-swell-team",
+    "date": "2022-01-16"
+   }
+  },
+  {
+   "id": "2021-22:chuck-norris-uppercuts",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "chuck-norris-uppercuts",
+   "name": "Chuck Norris Uppercuts",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5067.2,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 99
+   }
+  },
+  {
+   "id": "2021-22:de-maktiga-algarna",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "de-maktiga-algarna",
+   "name": "De Mäktiga Älvarna",
+   "otherNames": [
+    "De Mäktiga Älgarna"
+   ],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5458.15,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2021-22:det-grona-tradet",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "det-grona-tradet",
+   "name": "Det Gröna Trädet",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 12,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5437.5,
+    "fab": 25,
+    "waiver": 8,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2021-22:donnedain",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "donnedain",
+   "name": "Donnedain",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 5002.1,
+    "fab": 91,
+    "waiver": 10,
+    "moves": 11
+   }
+  },
+  {
+   "id": "2021-22:dropstokk-penguins",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk Penguins",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5230.9,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 48
+   }
+  },
+  {
+   "id": "2021-22:eken",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "eken",
+   "name": "Eken",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 11,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5129.45,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2021-22:fixwell-hockey",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "fixwell-hockey",
+   "name": "FIXWELL HOCKEY",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 15,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5567.2,
+    "fab": 0,
+    "waiver": 3,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2021-22:flippmacka-hc",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "flippmacka-hc",
+   "name": "Flippmacka HC",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5608.65,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2021-22:gaxsjo-hockeyheads",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö hockeyheads",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 18,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5647.75,
+    "fab": 0,
+    "waiver": 1,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2021-22:hallbo-hc",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "hallbo-hc",
+   "name": "Hällbo HC",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2021-22:hjobos-varsta-hc",
+    "date": "2022-02-27"
+   }
+  },
+  {
+   "id": "2021-22:haninge-musketorerna",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "haninge-musketorerna",
+   "name": "Haninge Musketörerna",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5338.05,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2021-22:henke-panthers",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5377.5,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2021-22:henriks-peerless-team",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "henriks-peerless-team",
+   "name": "Nose Face Killah",
+   "otherNames": [
+    "Henrik's Peerless team"
+   ],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5388.15,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2021-22:hjobos-varsta-hc",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "hjobos-varsta-hc",
+   "name": "Hjobos Värsta HC",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4741.9,
+    "fab": 57,
+    "waiver": 7,
+    "moves": 40
+   },
+   "replaces": {
+    "teamId": "2021-22:hallbo-hc",
+    "date": "2022-02-27"
+   }
+  },
+  {
+   "id": "2021-22:jespers-impressive-team",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "jespers-impressive-team",
+   "name": "Jesper's Impressive Team",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4702.35,
+    "fab": 67,
+    "waiver": 4,
+    "moves": 22
+   }
+  },
+  {
+   "id": "2021-22:kingston-bagpipes",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 6,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4854.3,
+    "fab": 92,
+    "waiver": 2,
+    "moves": 13
+   }
+  },
+  {
+   "id": "2021-22:kvicklund",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "kvicklund",
+   "name": "Kvicklund",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5368.65,
+    "fab": 1,
+    "waiver": 3,
+    "moves": 61
+   }
+  },
+  {
+   "id": "2021-22:lule-devils",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "lule-devils",
+   "name": "Lule Devils",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5546.65,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2021-22:mac-attack",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "mac-attack",
+   "name": "Mac-attack",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5307.0,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 80
+   },
+   "replaces": {
+    "teamId": "2021-22:the-miracle-squad",
+    "date": "2021-11-27"
+   }
+  },
+  {
+   "id": "2021-22:markuss-swell-team",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "markuss-swell-team",
+   "name": "Markus's Swell Team",
+   "otherNames": [
+    "Marcus's Swell Team"
+   ],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2021-22:boomtown-rats",
+    "date": "2022-01-16"
+   }
+  },
+  {
+   "id": "2021-22:ovies-malrekord",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 4663.75,
+    "fab": 3,
+    "waiver": 5,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2021-22:pitepojkar",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "pitepojkar",
+   "name": "Pitepojkar",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4664.6,
+    "fab": 51,
+    "waiver": 2,
+    "moves": 30
+   }
+  },
+  {
+   "id": "2021-22:portvin-on-ice",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 12,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5201.75,
+    "fab": 10,
+    "waiver": 2,
+    "moves": 44
+   }
+  },
+  {
+   "id": "2021-22:ragdolls",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "ragdolls",
+   "name": "Ragdolls",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 15,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5520.85,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2021-22:sandby-boys",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "sandby-boys",
+   "name": "Sandby Boys",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 16,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5734.05,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 102
+   }
+  },
+  {
+   "id": "2021-22:sea-bass",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "sea-bass",
+   "name": "Sea Bass",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 17,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5627.0,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2021-22:skbg-elite",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5241.2,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2021-22:skridsko-mot-stolpen",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "skridsko-mot-stolpen",
+   "name": "Skridsko Mot Stolpen",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5296.95,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2021-22:stangby-canucks",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5539.95,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 101
+   }
+  },
+  {
+   "id": "2021-22:team-wrongass",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "team-wrongass",
+   "name": "Team Wrongass",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 11,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5023.85,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2021-22:teamstoof",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 14,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5419.6,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2021-22:the-miracle-squad",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "the-miracle-squad",
+   "name": "The miacle squad",
+   "otherNames": [
+    "The Miracle Squad"
+   ],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2021-22:mac-attack",
+    "date": "2021-11-27"
+   }
+  },
+  {
+   "id": "2021-22:too-hot-to-yandle",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too hot to Yandle",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 5023.0,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2021-22:truck-driver-d",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-eken",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [
+    "Truck Driver D"
+   ],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 5045.1,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2021-22:umepenguins",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "umepenguins",
+   "name": "UmePenguins",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4529.15,
+    "fab": 15,
+    "waiver": 1,
+    "moves": 45
+   }
+  },
+  {
+   "id": "2021-22:uport-slackerz",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "uport-slackerz",
+   "name": "Uport SlackerZ",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 11,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5308.65,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2021-22:uttran-north-stars",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 15,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5554.15,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2021-22:victors-victorious-team",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "victors-victorious-team",
+   "name": "Victor's Victorious Team",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 1,
+    "losses": 21,
+    "ties": 0,
+    "pointsFor": 3932.7,
+    "fab": 61,
+    "waiver": 5,
+    "moves": 44
+   }
+  },
+  {
+   "id": "2021-22:vnhl-olof",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-olof",
+   "managerId": "vnhl-olof",
+   "name": "Olof",
+   "otherNames": [
+    "VNHL Olof"
+   ],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 13,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5364.1,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 97
+   }
+  },
+  {
+   "id": "2021-22:vnhl-patrik",
+   "seasonId": "2021-22",
+   "divisionId": "2021-22-div-patrik",
+   "managerId": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 16,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5700.6,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2022-23:2-girls-no-cup",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4788.0,
+    "fab": 1,
+    "waiver": 4,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2022-23:alexanders-expert-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "alexanders-expert-team",
+   "name": "alexander's Rad Team",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4706.79,
+    "fab": 5,
+    "waiver": 8,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:amazingastor",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "amazingastor",
+   "name": "AmazingAstor II",
+   "otherNames": [
+    "AMAZING ASTOR"
+   ],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5223.1,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 62
+   }
+  },
+  {
+   "id": "2022-23:andy-flyers",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5472.32,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2022-23:bamsingarna",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "bamsingarna",
+   "name": "Bamsingarna",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5625.58,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2022-23:blue-forest",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "otherNames": [
+    "Blue Forest"
+   ],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5332.45,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2022-23:boomtown-rats",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "boomtown-rats",
+   "name": "CC Cowboys",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5537.18,
+    "fab": 5,
+    "waiver": 7,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2022-23:bros-before-ahos",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "bros-before-ahos",
+   "name": "Bros before Ahos",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5004.83,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2022-23:chicago-blackhaks",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5423.14,
+    "fab": 3,
+    "waiver": 14,
+    "moves": 73
+   }
+  },
+  {
+   "id": "2022-23:chuck-norris-uppercuts",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "chuck-norris-uppercuts",
+   "name": "Chuck Norris Roundhouse Kicks",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5319.45,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2022-23:cristers-groovy-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "cristers-groovy-team",
+   "name": "crister's Groovy Team",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4982.34,
+    "fab": 90,
+    "waiver": 1,
+    "moves": 5
+   }
+  },
+  {
+   "id": "2022-23:crosbys-knightmares",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "crosbys-knightmares",
+   "name": "Crosbys Knightmares",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4277.62,
+    "fab": 65,
+    "waiver": 3,
+    "moves": 29
+   }
+  },
+  {
+   "id": "2022-23:de-a-bara-a-ak",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "de-a-bara-a-ak",
+   "name": "De Ä bara å ÅK",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5014.13,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 43
+   }
+  },
+  {
+   "id": "2022-23:de-maktiga-algarna",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "de-maktiga-algarna",
+   "name": "De Mäktiga Elvorna",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5813.35,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2022-23:det-grona-tradet",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "det-grona-tradet",
+   "name": "Det Gröna Trädet",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4972.34,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:donnedain",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "donnedain",
+   "name": "De va Draipen",
+   "otherNames": [
+    "Henry's World-Class Team"
+   ],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5217.62,
+    "fab": 11,
+    "waiver": 4,
+    "moves": 30
+   }
+  },
+  {
+   "id": "2022-23:dropstokk-penguins",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4808.0,
+    "fab": 73,
+    "waiver": 1,
+    "moves": 31
+   }
+  },
+  {
+   "id": "2022-23:eastfield-snigels",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "eastfield-snigels",
+   "name": "Eastfield Snigels",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5264.96,
+    "fab": 18,
+    "waiver": 6,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2022-23:eddtillimdead",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "eddtillimdead",
+   "name": "eddtillimdead",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5132.14,
+    "fab": 37,
+    "waiver": 11,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2022-23:eken",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "eken",
+   "name": "Tungelstas No 1 Eken",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4909.56,
+    "fab": 0,
+    "waiver": 3,
+    "moves": 63
+   }
+  },
+  {
+   "id": "2022-23:fixwell-hockey",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "fixwell-hockey",
+   "name": "FIXWELL HOCKEY",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5400.02,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2022-23:flippmacka-hc",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "flippmacka-hc",
+   "name": "FLIPPMACKA HC",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5161.81,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:fogass-canadiens",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "fogass-canadiens",
+   "name": "Fogass Canadiens",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5130.45,
+    "fab": 55,
+    "waiver": 12,
+    "moves": 26
+   }
+  },
+  {
+   "id": "2022-23:gaxsjo-hockeyheads",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5510.31,
+    "fab": 3,
+    "waiver": 2,
+    "moves": 78
+   }
+  },
+  {
+   "id": "2022-23:hak-eye",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "hak-eye",
+   "name": "HÅK-EYE",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4732.26,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2022-23:haninge-musketorerna",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "haninge-musketorerna",
+   "name": "Haninge Musketörerna",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5153.89,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2022-23:henke-panthers",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5230.32,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2022-23:henriks-peerless-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "henriks-peerless-team",
+   "name": "Nose Face Killah",
+   "otherNames": [
+    "Westbay Sharks"
+   ],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4967.65,
+    "fab": 11,
+    "waiver": 2,
+    "moves": 49
+   }
+  },
+  {
+   "id": "2022-23:highvalley-tjakkers",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "highvalley-tjakkers",
+   "name": "Highvalley Tjäkkers",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4866.55,
+    "fab": 73,
+    "waiver": 4,
+    "moves": 23
+   }
+  },
+  {
+   "id": "2022-23:hjobos-varsta-hc",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "hjobos-varsta-hc",
+   "name": "Hjobos HC",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4797.97,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 70
+   }
+  },
+  {
+   "id": "2022-23:jagrs-hockeyfrilla",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "jagrs-hockeyfrilla",
+   "name": "Jagrs hockeyfrilla",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4399.46,
+    "fab": 68,
+    "waiver": 9,
+    "moves": 12
+   }
+  },
+  {
+   "id": "2022-23:jespers-impressive-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "jespers-impressive-team",
+   "name": "Jesper's ExtraordinaryTeam",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4654.19,
+    "fab": 95,
+    "waiver": 5,
+    "moves": 4
+   }
+  },
+  {
+   "id": "2022-23:kingston-bagpipes",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4460.86,
+    "fab": 100,
+    "waiver": 4,
+    "moves": 9
+   }
+  },
+  {
+   "id": "2022-23:kvicklund",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "kvicklund",
+   "name": "David Veckans NHL",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5418.73,
+    "fab": 16,
+    "waiver": 7,
+    "moves": 57
+   }
+  },
+  {
+   "id": "2022-23:lule-devils",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "lule-devils",
+   "name": "Lule Devils",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5066.76,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2022-23:mac-attack",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "mac-attack",
+   "name": "Mac-attack",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5517.23,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2022-23:mikelikehockey",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "mikelikehockey",
+   "name": "Mikelikehockey",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 4092.27,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 2
+   },
+   "replaces": {
+    "teamId": "2022-23:roberts-rad-team",
+    "date": "2023-01-09"
+   }
+  },
+  {
+   "id": "2022-23:monkrapids-top-corns",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4544.9,
+    "fab": 42,
+    "waiver": 5,
+    "moves": 43
+   }
+  },
+  {
+   "id": "2022-23:njurunda-devils",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "njurunda-devils",
+   "name": "Njurunda Devils",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5432.24,
+    "fab": 1,
+    "waiver": 8,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2022-23:nknp",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "nknp",
+   "name": "NKNP",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5140.51,
+    "fab": 11,
+    "waiver": 6,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2022-23:ovies-malrekord",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5101.64,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2022-23:pac-mans-dreamteam",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "pac-mans-dreamteam",
+   "name": "Pac-man's dreamteam",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2022-23:pastore-bob",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "pastore-bob",
+   "name": "Pastore Bob",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4990.32,
+    "fab": 19,
+    "waiver": 13,
+    "moves": 74
+   }
+  },
+  {
+   "id": "2022-23:pigga-pagar",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "pigga-pagar",
+   "name": "Pigga pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 19,
+    "losses": 2,
+    "ties": 0,
+    "pointsFor": 5718.38,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2022-23:portvin-on-ice",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 5019.45,
+    "fab": 12,
+    "waiver": 1,
+    "moves": 36
+   }
+  },
+  {
+   "id": "2022-23:ragdolls",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "ragdolls",
+   "name": "Ragdolls",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4979.15,
+    "fab": 4,
+    "waiver": 6,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2022-23:roberts-rad-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "roberts-rad-team",
+   "name": "Robert's Rad Team",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2022-23:mikelikehockey",
+    "date": "2023-01-09"
+   }
+  },
+  {
+   "id": "2022-23:rubens-nuts",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "rubens-nuts",
+   "name": "Rubens Nuts",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4699.83,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 40
+   }
+  },
+  {
+   "id": "2022-23:sampa",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "sampa",
+   "name": "Sampa",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5352.68,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 59
+   }
+  },
+  {
+   "id": "2022-23:sandby-boys",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "sandby-boys",
+   "name": "Sandby Boys",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5296.42,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2022-23:sea-bass",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "sea-bass",
+   "name": "Seabass",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5473.16,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:skbg-elite",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4824.39,
+    "fab": 6,
+    "waiver": 4,
+    "moves": 75
+   }
+  },
+  {
+   "id": "2022-23:stangby-canucks",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5232.58,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2022-23:sunnes-pagar",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "sunnes-pagar",
+   "name": "Sunnes pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 3889.32,
+    "fab": 64,
+    "waiver": 2,
+    "moves": 12
+   }
+  },
+  {
+   "id": "2022-23:team-tung",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "team-tung",
+   "name": "TEAM TUNG",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4864.46,
+    "fab": 16,
+    "waiver": 3,
+    "moves": 45
+   }
+  },
+  {
+   "id": "2022-23:team-wrongass",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "team-wrongass",
+   "name": "Mr Wrongass",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 18,
+    "losses": 3,
+    "ties": 0,
+    "pointsFor": 5890.1,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 74
+   }
+  },
+  {
+   "id": "2022-23:team-zuuuuc",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "otherNames": [
+    "Team Zuuuuc"
+   ],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5115.29,
+    "fab": 7,
+    "waiver": 6,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2022-23:teamstoof",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5224.17,
+    "fab": 19,
+    "waiver": 3,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:thunbergs-melting-icecaps",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "thunbergs-melting-icecaps",
+   "name": "Thunberg's Melting IceCaps",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4817.41,
+    "fab": 21,
+    "waiver": 10,
+    "moves": 56
+   }
+  },
+  {
+   "id": "2022-23:too-hot-to-yandle",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too hot to Yandle",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5271.94,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2022-23:too-lucky-for-you",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "too-lucky-for-you",
+   "name": "Too lucky for you!",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4982.61,
+    "fab": 75,
+    "waiver": 2,
+    "moves": 10
+   }
+  },
+  {
+   "id": "2022-23:torpadie-trashers",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5090.33,
+    "fab": 24,
+    "waiver": 11,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2022-23:trillie-trillionaire",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "trillie-trillionaire",
+   "name": "Thrillie Trillonaire",
+   "otherNames": [
+    "Trillie Trillionaire"
+   ],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5459.48,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2022-23:truck-driver-d",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5082.44,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2022-23:uport-slackerz",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-2-jagr",
+   "managerId": "uport-slackerz",
+   "name": "Uport Slackers",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4503.23,
+    "fab": 7,
+    "waiver": 5,
+    "moves": 76
+   }
+  },
+  {
+   "id": "2022-23:uttran-north-stars",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 5210.58,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2022-23:vallsjo-mcrangers",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-gordie",
+   "managerId": "vallsjo-mcrangers",
+   "name": "VälIsjö McRangers",
+   "otherNames": [
+    "Vällsjö McRangers"
+   ],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4518.4,
+    "fab": 77,
+    "waiver": 8,
+    "moves": 32
+   }
+  },
+  {
+   "id": "2022-23:victors-victorious-team",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "victors-victorious-team",
+   "name": "Victor's Unreal Team",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4578.82,
+    "fab": 85,
+    "waiver": 3,
+    "moves": 23
+   }
+  },
+  {
+   "id": "2022-23:vnhl-olof",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "vnhl-olof",
+   "name": "VNHL Olof",
+   "otherNames": [
+    "VNHL 010f"
+   ],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5268.41,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2022-23:vnhl-patrik",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-1-gretzky",
+   "managerId": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4869.63,
+    "fab": 20,
+    "waiver": 5,
+    "moves": 76
+   }
+  },
+  {
+   "id": "2022-23:wealdstone-raiders",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-4-howe",
+   "managerId": "wealdstone-raiders",
+   "name": "Sons of Keith",
+   "otherNames": [
+    "Wealdstone Raiders"
+   ],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5338.83,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2022-23:wizpens-kanoner",
+   "seasonId": "2022-23",
+   "divisionId": "2022-23-div-3-messier",
+   "managerId": "wizpens-kanoner",
+   "name": "Wizpens Kanoner",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4792.17,
+    "fab": 3,
+    "waiver": 1,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2023-24:2-girls-no-cup",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5066.54,
+    "fab": 30,
+    "waiver": 11,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:alexanders-expert-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "alexanders-expert-team",
+   "name": "alexander's Rad team",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4578.16,
+    "fab": 91,
+    "waiver": 8,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2023-24:amazingastor",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "amazingastor",
+   "name": "AmazingAstor",
+   "otherNames": [
+    "AmazingAstor SE.3 EP.1",
+    "AmazingAstor SE.3 EP.2"
+   ],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4729.56,
+    "fab": 70,
+    "waiver": 12,
+    "moves": 74
+   }
+  },
+  {
+   "id": "2023-24:andy-flyers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4539.47,
+    "fab": 98,
+    "waiver": 10,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2023-24:anzelm-avalanche",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "anzelm-avalanche",
+   "name": "Anzelm Avalanche",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5128.54,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2023-24:aspliden-hf",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "aspliden-hf",
+   "name": "Aspliden HF",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:moves-like-jagr",
+    "date": "2024-02-13"
+   }
+  },
+  {
+   "id": "2023-24:backes-in-the-ussr",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "backes-in-the-ussr",
+   "name": "Backes in the USSR",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4896.57,
+    "fab": 84,
+    "waiver": 14,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:bamsingarna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "bamsingarna",
+   "name": "Bamsingarna",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:bamsingarna-2-0",
+    "date": "2024-01-17"
+   }
+  },
+  {
+   "id": "2023-24:bamsingarna-2-0",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "bamsingarna-2-0",
+   "name": "Bamsingarna 2.0",
+   "otherNames": [],
+   "final": null,
+   "replaces": {
+    "teamId": "2023-24:bamsingarna",
+    "date": "2024-01-17"
+   },
+   "replacedBy": {
+    "teamId": "2023-24:stenfors",
+    "date": "2024-02-13"
+   }
+  },
+  {
+   "id": "2023-24:blue-forest",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5175.19,
+    "fab": 16,
+    "waiver": 5,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2023-24:boomtown-rats",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "boomtown-rats",
+   "name": "CC Cowboys",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5209.45,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2023-24:borjebus",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "borjebus",
+   "name": "Börjebus",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4112.62,
+    "fab": 75,
+    "waiver": 12,
+    "moves": 20
+   },
+   "replaces": {
+    "teamId": "2023-24:eriks-excellent-team",
+    "date": "2024-03-06"
+   }
+  },
+  {
+   "id": "2023-24:brunkers-bk",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "brunkers-bk",
+   "name": "Brunkers BK",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4139.34,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 33
+   }
+  },
+  {
+   "id": "2023-24:byavagen-flyers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "byavagen-flyers",
+   "name": "Byavägen Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4901.99,
+    "fab": 48,
+    "waiver": 8,
+    "moves": 81
+   },
+   "replaces": {
+    "teamId": "2023-24:ludvigs-legendary-team",
+    "date": "2023-10-28"
+   }
+  },
+  {
+   "id": "2023-24:chicago-blackhaks",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5206.27,
+    "fab": 14,
+    "waiver": 10,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2023-24:chris-p-bacon-hc",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "chris-p-bacon-hc",
+   "name": "Chris P Bacon HC",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5029.38,
+    "fab": 75,
+    "waiver": 11,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2023-24:chuck-norris-uppercuts",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "chuck-norris-uppercuts",
+   "name": "Chuck Norris Sandby boys",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5262.52,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2023-24:club-dei-duri",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "club-dei-duri",
+   "name": "Club Dei Duri",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5016.06,
+    "fab": 49,
+    "waiver": 4,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2023-24:cristers-groovy-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "cristers-groovy-team",
+   "name": "crister's Cool Team",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5109.34,
+    "fab": 12,
+    "waiver": 4,
+    "moves": 76
+   }
+  },
+  {
+   "id": "2023-24:crosbys-cry-babies",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "crosbys-cry-babies",
+   "name": "Crosbys cry babies",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4536.4,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:de-a-bara-a-ak",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "de-a-bara-a-ak",
+   "name": "De är bara å ÅK",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4903.0,
+    "fab": 75,
+    "waiver": 7,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2023-24:de-maktiga-algarna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "de-maktiga-algarna",
+   "name": "De Rullande Däcken",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5030.84,
+    "fab": 0,
+    "waiver": 1,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2023-24:den-blommande-loken",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "den-blommande-loken",
+   "name": "Den Blommande Löken",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5287.36,
+    "fab": 38,
+    "waiver": 2,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2023-24:det-grona-tradet",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "det-grona-tradet",
+   "name": "🌳",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4763.87,
+    "fab": 78,
+    "waiver": 8,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:donnedain",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "donnedain",
+   "name": "Donnedain",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4532.13,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 63
+   }
+  },
+  {
+   "id": "2023-24:dropstokk-penguins",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk Penguins",
+   "otherNames": [
+    "Pittsburgh Penguins"
+   ],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 3966.46,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2023-24:eastfield-snigels",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "eastfield-snigels",
+   "name": "Eastfield Sneagles",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5120.09,
+    "fab": 44,
+    "waiver": 5,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2023-24:eddtillimdead",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "eddtillimdead",
+   "name": "Eddtillimdead",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4590.67,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2023-24:eken",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "eken",
+   "name": "Tungelstas No 1 Eken",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4692.56,
+    "fab": 48,
+    "waiver": 4,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2023-24:eriks-excellent-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "eriks-excellent-team",
+   "name": "Philly Tigers",
+   "otherNames": [
+    "Erik's Excellent Team"
+   ],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:borjebus",
+    "date": "2024-03-06"
+   }
+  },
+  {
+   "id": "2023-24:falu-red-colors",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "falu-red-colors",
+   "name": "Falu Red Colors",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4908.1,
+    "fab": 50,
+    "waiver": 7,
+    "moves": 73
+   },
+   "replaces": {
+    "teamId": "2023-24:tonis-tip-top-team",
+    "date": "2023-11-29"
+   }
+  },
+  {
+   "id": "2023-24:falukorvarna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "falukorvarna",
+   "name": "Falukorvarna",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4911.58,
+    "fab": 64,
+    "waiver": 12,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:finnish-marauders",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "finnish-marauders",
+   "name": "Finnish Marauders",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4791.38,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2023-24:fishbone-brothers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "fishbone-brothers",
+   "name": "Fishbone Brothers",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5204.16,
+    "fab": 93,
+    "waiver": 10,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:fixwell-hockey",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "fixwell-hockey",
+   "name": "Fixwell Hockey",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4931.52,
+    "fab": 91,
+    "waiver": 11,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2023-24:flippmacka-hc",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "flippmacka-hc",
+   "name": "Flippmacka Hc",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5215.29,
+    "fab": 88,
+    "waiver": 7,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2023-24:fogass-canadiens",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "fogass-canadiens",
+   "name": "Fogass Canadiens",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4439.77,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 18
+   }
+  },
+  {
+   "id": "2023-24:foreberg",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "foreberg",
+   "name": "Föreberg",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4910.82,
+    "fab": 35,
+    "waiver": 14,
+    "moves": 49
+   }
+  },
+  {
+   "id": "2023-24:freddes-kings-queens",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "freddes-kings-queens",
+   "name": "Freddes Kings&Queens",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5273.19,
+    "fab": 58,
+    "waiver": 8,
+    "moves": 54
+   }
+  },
+  {
+   "id": "2023-24:gaxsjo-hockeyheads",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4929.43,
+    "fab": 50,
+    "waiver": 11,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2023-24:gyllene-knektarna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "gyllene-knektarna",
+   "name": "Gyllene Knektarna",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4878.39,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:haninge-musketorerna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "haninge-musketorerna",
+   "name": "Huddinge Musketörerna",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5418.86,
+    "fab": 27,
+    "waiver": 13,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2023-24:henke-panthers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5350.51,
+    "fab": 34,
+    "waiver": 14,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:henriks-peerless-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "henriks-peerless-team",
+   "name": "Nose Face Killah",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4796.11,
+    "fab": 29,
+    "waiver": 6,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2023-24:high-valley-roosters",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "high-valley-roosters",
+   "name": "High Valley Roosters",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4935.62,
+    "fab": 70,
+    "waiver": 2,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2023-24:highvalley-tjakkers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "highvalley-tjakkers",
+   "name": "HighValley Tjäkkers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4601.0,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 53
+   }
+  },
+  {
+   "id": "2023-24:hockey-balboa",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "hockey-balboa",
+   "name": "Hockey Balboa",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4206.89,
+    "fab": 0,
+    "waiver": 1,
+    "moves": 45
+   }
+  },
+  {
+   "id": "2023-24:humblas-smallkarameller",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "humblas-smallkarameller",
+   "name": "Humblas smällkarameller",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4584.45,
+    "fab": 43,
+    "waiver": 1,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:ik-oddevold",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "ik-oddevold",
+   "name": "Ik oddevold",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5522.75,
+    "fab": 45,
+    "waiver": 3,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2023-24:jaromir-juggernaut",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "jaromir-juggernaut",
+   "name": "Jaromir Juggernaut",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5296.32,
+    "fab": 36,
+    "waiver": 1,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2023-24:joachims-quality-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "joachims-quality-team",
+   "name": "Joachim's Quality Team",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4648.16,
+    "fab": 99,
+    "waiver": 14,
+    "moves": 51
+   }
+  },
+  {
+   "id": "2023-24:jozos-first-rate-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "jozos-first-rate-team",
+   "name": "Jozo's First-Rate Team",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:pusselbit-painters",
+    "date": "2024-01-26"
+   }
+  },
+  {
+   "id": "2023-24:karls-gossar-bla",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "karls-gossar-bla",
+   "name": "Karls Gossar Blå",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4569.41,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 37
+   }
+  },
+  {
+   "id": "2023-24:kht-rangers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "kht-rangers",
+   "name": "KHT Rangers",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5160.94,
+    "fab": 19,
+    "waiver": 13,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2023-24:kikos-nasi-lemak",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "kikos-nasi-lemak",
+   "name": "Kiko's Nasi Lemak",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4834.12,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2023-24:kingston-bagpipes",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4283.59,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 38
+   }
+  },
+  {
+   "id": "2023-24:kumlabunkern",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "kumlabunkern",
+   "name": "Kumlabunkern",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4298.27,
+    "fab": 98,
+    "waiver": 9,
+    "moves": 24
+   }
+  },
+  {
+   "id": "2023-24:kvicklund",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "kvicklund",
+   "name": "Kvicklund Veckans NHL",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5291.82,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 78
+   }
+  },
+  {
+   "id": "2023-24:lords-hc",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "lords-hc",
+   "name": "Lords HC",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4753.1,
+    "fab": 60,
+    "waiver": 14,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:ludvigs-legendary-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "ludvigs-legendary-team",
+   "name": "Ludvig's Legendary Team",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:byavagen-flyers",
+    "date": "2023-10-28"
+   }
+  },
+  {
+   "id": "2023-24:lule-devils",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "lule-devils",
+   "name": "Luleå Dolphins",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5289.17,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:lundqvist-win",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "lundqvist-win",
+   "name": "Flippis Junior",
+   "otherNames": [
+    "Lundqvist Win"
+   ],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5116.82,
+    "fab": 40,
+    "waiver": 13,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2023-24:mac-attack",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "mac-attack",
+   "name": "Mac-attack",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4762.37,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2023-24:malmoiterna",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "malmoiterna",
+   "name": "Malmöiterna",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5149.62,
+    "fab": 54,
+    "waiver": 4,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:manhattans-skogvaktare",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "manhattans-skogvaktare",
+   "name": "Manhattans skogvaktare",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4576.23,
+    "fab": 94,
+    "waiver": 13,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2023-24:martins-amazing-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "martins-amazing-team",
+   "name": "Martin's Amazing Team",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4845.58,
+    "fab": 100,
+    "waiver": 4,
+    "moves": 5
+   }
+  },
+  {
+   "id": "2023-24:martins-magnificent-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "martins-magnificent-team",
+   "name": "J'accHughes",
+   "otherNames": [
+    "Martin's Magnificent Team"
+   ],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5303.36,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2023-24:melwood-hc",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "melwood-hc",
+   "name": "Melwood HC",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5082.82,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 26
+   }
+  },
+  {
+   "id": "2023-24:mighty-drunks",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "mighty-drunks",
+   "name": "Mighty Drunks",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4849.97,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:monkrapids-top-corns",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4784.95,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 22
+   }
+  },
+  {
+   "id": "2023-24:moves-like-jagr",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "moves-like-jagr",
+   "name": "Moves like Jagr",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4619.38,
+    "fab": 84,
+    "waiver": 5,
+    "moves": 54
+   },
+   "replaces": {
+    "teamId": "2023-24:aspliden-hf",
+    "date": "2024-02-13"
+   }
+  },
+  {
+   "id": "2023-24:munkasen-machines",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "munkasen-machines",
+   "name": "Munkåsen Machines",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5363.28,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:njurunda-devils",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "njurunda-devils",
+   "name": "Njurunda Devils",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5306.2,
+    "fab": 6,
+    "waiver": 13,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:nknp",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "nknp",
+   "name": "NKNP",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4759.97,
+    "fab": 95,
+    "waiver": 11,
+    "moves": 41
+   }
+  },
+  {
+   "id": "2023-24:oppenheimer-atomics",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "oppenheimer-atomics",
+   "name": "Oppenheimer Atomics",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4470.74,
+    "fab": 99,
+    "waiver": 5,
+    "moves": 63
+   }
+  },
+  {
+   "id": "2023-24:ovies-malrekord",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5135.83,
+    "fab": 7,
+    "waiver": 12,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2023-24:pac-mans-dreamteam",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "pac-mans-dreamteam",
+   "name": "New York Pacmans",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4233.05,
+    "fab": 87,
+    "waiver": 11,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2023-24:pastore-bob",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "pastore-bob",
+   "name": "Pastore Bob",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4658.12,
+    "fab": 99,
+    "waiver": 1,
+    "moves": 72
+   }
+  },
+  {
+   "id": "2023-24:patriks-mosquito-bites",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "patriks-mosquito-bites",
+   "name": "Patrik's Mosquito Bites",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4859.51,
+    "fab": 63,
+    "waiver": 4,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:pigga-pagar",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "pigga-pagar",
+   "name": "Pigga Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5042.87,
+    "fab": 88,
+    "waiver": 7,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:portvin-on-ice",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4594.27,
+    "fab": 95,
+    "waiver": 3,
+    "moves": 63
+   }
+  },
+  {
+   "id": "2023-24:pusselbit-painters",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "pusselbit-painters",
+   "name": "Pusselbit Painters",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 3961.09,
+    "fab": 94,
+    "waiver": 6,
+    "moves": 27
+   },
+   "replaces": {
+    "teamId": "2023-24:jozos-first-rate-team",
+    "date": "2024-01-26"
+   }
+  },
+  {
+   "id": "2023-24:ragdolls",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "ragdolls",
+   "name": "Ragdolls",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5107.61,
+    "fab": 65,
+    "waiver": 1,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:rosa-faran",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "rosa-faran",
+   "name": "Rosa Faran",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5538.63,
+    "fab": 47,
+    "waiver": 3,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2023-24:salikepeter",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "salikepeter",
+   "name": "Salikepeter",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5090.93,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2023-24:sampa",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "sampa",
+   "name": "Sampa",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5458.17,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2023-24:sandby-boys",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "sandby-boys",
+   "name": "Sandby Boys",
+   "otherNames": [
+    "Sandby Tkachuks"
+   ],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5001.31,
+    "fab": 0,
+    "waiver": 3,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:sea-bass",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "sea-bass",
+   "name": "Seabass",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4931.86,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:seal-team-z",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "seal-team-z",
+   "name": "Seal Team Z",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4296.81,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 20
+   }
+  },
+  {
+   "id": "2023-24:siggepp",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "siggepp",
+   "name": "SiggePP",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4742.87,
+    "fab": 48,
+    "waiver": 2,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2023-24:skbg-elite",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4956.7,
+    "fab": 88,
+    "waiver": 13,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2023-24:skridsko-mot-stolpen",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "skridsko-mot-stolpen",
+   "name": "VOODOO",
+   "otherNames": [
+    "Skridsko mot stolpe"
+   ],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5083.43,
+    "fab": 46,
+    "waiver": 7,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:stangby-canucks",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5082.18,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:stenfors",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "stenfors",
+   "name": "Stenfors",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4959.56,
+    "fab": 50,
+    "waiver": 1,
+    "moves": 76
+   },
+   "replaces": {
+    "teamId": "2023-24:bamsingarna-2-0",
+    "date": "2024-02-13"
+   }
+  },
+  {
+   "id": "2023-24:steninge-jets",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "steninge-jets",
+   "name": "Steninge Jets",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5465.35,
+    "fab": 82,
+    "waiver": 10,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2023-24:sunnes-pagar",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "sunnes-pagar",
+   "name": "Sunnes Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4806.02,
+    "fab": 50,
+    "waiver": 14,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2023-24:sunnyvale-shithawks",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "sunnyvale-shithawks",
+   "name": "Sunnyvale Shithawks",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4934.71,
+    "fab": 8,
+    "waiver": 11,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2023-24:tage-of-wonders",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-1850",
+   "managerId": "tage-of-wonders",
+   "name": "Tage of Wonders",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5166.41,
+    "fab": 51,
+    "waiver": 7,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2023-24:team-all-sellers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "team-all-sellers",
+   "name": "Team All Sellers",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 3948.77,
+    "fab": 50,
+    "waiver": 5,
+    "moves": 18
+   }
+  },
+  {
+   "id": "2023-24:team-wrongass",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jaromir",
+   "managerId": "team-wrongass",
+   "name": "Mr Wrongass",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5029.37,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:team-zuuuuc",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5087.81,
+    "fab": 85,
+    "waiver": 9,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2023-24:teamstoof",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5287.74,
+    "fab": 44,
+    "waiver": 4,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2023-24:thls-dream-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "thls-dream-team",
+   "name": "THLs Dream Team",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4941.34,
+    "fab": 78,
+    "waiver": 12,
+    "moves": 33
+   }
+  },
+  {
+   "id": "2023-24:thunbergs-melting-icecaps",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "thunbergs-melting-icecaps",
+   "name": "Thunbergs Melting IceCaps",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5071.42,
+    "fab": 60,
+    "waiver": 12,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2023-24:tonis-tip-top-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-howe",
+   "managerId": "tonis-tip-top-team",
+   "name": "Toni's Tip-Top Team",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2023-24:falu-red-colors",
+    "date": "2023-11-29"
+   }
+  },
+  {
+   "id": "2023-24:too-hot-to-yandle",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too hot to Yandle",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5263.77,
+    "fab": 27,
+    "waiver": 7,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:too-lucky-for-you",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "too-lucky-for-you",
+   "name": "Too lucky for you!",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4674.07,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 13
+   }
+  },
+  {
+   "id": "2023-24:torpadie-trashers",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5071.08,
+    "fab": 68,
+    "waiver": 13,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2023-24:trillie-trillionaire",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "trillie-trillionaire",
+   "name": "Trillie Trillionarie",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4964.59,
+    "fab": 60,
+    "waiver": 2,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:truck-driver-d",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4854.08,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2023-24:uport-slackerz",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "uport-slackerz",
+   "name": "Uport Slackers",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4932.53,
+    "fab": 24,
+    "waiver": 1,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:uttran-north-stars",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5063.97,
+    "fab": 28,
+    "waiver": 2,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:valpens-coyotes",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "valpens-coyotes",
+   "name": "Valpens Coyotes",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5106.84,
+    "fab": 79,
+    "waiver": 3,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2023-24:vasteras-draconian",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-messier",
+   "managerId": "vasteras-draconian",
+   "name": "Västerås Draconian",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4705.49,
+    "fab": 15,
+    "waiver": 3,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2023-24:viktors-victorious-team",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-3-mark",
+   "managerId": "viktors-victorious-team",
+   "name": "Viktor's Victorious Team",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4948.54,
+    "fab": 90,
+    "waiver": 8,
+    "moves": 53
+   }
+  },
+  {
+   "id": "2023-24:vnhl-olof",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-1-gretzky",
+   "managerId": "vnhl-olof",
+   "name": "VNHL Olof",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5236.51,
+    "fab": 74,
+    "waiver": 12,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2023-24:vnhl-patrik",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5035.94,
+    "fab": 41,
+    "waiver": 3,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2023-24:wealdstone-raiders",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-2-jagr",
+   "managerId": "wealdstone-raiders",
+   "name": "No Sons of Keith",
+   "otherNames": [
+    "Sons of Keith"
+   ],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4773.4,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2023-24:west-coast-express",
+   "seasonId": "2023-24",
+   "divisionId": "2023-24-div-4-gordie",
+   "managerId": "west-coast-express",
+   "name": "West Coast Express",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4658.59,
+    "fab": 55,
+    "waiver": 7,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:2-girls-no-cup",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4501.25,
+    "fab": 6,
+    "waiver": 8,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2024-25:amazingastor",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "amazingastor",
+   "name": "AmazingAstor",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 3999.2,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 31
+   }
+  },
+  {
+   "id": "2024-25:andy-flyers@div-2-messier",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5225.9,
+    "fab": 42,
+    "waiver": 5,
+    "moves": 84
+   },
+   "replaces": {
+    "teamId": "2024-25:de-maktiga-algarna",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:andy-flyers@div-3-howe",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:skanstull-sharks",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:anzelm-avalanche",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "anzelm-avalanche",
+   "name": "Anzelm Avalanche",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4370.79,
+    "fab": 85,
+    "waiver": 3,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2024-25:backes-in-the-ussr",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "backes-in-the-ussr",
+   "name": "Backes in the USSR",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4618.75,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2024-25:bjorkarnas-stad-hc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "bjorkarnas-stad-hc",
+   "name": "Björkarnas Stad HC",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:gottepasen",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:blue-forest",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5020.22,
+    "fab": 14,
+    "waiver": 10,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2024-25:boomtown-rats",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "boomtown-rats",
+   "name": "CC Cowboys",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4994.46,
+    "fab": 9,
+    "waiver": 12,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2024-25:borjebus",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "borjebus",
+   "name": "Suntrip HC",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5152.49,
+    "fab": 65,
+    "waiver": 4,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2024-25:borjegatan-bunnies",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "borjegatan-bunnies",
+   "name": "Börjegatan Bunnies",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4710.05,
+    "fab": 43,
+    "waiver": 7,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2024-25:brunkers-bk",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "brunkers-bk",
+   "name": "Brunkers BK",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:the-red-lions",
+    "date": "2025-02-04"
+   }
+  },
+  {
+   "id": "2024-25:byavagen-flyers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "byavagen-flyers",
+   "name": "Byavägen Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4985.4,
+    "fab": 39,
+    "waiver": 1,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2024-25:chicago-blackhaks",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4979.11,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2024-25:chris-p-bacon-hc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "chris-p-bacon-hc",
+   "name": "Chris P Bacon HC",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5001.15,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2024-25:chuck-norris-uppercuts",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "chuck-norris-uppercuts",
+   "name": "Chuck Norris",
+   "otherNames": [
+    "Tjock Norris"
+   ],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4829.77,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2024-25:club-dei-duri",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "club-dei-duri",
+   "name": "Die Roten",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5049.16,
+    "fab": 66,
+    "waiver": 12,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2024-25:colorado-lavalamps",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "colorado-lavalamps",
+   "name": "Colorado LavaLamps",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4401.09,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 41
+   }
+  },
+  {
+   "id": "2024-25:cristers-groovy-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "cristers-groovy-team",
+   "name": "crister's Unmatched Team",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4997.26,
+    "fab": 73,
+    "waiver": 9,
+    "moves": 55
+   }
+  },
+  {
+   "id": "2024-25:crosbys-cry-babies",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "crosbys-cry-babies",
+   "name": "Crosbys cry babies",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4845.11,
+    "fab": 17,
+    "waiver": 3,
+    "moves": 94
+   }
+  },
+  {
+   "id": "2024-25:de-a-bara-a-ak",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "de-a-bara-a-ak",
+   "name": "De är Bara å åk",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5030.6,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 70
+   }
+  },
+  {
+   "id": "2024-25:de-maktiga-algarna",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "de-maktiga-algarna",
+   "name": "A team has no name",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:andy-flyers@div-2-messier",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:den-blommande-loken",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "den-blommande-loken",
+   "name": "Den Blommande Löken",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5335.16,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:det-grona-tradet",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "det-grona-tradet",
+   "name": "🌳",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5306.71,
+    "fab": 71,
+    "waiver": 10,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2024-25:donnedain",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "donnedain",
+   "name": "De va Draipen",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4532.82,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 29
+   }
+  },
+  {
+   "id": "2024-25:dropstokk-penguins",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk Penguins",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5035.51,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 19
+   }
+  },
+  {
+   "id": "2024-25:eastfield-snigels",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "eastfield-snigels",
+   "name": "Eastfield",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5188.3,
+    "fab": 74,
+    "waiver": 6,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2024-25:eddtillimdead",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "eddtillimdead",
+   "name": "eddtillimdead",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4933.42,
+    "fab": 23,
+    "waiver": 2,
+    "moves": 72
+   }
+  },
+  {
+   "id": "2024-25:eken",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "eken",
+   "name": "Eken",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4405.22,
+    "fab": 97,
+    "waiver": 10,
+    "moves": 15
+   }
+  },
+  {
+   "id": "2024-25:falu-red-colors",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "falu-red-colors",
+   "name": "Bjursås Beavers",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5045.55,
+    "fab": 0,
+    "waiver": 2,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:falukorvarna",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "falukorvarna",
+   "name": "Falukorvarna",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5193.97,
+    "fab": 16,
+    "waiver": 13,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:finnish-marauders",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "finnish-marauders",
+   "name": "Finnish Marauders",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5200.76,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:fishbone-brothers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "fishbone-brothers",
+   "name": "Fishbone Brothers",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4690.88,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2024-25:fixwell-hockey",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "fixwell-hockey",
+   "name": "Fixwell Hockey",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4906.86,
+    "fab": 97,
+    "waiver": 10,
+    "moves": 66
+   }
+  },
+  {
+   "id": "2024-25:flata-kickers-alexander-b",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "flata-kickers-alexander-b",
+   "name": "Flata Kickers",
+   "otherNames": [
+    "Flata Kickers (Alexander B)"
+   ],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5380.4,
+    "fab": 0,
+    "waiver": 2,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2024-25:flippmacka-hc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "flippmacka-hc",
+   "name": "FLIPPMACKA HC",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5097.86,
+    "fab": 10,
+    "waiver": 12,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2024-25:foreberg",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "foreberg",
+   "name": "Föreberg Flyers",
+   "otherNames": [
+    "Förebergphia Flyers"
+   ],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4836.9,
+    "fab": 69,
+    "waiver": 13,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2024-25:freddes-kings-queens",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "freddes-kings-queens",
+   "name": "Fredde's Kings&Queens",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4870.8,
+    "fab": 6,
+    "waiver": 4,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2024-25:gaxsjo-hockeyheads",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4898.34,
+    "fab": 90,
+    "waiver": 7,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2024-25:gaxsjo-junior",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "gaxsjo-junior",
+   "name": "Gåxsjö Junior",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4835.28,
+    "fab": 57,
+    "waiver": 14,
+    "moves": 59
+   }
+  },
+  {
+   "id": "2024-25:gottepasen",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "gottepasen",
+   "name": "Gottepåsen",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4678.98,
+    "fab": 98,
+    "waiver": 13,
+    "moves": 37
+   },
+   "replaces": {
+    "teamId": "2024-25:bjorkarnas-stad-hc",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:gustavs-grand-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "gustavs-grand-team",
+   "name": "Bronco Stars",
+   "otherNames": [
+    "Gustav's Grand Team"
+   ],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4525.04,
+    "fab": 70,
+    "waiver": 7,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2024-25:gyllene-knektarna",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "gyllene-knektarna",
+   "name": "Gyllene Knektarna",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5100.41,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:haninge-musketorerna",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "haninge-musketorerna",
+   "name": "VNHL Musketören",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5248.46,
+    "fab": 35,
+    "waiver": 13,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2024-25:henke-panthers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4779.82,
+    "fab": 52,
+    "waiver": 14,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:henriks-peerless-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "henriks-peerless-team",
+   "name": "NoseFace",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5148.71,
+    "fab": 3,
+    "waiver": 7,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2024-25:high-valley-roosters",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "high-valley-roosters",
+   "name": "High Valley Roosters",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4665.72,
+    "fab": 54,
+    "waiver": 5,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2024-25:highvalley-tjakkers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "highvalley-tjakkers",
+   "name": "HighValley Tjäkkers",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4563.69,
+    "fab": 80,
+    "waiver": 7,
+    "moves": 28
+   }
+  },
+  {
+   "id": "2024-25:ik-oddevold",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "ik-oddevold",
+   "name": "IK ODDEVOLD",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4882.23,
+    "fab": 28,
+    "waiver": 1,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:jaromir-juggernaut",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "jaromir-juggernaut",
+   "name": "Jaromir Juggernaut",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 18,
+    "losses": 3,
+    "ties": 0,
+    "pointsFor": 5501.43,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2024-25:joachims-quality-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "joachims-quality-team",
+   "name": "Bengstbol IF",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5042.03,
+    "fab": 100,
+    "waiver": 4,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2024-25:jozos-first-rate-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "jozos-first-rate-team",
+   "name": "Jozo's Game-Changing Team",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:team-wakeras",
+    "date": "2025-01-04"
+   }
+  },
+  {
+   "id": "2024-25:karls-gossar-bla",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "karls-gossar-bla",
+   "name": "Karls Gossar Blå",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4643.16,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 44
+   }
+  },
+  {
+   "id": "2024-25:kht-rangers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "kht-rangers",
+   "name": "KHT Rangers",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5281.9,
+    "fab": 0,
+    "waiver": 11,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2024-25:kikos-nasi-lemak",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "kikos-nasi-lemak",
+   "name": "Kiko's Nasi Lemak",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4719.68,
+    "fab": 93,
+    "waiver": 5,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2024-25:kingston-bagpipes",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 3946.59,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2024-25:kjells-angels",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "kjells-angels",
+   "name": "Kjells Angels",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5067.54,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 73
+   }
+  },
+  {
+   "id": "2024-25:kvicklund",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "kvicklund",
+   "name": "Kvicklund",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4565.79,
+    "fab": 24,
+    "waiver": 1,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2024-25:lokomotiv-hov",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "lokomotiv-hov",
+   "name": "Lokomotiv Hov",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4842.17,
+    "fab": 65,
+    "waiver": 1,
+    "moves": 66
+   }
+  },
+  {
+   "id": "2024-25:lords-hc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "lords-hc",
+   "name": "Lords HC",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4752.49,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2024-25:lule-devils",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "lule-devils",
+   "name": "Luleå Dolphins",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4802.59,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 61
+   }
+  },
+  {
+   "id": "2024-25:lundqvist-win",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "lundqvist-win",
+   "name": "Flippis Junior",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5136.51,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2024-25:mac-attack",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "mac-attack",
+   "name": "Gudrun Hurricanes",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5160.59,
+    "fab": 70,
+    "waiver": 2,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2024-25:malmoiterna",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "malmoiterna",
+   "name": "Malmö Ducks",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4988.24,
+    "fab": 63,
+    "waiver": 2,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:manhattans-skogvaktare",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "manhattans-skogvaktare",
+   "name": "Skeletor",
+   "otherNames": [
+    "Nils's Nifty Team"
+   ],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 4018.88,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 23
+   }
+  },
+  {
+   "id": "2024-25:mcsorleys-bojda-blad",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "mcsorleys-bojda-blad",
+   "name": "McSorleys böjda blad",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4952.43,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2024-25:melwood-hc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "melwood-hc",
+   "name": "Melwood HC",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4873.34,
+    "fab": 100,
+    "waiver": 5,
+    "moves": 46
+   }
+  },
+  {
+   "id": "2024-25:metalworld-devils",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "metalworld-devils",
+   "name": "Metalworld Devils",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4330.38,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 26
+   }
+  },
+  {
+   "id": "2024-25:mighty-drunks",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "mighty-drunks",
+   "name": "Mighty Drunks",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5093.59,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:monkrapids-top-corns",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4751.2,
+    "fab": 38,
+    "waiver": 3,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2024-25:moves-like-jagr",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "moves-like-jagr",
+   "name": "Moves Like Jagr",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4854.81,
+    "fab": 85,
+    "waiver": 9,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2024-25:munkasen-machines",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "munkasen-machines",
+   "name": "Munkåsen",
+   "otherNames": [
+    "Munkåsen Bashines"
+   ],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4871.25,
+    "fab": 5,
+    "waiver": 9,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:njurunda-devils",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "njurunda-devils",
+   "name": "Apokalops Nu!",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 5302.36,
+    "fab": 17,
+    "waiver": 2,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2024-25:ovies-malrekord",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4917.15,
+    "fab": 85,
+    "waiver": 14,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:pastore-bob",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "pastore-bob",
+   "name": "Pastore Bob",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4616.49,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 54
+   }
+  },
+  {
+   "id": "2024-25:patriks-mosquito-bites",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "patriks-mosquito-bites",
+   "name": "Mosquitos",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4962.5,
+    "fab": 84,
+    "waiver": 13,
+    "moves": 75
+   }
+  },
+  {
+   "id": "2024-25:pigga-pagar",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "pigga-pagar",
+   "name": "Pigga Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 5084.87,
+    "fab": 43,
+    "waiver": 11,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:portvin-on-ice",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4508.08,
+    "fab": 85,
+    "waiver": 6,
+    "moves": 38
+   }
+  },
+  {
+   "id": "2024-25:proez",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "proez",
+   "name": "Flint Tropics",
+   "otherNames": [
+    "Proez"
+   ],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 4900.56,
+    "fab": 56,
+    "waiver": 4,
+    "moves": 38
+   }
+  },
+  {
+   "id": "2024-25:pusselbit-painters",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "pusselbit-painters",
+   "name": "Pusselbit Painters",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4752.25,
+    "fab": 31,
+    "waiver": 3,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2024-25:ragdolls",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "ragdolls",
+   "name": "Ragdolls 13",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 5029.82,
+    "fab": 88,
+    "waiver": 5,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2024-25:robsons-sabres",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "robsons-sabres",
+   "name": "Robson's Sabres",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 3991.54,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 2
+   }
+  },
+  {
+   "id": "2024-25:rosa-faran",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "rosa-faran",
+   "name": "Rosa Faran",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:snabba-puckar",
+    "date": "2025-01-04"
+   }
+  },
+  {
+   "id": "2024-25:salikepeter",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "salikepeter",
+   "name": "Salikepeter HC",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4772.1,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2024-25:sampa",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "sampa",
+   "name": "Happy Sampa Skaters",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5479.74,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2024-25:sandby-boys",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "sandby-boys",
+   "name": "Sandby Boys",
+   "otherNames": [
+    "Gaudreaus Boys"
+   ],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4857.65,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2024-25:sea-bass",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "sea-bass",
+   "name": "Seabass",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5024.86,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:siggepp",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "siggepp",
+   "name": "SiggePP",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5084.5,
+    "fab": 22,
+    "waiver": 12,
+    "moves": 95
+   }
+  },
+  {
+   "id": "2024-25:skanstull-sharks",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "skanstull-sharks",
+   "name": "Skanstull Sharks",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4887.12,
+    "fab": 48,
+    "waiver": 4,
+    "moves": 93
+   },
+   "replaces": {
+    "teamId": "2024-25:andy-flyers@div-3-howe",
+    "date": "2025-01-27"
+   }
+  },
+  {
+   "id": "2024-25:skbg-elite",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5237.97,
+    "fab": 81,
+    "waiver": 14,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2024-25:skridsko-mot-stolpen",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "skridsko-mot-stolpen",
+   "name": "trollskott",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 16,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5288.15,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 98
+   }
+  },
+  {
+   "id": "2024-25:snabba-puckar",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "snabba-puckar",
+   "name": "Snabba Puckar",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5122.78,
+    "fab": 41,
+    "waiver": 5,
+    "moves": 80
+   },
+   "replaces": {
+    "teamId": "2024-25:rosa-faran",
+    "date": "2025-01-04"
+   }
+  },
+  {
+   "id": "2024-25:stangby-canucks",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5161.48,
+    "fab": 38,
+    "waiver": 12,
+    "moves": 91
+   }
+  },
+  {
+   "id": "2024-25:stenfors",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "stenfors",
+   "name": "🪨🌊",
+   "otherNames": [
+    "🪨🌊©️"
+   ],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4982.14,
+    "fab": 50,
+    "waiver": 12,
+    "moves": 57
+   }
+  },
+  {
+   "id": "2024-25:steninge-jets",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "steninge-jets",
+   "name": "Steninge Jets",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 17,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5288.7,
+    "fab": 1,
+    "waiver": 14,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2024-25:sunnes-pagar",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "sunnes-pagar",
+   "name": "Sunnes Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4074.32,
+    "fab": 100,
+    "waiver": 6,
+    "moves": 19
+   }
+  },
+  {
+   "id": "2024-25:sunnyvale-shithawks",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "sunnyvale-shithawks",
+   "name": "042 Shithawks",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 11,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4961.02,
+    "fab": 20,
+    "waiver": 14,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2024-25:tage-of-wonders",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "tage-of-wonders",
+   "name": "Tage of Wonders",
+   "otherNames": [],
+   "final": null,
+   "replacedBy": {
+    "teamId": "2024-25:the-canadian-og",
+    "date": "2025-01-20"
+   }
+  },
+  {
+   "id": "2024-25:team-wakeras",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "team-wakeras",
+   "name": "Team wakeras",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4428.64,
+    "fab": 84,
+    "waiver": 11,
+    "moves": 39
+   },
+   "replaces": {
+    "teamId": "2024-25:jozos-first-rate-team",
+    "date": "2025-01-04"
+   }
+  },
+  {
+   "id": "2024-25:team-wrongass",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "team-wrongass",
+   "name": "Mr Wrongass",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4929.78,
+    "fab": 0,
+    "waiver": 3,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:team-zuuuuc",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 5,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4568.2,
+    "fab": 85,
+    "waiver": 8,
+    "moves": 76
+   }
+  },
+  {
+   "id": "2024-25:teamstoof",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4916.86,
+    "fab": 0,
+    "waiver": 3,
+    "moves": 93
+   }
+  },
+  {
+   "id": "2024-25:the-canadian-og",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "the-canadian-og",
+   "name": "The Canadian OG",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4944.88,
+    "fab": 19,
+    "waiver": 8,
+    "moves": 75
+   },
+   "replaces": {
+    "teamId": "2024-25:tage-of-wonders",
+    "date": "2025-01-20"
+   }
+  },
+  {
+   "id": "2024-25:the-red-lions",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-yzerman",
+   "managerId": "the-red-lions",
+   "name": "The red lions",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4774.34,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 60
+   },
+   "replaces": {
+    "teamId": "2024-25:brunkers-bk",
+    "date": "2025-02-04"
+   }
+  },
+  {
+   "id": "2024-25:thls-dream-team",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "thls-dream-team",
+   "name": "THLs Dream Team",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5225.54,
+    "fab": 94,
+    "waiver": 11,
+    "moves": 37
+   }
+  },
+  {
+   "id": "2024-25:thunbergs-melting-icecaps",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "thunbergs-melting-icecaps",
+   "name": "Thunbergs Melting IceCaps",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5092.54,
+    "fab": 17,
+    "waiver": 13,
+    "moves": 65
+   }
+  },
+  {
+   "id": "2024-25:too-hot-to-yandle",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too Hot To Yandle",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5537.74,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2024-25:too-lucky-for-you",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "too-lucky-for-you",
+   "name": "Too lucky for you!",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4481.95,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 25
+   }
+  },
+  {
+   "id": "2024-25:torpadie-trashers",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4801.11,
+    "fab": 70,
+    "waiver": 11,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:trillie-trillionaire",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "trillie-trillionaire",
+   "name": "thr!lli van!lli",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4721.99,
+    "fab": 77,
+    "waiver": 13,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:truck-driver-d",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-howe",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4707.41,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 92
+   }
+  },
+  {
+   "id": "2024-25:uport-slackerz",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-dionne",
+   "managerId": "uport-slackerz",
+   "name": "Uport Slackers",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4936.79,
+    "fab": 74,
+    "waiver": 8,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2024-25:uttran-north-stars",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-1-gaudreau",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4817.3,
+    "fab": 21,
+    "waiver": 6,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2024-25:valpens-coyotes",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-3-francis",
+   "managerId": "valpens-coyotes",
+   "name": "Valpens förvirrade hjärna",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4915.11,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 89
+   }
+  },
+  {
+   "id": "2024-25:vasteras-draconian",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "vasteras-draconian",
+   "name": "Västerås Draconian",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 13,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4944.17,
+    "fab": 40,
+    "waiver": 14,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2024-25:vnhl-olof",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "vnhl-olof",
+   "name": "Winnesota",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 10,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4968.14,
+    "fab": 79,
+    "waiver": 1,
+    "moves": 96
+   }
+  },
+  {
+   "id": "2024-25:vnhl-patrik",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-jagr",
+   "managerId": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4902.56,
+    "fab": 38,
+    "waiver": 7,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:wealdstone-raiders",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-2-messier",
+   "managerId": "wealdstone-raiders",
+   "name": "Free Fallin' Sons of Keith",
+   "otherNames": [
+    "Sons of Keith"
+   ],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 9,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 5099.08,
+    "fab": 75,
+    "waiver": 9,
+    "moves": 90
+   }
+  },
+  {
+   "id": "2024-25:west-coast-express",
+   "seasonId": "2024-25",
+   "divisionId": "2024-25-div-4-lemieux",
+   "managerId": "west-coast-express",
+   "name": "West Coast Express",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5149.7,
+    "fab": 65,
+    "waiver": 10,
+    "moves": 91
+   }
+  }
+ ],
+ "coverage": {
+  "finalStandings": [
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "weeklyStandings": [
+   "2021-22",
+   "2022-23",
+   "2023-24"
+  ],
+  "draft": [
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25"
+  ],
+  "trades": [
+   "2021-22",
+   "2022-23",
+   "2023-24"
+  ],
+  "matchups": []
+ },
+ "dataVersion": "5eee6d6e7002"
+}

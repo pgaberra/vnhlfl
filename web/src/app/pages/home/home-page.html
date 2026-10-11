@@ -1,0 +1,127 @@
+<div class="page">
+  <section class="hero">
+    <p class="eyebrow">Veckans NHL Fantasy League</p>
+    <h1>Ligans historia, säsong för säsong</h1>
+    <p class="lede">
+      Följ varje GM:s karriär: tabellplaceringar, upp- och nedflyttningar, trades och draftval, från
+      första säsongen 2021/22 och framåt.
+    </p>
+    <div class="search" role="search">
+      <label class="field">
+        <span>Hitta en GM eller ett lag</span>
+        <span class="input-wrap">
+          <svg lucideSearch class="icon" aria-hidden="true"></svg>
+          <input
+            type="search"
+            placeholder="Skriv ett lagnamn, t.ex. Teamstoof"
+            autocomplete="off"
+            [value]="query()"
+            (input)="onSearch($event)"
+          />
+        </span>
+      </label>
+      @if (matches().length) {
+        <ul class="matches">
+          @for (m of matches(); track m.id) {
+            <li>
+              <app-manager-link [manager]="m" />
+              @if (m.teamNames.length > 1) {
+                <span class="hint">även {{ m.teamNames.length - 1 }} andra lagnamn</span>
+              }
+            </li>
+          }
+        </ul>
+      } @else if (query().trim().length >= 2) {
+        <p class="hint">Ingen GM eller lag matchar "{{ query() }}".</p>
+      }
+    </div>
+  </section>
+
+  @if (facts(); as f) {
+    <section class="tiles" aria-label="Ligan i siffror">
+      <app-stat-tile label="Säsonger" [value]="f.seasons" [sub]="'sedan 2021/22'" />
+      <app-stat-tile label="GM:s genom åren" [value]="f.managers" />
+      <app-stat-tile label="Lag i ligan nu" [value]="f.teams" [sub]="f.divisions + ' divisioner'" />
+      <app-stat-tile label="Senaste säsongen" [value]="f.latest.label" />
+    </section>
+
+    <div class="grid-2">
+      <section class="card" aria-labelledby="champs">
+        <div class="card-head">
+          <h2 id="champs">Mästare {{ f.latest.label }}</h2>
+          <a [routerLink]="['/sasong', f.latest.id]">Hela säsongen</a>
+        </div>
+        <ul class="champions">
+          @for (c of latestChampions(); track c.team.id) {
+            <li>
+              <svg lucideTrophy class="icon trophy" aria-hidden="true"></svg>
+              <span class="badge" [class.tier-1]="c.division.tier === 1">{{
+                c.division.name
+              }}</span>
+              <app-manager-link [manager]="c.manager" [asTeam]="c.team.name" />
+            </li>
+          }
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="top-champs">
+        <div class="card-head">
+          <h2 id="top-champs">Högsta divisionens mästare</h2>
+        </div>
+        <ul class="champions">
+          @for (s of topChampions(); track s.season.id) {
+            @for (c of s.teams; track c.team.id) {
+              <li>
+                <span class="season">{{ s.season.label }}</span>
+                <svg lucideTrophy class="icon trophy" aria-hidden="true"></svg>
+                <app-manager-link [manager]="c.manager" [asTeam]="c.team.name" />
+                @if (c.division.tier === null) {
+                  <span class="badge">{{ c.division.name }}</span>
+                }
+              </li>
+            }
+          }
+        </ul>
+      </section>
+    </div>
+
+    <section class="card" aria-labelledby="all-time">
+      <div class="card-head">
+        <h2 id="all-time">Maratontabellen, topp 10</h2>
+        <a routerLink="/maratontabell" class="more"
+          >Hela tabellen <svg lucideArrowRight class="icon" aria-hidden="true"></svg
+        ></a>
+      </div>
+      <div class="table-scroll">
+        <table class="data">
+          <thead>
+            <tr>
+              <th scope="col" class="num">#</th>
+              <th scope="col">GM</th>
+              <th scope="col" class="num">Säsonger</th>
+              <th scope="col" class="num">Vinster</th>
+              <th scope="col" class="num">Vinst%</th>
+              <th scope="col" class="num">Poäng</th>
+              <th scope="col" class="num">Titlar</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (row of topTen(); track row.manager.id; let i = $index) {
+              <tr>
+                <td class="num">{{ i + 1 }}</td>
+                <td class="name"><app-manager-link [manager]="row.manager" /></td>
+                <td class="num">{{ row.totals.seasons }}</td>
+                <td class="num">{{ row.totals.wins | num }}</td>
+                <td class="num">{{ row.totals.winPct | pct }}</td>
+                <td class="num">{{ row.totals.pointsFor | points }}</td>
+                <td class="num">{{ row.totals.titles || '' }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+  } @else {
+    <app-load-state [refs]="[data.league]" />
+  }
+</div>

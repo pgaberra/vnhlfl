@@ -1,0 +1,109 @@
+<div class="page">
+  <header class="page-head">
+    <p class="eyebrow">Draftbordet</p>
+    <h1>Draft</h1>
+    <p class="lede">
+      Varje val i varje division. "Mot ADP" jämför valet med ligans snitt: plus betyder att spelaren
+      gick senare än i andra divisioner (ett fynd), minus att laget tog spelaren tidigt.
+    </p>
+  </header>
+
+  @if (index()) {
+    <section class="card">
+      <div class="toolbar">
+        <label class="field">
+          <span>Säsong</span>
+          <select [value]="seasonId()" (change)="selectSeason($event)">
+            @for (s of seasons(); track s.id) {
+              <option [value]="s.id">{{ s.label }}</option>
+            }
+          </select>
+        </label>
+        <label class="field">
+          <span>Division</span>
+          <select [value]="divisionId()" (change)="selectDivision($event)">
+            @for (d of divisions(); track d.id) {
+              <option [value]="d.id">{{ d.name }}</option>
+            }
+          </select>
+        </label>
+      </div>
+
+      @if (board(); as b) {
+        @if (b.format === 'auction') {
+          <p class="hint">Auktionsdraft: varje lag hade $260 att bjuda med. Sorterad på pris.</p>
+        }
+        <div class="table-scroll">
+          <table class="data">
+            <thead>
+              <tr>
+                @if (b.format === 'auction') {
+                  <th scope="col" class="num">Pris</th>
+                } @else {
+                  <th scope="col" class="num">Val</th>
+                }
+                <th scope="col" class="num">Rnd</th>
+                <th scope="col">Spelare</th>
+                <th scope="col">Lag</th>
+                <th scope="col" class="num">Liga-ADP</th>
+                @if (b.format !== 'auction') {
+                  <th scope="col" class="num">Mot ADP</th>
+                }
+              </tr>
+            </thead>
+            <tbody>
+              @for (p of b.picks; track $index) {
+                <tr>
+                  @if (b.format === 'auction') {
+                    <td class="num">{{ p.bid === null ? '–' : '$' + p.bid }}</td>
+                  } @else {
+                    <td class="num">{{ p.overall ?? '–' }}</td>
+                  }
+                  <td class="num">{{ p.round }}</td>
+                  <td>{{ p.player }}</td>
+                  <td class="name">
+                    <app-manager-link [manager]="p.manager" [asTeam]="p.team.name" />
+                  </td>
+                  <td class="num">{{ p.adpLeague | num: 1 }}</td>
+                  @if (b.format !== 'auction') {
+                    <td
+                      class="num"
+                      [class.up]="(p.delta ?? 0) >= 10"
+                      [class.down]="(p.delta ?? 0) <= -10"
+                    >
+                      {{ p.delta === null ? '' : (p.delta > 0 ? '+' : '') + (p.delta | num: 0) }}
+                    </td>
+                  }
+                </tr>
+              } @empty {
+                <tr>
+                  <td colspan="6" class="muted">Ingen draft registrerad för den här divisionen.</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      } @else {
+        <app-load-state [refs]="[data.draft]" />
+      }
+    </section>
+
+    @if (firstRounders().length) {
+      <section class="card" aria-labelledby="first">
+        <h2 id="first">
+          Oftast valda i första rundan, {{ index()?.season?.get(seasonId())?.label }}
+        </h2>
+        <ol class="ranking">
+          @for (row of firstRounders(); track row.item) {
+            <li>
+              {{ row.item }}
+              <span class="muted">{{ row.count }} av {{ divisions().length }} divisioner</span>
+            </li>
+          }
+        </ol>
+      </section>
+    }
+  } @else {
+    <app-load-state [refs]="[data.league]" />
+  }
+</div>

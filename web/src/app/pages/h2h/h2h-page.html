@@ -38,7 +38,7 @@
             <span class="big">{{ h.wins }}</span>
           </div>
           <div class="mid">
-            <span class="muted">{{ h.games }} matcher</span>
+            <span class="muted">{{ h.games.length }} matcher</span>
             @if (h.ties) {
               <span class="muted">{{ h.ties }} oavgjorda</span>
             }
@@ -47,7 +47,7 @@
             <app-manager-link [manager]="right()!" />
             <span class="big">{{ h.losses }}</span>
           </div>
-          @if (h.games) {
+          @if (h.games.length) {
             <p class="hint full">
               Poäng i mötena: {{ h.pointsFor | points }} mot {{ h.pointsAgainst | points }}.
             </p>

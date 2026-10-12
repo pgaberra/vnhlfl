@@ -29,8 +29,9 @@ founder's .xlsx files ──▶ pipeline/ (Python) ──▶ web/public/data/*.j
 
 ## What's missing
 
-- Matches and trades from 2024/25 and 2025/26 (only screenshots exist), and weekly tables
-  after 2023/24. Head-to-head records cover 2021/22–2023/24.
+- Nothing from the screenshots: 2024/25 and 2025/26 games and trades were transcribed from the
+  founder's Yahoo screenshots into `pipeline/transcribed/` (every team's record and points match
+  the final tables), and those seasons' weekly tables are computed from the games.
 - GMs for the 64 team names that appeared from 2025/26 on: published as their own GMs until
   the founder's team-to-GM list is updated (issue #1).
 

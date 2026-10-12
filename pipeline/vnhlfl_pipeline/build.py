@@ -32,6 +32,7 @@ from .sources import (
     read_standings,
     read_trades,
 )
+from .transcribed import read_transcribed_matchups, read_transcribed_trades
 
 NameMode = Literal["team", "full"]
 DRAFT_ORDER = -1
@@ -60,16 +61,18 @@ class Sources:
     unmapped: set[str] = field(default_factory=set)
 
 
-def load(source_dir: Path, curation_dir: Path) -> Sources:
+def load(source_dir: Path, curation_dir: Path, transcribed_dir: Path | None = None) -> Sources:
     owners_file = source_dir / "Namn och lag.xlsx"
+    transcribed = transcribed_dir or curation_dir.parent / "transcribed"
     return Sources(
         standings=read_standings(source_dir / "Tabell.xlsx"),
         picks=read_picks(source_dir / "Draft.xlsx"),
-        trades=read_trades(source_dir / "Trades.xlsx"),
+        trades=read_trades(source_dir / "Trades.xlsx") + read_transcribed_trades(transcribed),
         owners=read_owners(owners_file),
         replacements=read_replacements(owners_file),
         overrides=read_overrides(curation_dir / "team-aliases.csv"),
-        matchups=read_matchups(source_dir / "Matcher.xlsx"),
+        matchups=read_matchups(source_dir / "Matcher.xlsx")
+        + read_transcribed_matchups(transcribed),
         unmapped=read_unmapped(curation_dir / "unmapped-teams.txt"),
     )
 
@@ -111,6 +114,8 @@ STAGES = {
     "b-final": "consolation-final",
     "9-10": "ninth-place",
     "11-12": "eleventh-place",
+    # Screenshot-era consolation-bracket games, whose exact place isn't shown.
+    "placering": "placement",
 }
 
 
@@ -254,16 +259,18 @@ class LeagueBuilder:
             "managers": self._managers(),
             "teams": teams,
         }
-        standings = {"snapshots": self._snapshots()}
         draft = {"drafts": self._drafts()}
         trades = self._trades()
         matchups = self._matchups()
+        snapshots = self._snapshots()
+        snapshots += self._derived_snapshots(teams, matchups["matchups"], snapshots)
+        standings = {"snapshots": snapshots}
         league["coverage"] = {
             "finalStandings": sorted(
                 {r.season for r in self.src.standings if r.round == FINAL_ROUND}
             ),
             "weeklyStandings": sorted(
-                {r.season for r in self.src.standings if r.round != FINAL_ROUND}
+                {s["divisionId"][:7] for s in snapshots}  # division ids start with the season
             ),
             "draft": sorted({p.season for p in self.src.picks}),
             "trades": sorted({t["seasonId"] for t in trades["trades"]}),
@@ -394,6 +401,61 @@ class LeagueBuilder:
                     f"{season} {division} week {week}: only {len(table)} teams in snapshot"
                 )
             out.append({"divisionId": division_id(season, division), "round": week, "rows": table})
+        return out
+
+    def _derived_snapshots(
+        self,
+        teams: list[dict[str, Any]],
+        matchups: list[dict[str, Any]],
+        recorded: list[dict[str, Any]],
+    ) -> list[dict[str, Any]]:
+        """Weekly tables rebuilt from the games, for divisions the founder kept no tables for.
+
+        Ranked like Yahoo: win percentage (a tie is half a win), then points for. A team that
+        changed hands mid-season counts as one slot, filed under the GM who finished it.
+        """
+        have = {s["divisionId"] for s in recorded}
+        by_id = {t["id"]: t for t in teams}
+        successor = {t["id"]: t["replacedBy"]["teamId"] for t in teams if "replacedBy" in t}
+
+        def slot(team_id: str) -> str:
+            while team_id in successor:
+                team_id = successor[team_id]
+            return team_id
+
+        games: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for m in matchups:
+            if m["stage"] == "regular" and m["divisionId"] not in have:
+                games[m["divisionId"]].append(m)
+        out = []
+        for division, played in sorted(games.items()):
+            record: dict[str, list[float]] = defaultdict(lambda: [0, 0, 0, 0.0])
+            for week in sorted({m["week"] for m in played}):
+                for m in (g for g in played if g["week"] == week):
+                    for me, them in ((m["home"], m["away"]), (m["away"], m["home"])):
+                        r = record[slot(me["teamId"])]
+                        outcome = 0 if me["points"] > them["points"] else 1
+                        r[2 if me["points"] == them["points"] else outcome] += 1
+                        r[3] += me["points"]
+
+                def order(item: tuple[str, list[float]]) -> tuple[float, float]:
+                    w, lo, t, pf = item[1]
+                    return (-(w + t / 2) / max(w + lo + t, 1), -pf)
+
+                table = [
+                    {
+                        "teamId": tid,
+                        "rank": rank,
+                        "clinched": False,
+                        "wins": int(r[0]),
+                        "losses": int(r[1]),
+                        "ties": int(r[2]),
+                        "pointsFor": round(r[3], 2),
+                    }
+                    for rank, (tid, r) in enumerate(sorted(record.items(), key=order), start=1)
+                    if tid in by_id
+                ]
+                out.append({"divisionId": division, "round": week, "rows": table})
         return out
 
     def _drafts(self) -> list[dict[str, Any]]:

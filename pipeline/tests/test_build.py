@@ -109,7 +109,16 @@ def test_weekly_snapshots(built: Any) -> None:
 def test_cli_writes_json_without_real_names(tmp_path: Path) -> None:
     write_league(tmp_path)
     out = tmp_path / "out"
-    args = ["--source", str(tmp_path), "--out", str(out), "--curation", str(tmp_path)]
+    args = [
+        "--source",
+        str(tmp_path),
+        "--out",
+        str(out),
+        "--curation",
+        str(tmp_path),
+        "--transcribed",
+        str(tmp_path),
+    ]
     assert main([*args, "--strict"]) == 0
     written = "".join(p.read_text(encoding="utf-8") for p in out.glob("*.json"))
     for name in REAL_NAMES:
@@ -129,6 +138,8 @@ def test_full_name_mode_adds_real_names(tmp_path: Path) -> None:
             "--out",
             str(out),
             "--curation",
+            str(tmp_path),
+            "--transcribed",
             str(tmp_path),
             "--names",
             "full",

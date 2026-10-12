@@ -61,12 +61,16 @@ import { LoadState } from '../../shared/load-state';
           oavgjort som en halv vinst. Byter en GM lag mitt i säsongen följer resultatet laget i
           sluttabellen.
         </p>
+        <h2>Skärmdumparna</h2>
+        <p>
+          Matcher och trades från 2024/25 och 2025/26 finns bara som skärmdumpar från Yahoo och är
+          avlästa därifrån. Varje lags vinster, förluster och poäng i de avlästa matcherna stämmer
+          med sluttabellen. Veckotabellerna för de säsongerna är uträknade ur matcherna.
+        </p>
         <h2>Det som saknas</h2>
         <p>
-          Matcher och trades från 2024/25 och 2025/26 finns bara som skärmdumpar och är inte inlästa
-          än, och inte heller veckotabellerna efter 2023/24. Lag som dykt upp sedan 2025/26 är ännu
-          inte kopplade till sina GM:s, så en GM som bytt lagnamn kan synas som två. Allt går att
-          hämta från Yahoo och läggs till efter hand.
+          Lag som dykt upp sedan 2025/26 är ännu inte kopplade till sina GM:s, så en GM som bytt
+          lagnamn kan synas som två tills kopplingen är på plats.
         </p>
         <h2>Hittat ett fel?</h2>
         <p>Hör av dig till ligans grundare, så rättar vi källdatan.</p>

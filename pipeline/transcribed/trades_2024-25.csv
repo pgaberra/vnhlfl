@@ -1,0 +1,421 @@
+season,division,date,status,team_a,a_receives,team_b,b_receives,file
+2024-25,Div 1 Gaudreau,2025-02-28,completed,Ragdolls 13,"Macklin Celebrini; Zach Hyman",Sandby Boys,Mikko Rantanen,Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-09,completed,Sandby Boys,Jeremy Swayman,Chuck Norris,"Juraj Slafkovsky; Nick Schmaltz",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-09,completed,VNHL Musketören,Ryan O'Reilly,Chuck Norris,Alex Newhook,Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-07,completed,VNHL Musketören,Cole Caufield,Chuck Norris,"Anze Kopitar; Drew Doughty",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-02,completed,Teamstoof,"Jonathan Marchessault; Sidney Crosby; Brock Faber",IK ODDEVOLD,"Vincent Trocheck; Jordan Kyrou; Shea Theodore",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-02,completed,Sandby Boys,"Rasmus Andersson; Alex Laferriere",Ragdolls 13,"Jamie Benn; Jacob Trouba",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-02,completed,Sandby Boys,Quinton Byfield,Stångby Canucks,Rasmus Ristolainen,Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-02-02,completed,Sandby Boys,Connor McDavid,Henke Panthers,Nathan MacKinnon,Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-26,completed,Teamstoof,"Will Cuylle; Jonathan Drouin",Henke Panthers,"Brock Nelson; Pavel Zacha",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-26,completed,Chuck Norris,"Jared McCann; Noah Cates; Quinn Hughes",VNHL Musketören,"Josh Morrissey; Claude Giroux; Clayton Keller",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-26,completed,Teamstoof,Mika Zibanejad,Sandby Boys,Juraj Slafkovsky,Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-25,completed,Sandby Boys,"Nathan MacKinnon; Alex Tuch",IK ODDEVOLD,"Sidney Crosby; David Pastrnak",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-24,vetoed,IK ODDEVOLD,"Jared McCann; Noah Cates; Quinn Hughes",VNHL Musketören,"Alex Pietrangelo; Jake Guentzel; Nino Niederreiter",Div_1_Gaudreau/01.png
+2024-25,Div 1 Gaudreau,2025-01-24,completed,Ragdolls 13,Drake Batherson,Stångby Canucks,Matvei Michkov,Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-19,completed,IK ODDEVOLD,Dylan Strome,Henke Panthers,Brock Boeser,Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-19,completed,Henke Panthers,"Anthony Cirelli; Seth Jarvis; Filip Hronek",Chuck Norris,"Evgenii Dadonov; Kaiden Guhle; Lucas Raymond",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-19,completed,IK ODDEVOLD,"J.T. Miller; Jordan Staal",VNHL Musketören,"Ivan Barbashev; Tage Thompson",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-17,vetoed,IK ODDEVOLD,"Lucas Raymond; Will Cuylle",Henke Panthers,"Tage Thompson; Ivan Barbashev",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-17,completed,Teamstoof,Jordan Kyrou,Sandby Boys,Zach Hyman,Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-16,completed,VNHL Musketören,Matthew Knies,IK ODDEVOLD,Ivan Barbashev,Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-12,completed,VNHL Musketören,"Jonathan Huberdeau; Sam Bennett",Chuck Norris,"Claude Giroux; Matty Beniers",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2025-01-03,completed,VNHL Musketören,"J.T. Miller; Jake Sanderson; Drew Doughty; Pierre-Luc Dubois",Sandby Boys,"Mika Zibanejad; Jacob Trouba; David Pastrnak",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2024-12-24,completed,IK ODDEVOLD,Alexis Lafreniere,Chuck Norris,Matt Duchene,Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2024-12-20,completed,Ragdolls 13,"Matvei Michkov; Colton Parayko; Brandon Hagel",Happy Sampa Skaters,"Brandon Montour; Elias Pettersson",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2024-12-15,completed,Chuck Norris,Jonathan Huberdeau,Sandby Boys,"Dmitry Orlov; Filip Chytil",Div_1_Gaudreau/02.png
+2024-25,Div 1 Gaudreau,2024-12-13,vetoed,IK ODDEVOLD,"Dmitry Orlov; Filip Chytil",Chuck Norris,Anton Lundell,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-12-12,completed,Chuck Norris,"Josh Morrissey; Travis Konecny; Alexis Lafreniere",IK ODDEVOLD,"Jonathan Marchessault; Nathan MacKinnon; John Gibson",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-12-09,completed,IK ODDEVOLD,"Mike Matheson; Travis Konecny; Alex Tuch",Apokalops Nu!,"Jack Hughes; Jared Spurgeon",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-12-09,completed,VNHL Musketören,"Claude Giroux; Jacob Trouba; David Pastrnak",IK ODDEVOLD,"Brock Boeser; Josh Morrissey; Tage Thompson",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-12-07,completed,Sandby Boys,Kevin Fiala,Henke Panthers,Dylan Strome,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-12-04,completed,Seabass,Mason Marchment,IK ODDEVOLD,Matthew Knies,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-24,completed,Henke Panthers,"Brandt Clarke; Lucas Raymond",Chuck Norris,"Sam Bennett; Thomas Chabot",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-14,completed,Chuck Norris,Brett Howden,VNHL Musketören,Quinton Byfield,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-10,completed,Sandby Boys,"Macklin Celebrini; Jake Sanderson",VNHL Musketören,"Brett Howden; Brad Marchand",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-10,completed,Sandby Boys,"J.T. Miller; Max Domi; Sidney Crosby; Jeremy Lauzon",Chuck Norris,"Cole Caufield; Jonathan Marchessault; Seth Jarvis; Nico Hischier",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-08,completed,IK ODDEVOLD,Cameron Talbot,VNHL Musketören,Joel Edmundson,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-05,completed,Sandby Boys,Jordan Kyrou,Henke Panthers,"Viktor Arvidsson; Elias Lindholm",Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-04,completed,Seabass,Matvei Michkov,Henke Panthers,Dawson Mercer,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-03,vetoed,Henke Panthers,"Jeff Skinner; Pavel Buchnevich",Chuck Norris,Jordan Kyrou,Div_1_Gaudreau/03.png
+2024-25,Div 1 Gaudreau,2024-11-03,completed,Chuck Norris,Jeremy Lauzon,IK ODDEVOLD,Nick Paul,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-31,completed,VNHL Musketören,Dylan Cozens,IK ODDEVOLD,Tom Wilson,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-31,completed,VNHL Musketören,Jared McCann,Gyllene Knektarna,Tomas Hertl,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-27,completed,Chuck Norris,"Nathan MacKinnon; Sidney Crosby",Gyllene Knektarna,"Roope Hintz; Kyle Connor; Brady Tkachuk",Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-27,completed,Chuck Norris,"Pavel Buchnevich; Brandt Clarke",Teamstoof,Ryan Nugent-Hopkins,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-24,completed,Chuck Norris,"Roope Hintz; Lucas Raymond; Bowen Byram",Henke Panthers,"Sam Bennett; Jordan Kyrou; Aaron Ekblad",Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-23,completed,VNHL Musketören,"Ivan Barbashev; Josh Morrissey; Mika Zibanejad",Chuck Norris,"Ryan Nugent-Hopkins; Jakob Chychrun; Clayton Keller",Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-22,completed,Sandby Boys,"Jonathan Marchessault; Bo Horvat",IK ODDEVOLD,Jake Guentzel,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-19,completed,Henke Panthers,"Connor McDavid; Tristan Jarry",Chuck Norris,"J.T. Miller; Jeremy Swayman; Kyle Connor",Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-18,completed,Chuck Norris,"Jordan Kyrou; Mika Zibanejad",Teamstoof,William Nylander,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-16,completed,VNHL Musketören,"Steven Stamkos; Tage Thompson",Ragdolls 13,Mikko Rantanen,Div_1_Gaudreau/04.png
+2024-25,Div 1 Gaudreau,2024-10-14,completed,Gyllene Knektarna,"Jared McCann; Sidney Crosby",Teamstoof,"Juraj Slafkovsky; Zach Hyman",Div_1_Gaudreau/05.png
+2024-25,Div 1 Gaudreau,2024-10-13,completed,Teamstoof,"Drew O'Connor; Casey Mittelstadt",Chuck Norris,"Ivan Barbashev; Jordan Eberle",Div_1_Gaudreau/05.png
+2024-25,Div 1 Gaudreau,2024-10-08,completed,Chuck Norris,Neal Pionk,Gyllene Knektarna,Matt Grzelcyk,Div_1_Gaudreau/05.png
+2024-25,Div 2 Jagr,2025-02-21,completed,Gudrun Hurricanes,"Nick Suzuki; Alex Tuch; JJ Peterka",Too Hot To Yandle,"Tim Stutzle; Alex DeBrincat",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-02-09,completed,Gudrun Hurricanes,"Mike Matheson; Alex Newhook",VNHL Patrik,"Phillip Danault; Vince Dunn",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-02-05,completed,Fishbone Brothers,"Artemi Panarin; Rickard Rakell",Steninge Jets,"Lucas Raymond; Jack Hughes",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-24,completed,Fixwell Hockey,Dylan Cozens,Munkåsen,William Karlsson,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-19,completed,VNHL Patrik,Claude Giroux,CC Cowboys,Noah Hanifin,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-19,completed,Gudrun Hurricanes,"Kaiden Guhle; Alex DeBrincat",Pigga Pågar,"Martin Necas; Dmitry Orlov",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-05,completed,Too Hot To Yandle,"Filip Forsberg; Alex Tuch",CC Cowboys,"Kevin Fiala; John Tavares",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-05,completed,Steninge Jets,Noah Dobson,Too Hot To Yandle,Evan Bouchard,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-05,completed,CC Cowboys,"Ryan Nugent-Hopkins; Teuvo Teravainen; Brad Marchand",Too Hot To Yandle,"Ian Cole; Elias Pettersson; Warren Foegele",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-05,completed,Fittadora Flyers,Mats Zuccarello,Pigga Pågar,Matvei Michkov,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-05,completed,Pigga Pågar,Ryan Strome,Too Hot To Yandle,Lane Hutson,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-04,vetoed,CC Cowboys,"Kevin Fiala; John Tavares",Too Hot To Yandle,"Alex Tuch; Filip Forsberg",Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2025-01-03,completed,Winnesota,Ivan Barbashev,Too Hot To Yandle,Teuvo Teravainen,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2024-12-27,completed,Too Hot To Yandle,Justin Faulk,Munkåsen,Kent Johnson,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2024-12-24,completed,Pigga Pågar,Ilya Sorokin,Too Hot To Yandle,Steven Stamkos,Div_2_Jagr/01.png
+2024-25,Div 2 Jagr,2024-12-22,completed,Steninge Jets,Pavel Zacha,Munkåsen,Viktor Arvidsson,Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-22,completed,thr!lli van!lli,Alex Vlasic,Too Hot To Yandle,Matt Grzelcyk,Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-15,completed,Pigga Pågar,"Nick Cousins; Connor McMichael; Conor Garland",VNHL Patrik,"Jordan Martinook; Jared Spurgeon; Noah Hanifin; Ryan Donato",Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-14,completed,Winnesota,Jacob Trouba,Munkåsen,Damon Severson,Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-08,completed,Munkåsen,"Yanni Gourde; Jacob Trouba",Winnesota,"Chandler Stephenson; Nino Niederreiter",Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-08,completed,VNHL Patrik,Dylan Cozens,CC Cowboys,Logan Cooley,Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-08,completed,Luleå Dolphins,"Jake Neighbours; Bowen Byram",Winnesota,"Damon Severson; Gabriel Vilardi",Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-12-04,completed,VNHL Patrik,"Kyle Palmieri; Nathan MacKinnon; Carter Verhaeghe",Munkåsen,"Cole Caufield; Jake Guentzel; Sam Reinhart",Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-11-29,completed,Melwood HC,"Evgeni Malkin; Aaron Ekblad",Too Hot To Yandle,"Oliver Bjorkstrand; Brad Marchand",Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-11-29,completed,Gudrun Hurricanes,"Vince Dunn; Josh Norris",Too Hot To Yandle,JJ Peterka,Div_2_Jagr/02.png
+2024-25,Div 2 Jagr,2024-11-27,completed,Winnesota,"Casey Mittelstadt; Shea Theodore",Fishbone Brothers,"Anze Kopitar; Filip Hronek",Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-24,completed,Fittadora Flyers,Devon Toews,Munkåsen,Oliver Ekman-Larsson,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-23,completed,Too Hot To Yandle,Evgeni Malkin,CC Cowboys,Logan Stankoven,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-20,completed,Munkåsen,"Tomas Hertl; Travis Sanheim",Too Hot To Yandle,"Jason Robertson; Brandt Clarke",Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-17,completed,Munkåsen,Ryan Strome,Gudrun Hurricanes,Chandler Stephenson,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-16,completed,Munkåsen,Yegor Chinakhov,CC Cowboys,Conor Garland,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-16,completed,Munkåsen,Devon Toews,Gudrun Hurricanes,Adam Larsson,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-13,completed,Fishbone Brothers,"Casey Mittelstadt; Neal Pionk",Too Hot To Yandle,"Miro Heiskanen; J.T. Compher",Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-11,completed,Luleå Dolphins,Ryan Hartman,VNHL Patrik,Lane Hutson,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-10,completed,Munkåsen,Connor Zary,Gudrun Hurricanes,Nick Foligno,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-09,vetoed,VNHL Patrik,Juuso Parssinen,Gudrun Hurricanes,Ryan Hartman,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-09,completed,Fishbone Brothers,Brent Burns,Gudrun Hurricanes,Stefan Noesen,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-09,completed,Luleå Dolphins,"Nico Hischier; Seth Jones; Radko Gudas",CC Cowboys,"Charlie McAvoy; Elias Pettersson; Kaiden Guhle",Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-07,completed,Munkåsen,Mattias Ekholm,Winnesota,Brock Faber,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-03,completed,Pigga Pågar,Stefan Noesen,Munkåsen,Anthony Cirelli,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-03,completed,Pigga Pågar,Sam Montembeault,Gudrun Hurricanes,Connor Zary,Div_2_Jagr/03.png
+2024-25,Div 2 Jagr,2024-11-02,completed,Munkåsen,Dylan Strome,CC Cowboys,Pavel Buchnevich,Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-27,completed,Fishbone Brothers,J.T. Compher,Munkåsen,Nick Paul,Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-20,completed,CC Cowboys,Stefan Noesen,Munkåsen,Trevor Moore,Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-20,completed,Fishbone Brothers,Jamie Benn,Too Hot To Yandle,Neal Pionk,Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-20,completed,Fishbone Brothers,Matt Duchene,Gudrun Hurricanes,Alex Killorn,Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-13,completed,thr!lli van!lli,"Kasperi Kapanen; Adam Boqvist",Gudrun Hurricanes,"Pavel Dorofeyev; Cole Perfetti",Div_2_Jagr/04.png
+2024-25,Div 2 Jagr,2024-10-13,completed,Gudrun Hurricanes,Victor Olofsson,CC Cowboys,Semyon Varlamov,Div_2_Jagr/04.png
+2024-25,Div 2 Messier,2025-02-28,completed,Malmö Ducks,"William Nylander; Lane Hutson",FLIPPMACKA HC,"Vincent Trocheck; Alex DeBrincat",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-28,completed,FLIPPMACKA HC,"Tim Stutzle; Kirill Marchenko",Andy Flyers,"Jason Robertson; Matthew Tkachuk",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-25,completed,Torpadie Trashers,"Miro Heiskanen; Jordan Kyrou; Brayden Point",FLIPPMACKA HC,"William Nylander; Roope Hintz",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-11,completed,FLIPPMACKA HC,Pavel Dorofeyev,FriskvårdsFredag,Warren Foegele,Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-08,completed,Ovies Målrekord,Nazem Kadri,FLIPPMACKA HC,Patrik Laine,Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-05,completed,Ovies Målrekord,Macklin Celebrini,FriskvårdsFredag,Ryan Nugent-Hopkins,Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-02,completed,Malmö Ducks,Robert Thomas,FLIPPMACKA HC,Kevin Fiala,Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-02-01,completed,FriskvårdsFredag,"Nick Paul; Tyson Foerster",FLIPPMACKA HC,"Justin Faulk; Warren Foegele",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-31,completed,Gåxsjö Hockey Heads,"Brandon Hagel; Travis Konecny",Jaromir Juggernaut,"Wyatt Johnston; Kirill Kaprizov",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-28,completed,Ovies Målrekord,"Stefan Noesen; Joseph Woll",Jaromir Juggernaut,Drake Batherson,Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-24,completed,Malmö Ducks,"Steven Stamkos; Kevin Fiala; Owen Tippett; Nick Jensen",FLIPPMACKA HC,"Nazem Kadri; Alex Pietrangelo; Clayton Keller; Josh Doan",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-23,completed,Ovies Målrekord,"Sergei Bobrovsky; Gabriel Vilardi; Anders Lee",FLIPPMACKA HC,"Robert Thomas; Jordan Kyrou",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-21,completed,Malmö Ducks,"Vincent Trocheck; Patrick Kane; Moritz Seider; Logan Stankoven; Nick Suzuki; Alex DeBrincat",FLIPPMACKA HC,"Kevin Fiala; Connor Bedard; Owen Tippett; Carter Verhaeghe; Anders Lee; Josh Morrissey",Div_2_Messier/01.png
+2024-25,Div 2 Messier,2025-01-20,completed,Malmö Ducks,Clayton Keller,Jaromir Juggernaut,Dougie Hamilton,Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-19,completed,Ovies Målrekord,"Ryan Nugent-Hopkins; Robert Thomas",Malmö Ducks,"Connor Bedard; Alex Pietrangelo",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-19,completed,Free Fallin' Sons of Keith,"Aleksander Barkov; Jackson LaCombe; Martin Necas; Eric Robinson",FLIPPMACKA HC,"Lane Hutson; Miro Heiskanen; Nick Suzuki; Logan Stankoven",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-19,completed,Jaromir Juggernaut,"J.T. Miller; Brandon Hagel; Jordan Staal; Thatcher Demko",Malmö Ducks,"Nazem Kadri; Owen Tippett; Juraj Slafkovsky; Jake Walman",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-18,completed,Torpadie Trashers,Sebastian Aho,FLIPPMACKA HC,Vincent Trocheck,Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-18,completed,FLIPPMACKA HC,"Alex DeBrincat; Patrick Kane; Claude Giroux",Torpadie Trashers,"Connor McMichael; Elias Pettersson; Erik Karlsson",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-17,vetoed,Free Fallin' Sons of Keith,"J.T. Miller; Brandon Hagel; Jordan Staal; Thatcher Demko",Malmö Ducks,"Nick Schmaltz; Logan Stankoven; Nick Suzuki; Tomas Hertl",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-15,vetoed,Kvicklund,"Jason Robertson; Jamie Drysdale",FLIPPMACKA HC,"Jamie Benn; Shane Pinto",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-13,completed,Free Fallin' Sons of Keith,"Matty Beniers; David Pastrnak",FLIPPMACKA HC,"Matthew Tkachuk; Gabriel Vilardi",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-12,completed,FLIPPMACKA HC,"Martin Necas; Moritz Seider; Aleksander Barkov; Sebastian Aho",Malmö Ducks,"J.T. Miller; Ryan Nugent-Hopkins; Jonathan Marchessault; Carter Verhaeghe",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-10,completed,Kvicklund,"Cam Fowler; Lucas Raymond",Malmö Ducks,"Kevin Fiala; John Carlson",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-10,completed,Jaromir Juggernaut,"Bobby McMann; Mathew Barzal",Ovies Målrekord,"Pierre-Luc Dubois; Dylan Holloway",Div_2_Messier/02.png
+2024-25,Div 2 Messier,2025-01-05,completed,FLIPPMACKA HC,"J.T. Miller; Jonathan Marchessault; Fabian Zetterlund; Carter Verhaeghe",Malmö Ducks,"Matvei Michkov; Martin Necas; Brandon Hagel; Adam Fox",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2025-01-03,completed,Ovies Målrekord,Dmitri Voronkov,FLIPPMACKA HC,Connor McMichael,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-30,completed,Malmö Ducks,"Jonathan Marchessault; Sebastian Aho",FLIPPMACKA HC,"Dante Fabbro; Brayden Point",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-29,completed,FLIPPMACKA HC,Matvei Michkov,Malmö Ducks,Evgeni Malkin,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-26,completed,Ovies Målrekord,"Mathew Barzal; Connor Bedard; Brock Faber; Matthew Knies",FLIPPMACKA HC,"Martin Necas; Brandon Hagel",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-22,completed,Free Fallin' Sons of Keith,Kiefer Sherwood,FLIPPMACKA HC,Matthew Knies,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-21,completed,Thunbergs Melting IceCaps,Jake Sanderson,FLIPPMACKA HC,Mathew Barzal,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-20,completed,Torpadie Trashers,"Roope Hintz; Kyle Connor",FLIPPMACKA HC,"Jason Robertson; Elias Pettersson",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-14,completed,Torpadie Trashers,"Jason Robertson; William Nylander; Jack Roslovic",FLIPPMACKA HC,"Ryan Nugent-Hopkins; Jake Sanderson; David Pastrnak",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-14,completed,Ovies Målrekord,Damon Severson,FLIPPMACKA HC,Evgeni Malkin,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-13,completed,Ovies Målrekord,"Ross Colton; Tom Wilson; Kevin Lankinen",Jaromir Juggernaut,"Alex Vlasic; Sidney Crosby",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-09,completed,Andy Flyers,Jake Guentzel,Torpadie Trashers,"Vincent Trocheck; Jake Sanderson",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-08,completed,Free Fallin' Sons of Keith,"Gabriel Vilardi; Matthew Tkachuk; Alex Laferriere; Nick Schmaltz",Jaromir Juggernaut,"Filip Forsberg; Valeri Nichushkin; Dmitri Voronkov; Clayton Keller",Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-05,completed,Malmö Ducks,Lucas Raymond,FLIPPMACKA HC,Adam Fox,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-05,completed,FLIPPMACKA HC,Sebastian Aho,Malmö Ducks,Dougie Hamilton,Div_2_Messier/03.png
+2024-25,Div 2 Messier,2024-12-05,completed,Malmö Ducks,Cole Sillinger,FLIPPMACKA HC,Pavel Dorofeyev,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-12-05,completed,Malmö Ducks,"Matvei Michkov; Robert Thomas; Carter Verhaeghe",FLIPPMACKA HC,"Jason Robertson; Adam Fantilli; Juraj Slafkovsky",Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-12-04,completed,Andy Flyers,Jake Sanderson,Free Fallin' Sons of Keith,Matthew Knies,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-24,completed,Malmö Ducks,Lawson Crouse,FriskvårdsFredag,Cole Perfetti,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-22,completed,Malmö Ducks,"J.T. Miller; Cole Perfetti",FLIPPMACKA HC,"Robert Thomas; Brayden Schenn",Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-22,completed,Malmö Ducks,"Aleksander Barkov; William Eklund",FLIPPMACKA HC,"Steven Stamkos; Jonathan Marchessault",Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-20,vetoed,Gåxsjö Hockey Heads,"J.T. Miller; Cole Perfetti",FLIPPMACKA HC,"Troy Terry; Casey Mittelstadt",Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-20,completed,Malmö Ducks,Mackenzie Blackwood,FLIPPMACKA HC,William Eklund,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-20,completed,Malmö Ducks,Josh Morrissey,FLIPPMACKA HC,Carter Verhaeghe,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-20,completed,Malmö Ducks,"Thatcher Demko; Juraj Slafkovsky",FLIPPMACKA HC,Jacob Markstrom,Div_2_Messier/04.png
+2024-25,Div 2 Messier,2024-11-20,completed,Malmö Ducks,"Aliaksei Protas; Jason Robertson; Fabian Zetterlund; Adam Fox",FLIPPMACKA HC,"Matvei Michkov; Dougie Hamilton; Barclay Goodrow; Lucas Raymond",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-17,completed,FLIPPMACKA HC,"Marco Rossi; Juraj Slafkovsky; Aaron Ekblad",Malmö Ducks,"Jonathan Marchessault; Brayden Schenn; Brady Skjei",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-14,completed,Ovies Målrekord,"Drake Batherson; Jordan Kyrou",Malmö Ducks,"Carter Verhaeghe; Lucas Raymond",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-12,vetoed,FLIPPMACKA HC,"Drake Batherson; Jordan Kyrou",Malmö Ducks,"Jason Robertson; Fabian Zetterlund",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-12,completed,Malmö Ducks,"Brayden Point; Sebastian Aho",FLIPPMACKA HC,"J.T. Miller; Josh Morrissey",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-12,completed,Ovies Målrekord,"Martin Necas; Evgeni Malkin",FLIPPMACKA HC,"Adam Fox; Roope Hintz",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-10,completed,FLIPPMACKA HC,"Martin Necas; Fabian Zetterlund; Kyle Connor; Brett Howden; Jason Robertson",Malmö Ducks,"Steven Stamkos; J.T. Miller; Trevor van Riemsdyk; Drake Batherson; Jordan Binnington",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-09,completed,FLIPPMACKA HC,"Pierre-Luc Dubois; Sebastian Aho",Free Fallin' Sons of Keith,"Anze Kopitar; Clayton Keller",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-09,completed,Torpadie Trashers,"Patrick Kane; Elias Pettersson; Ryan O'Reilly",FLIPPMACKA HC,"Connor Bedard; Evgeni Malkin; Jonathan Marchessault",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-07,vetoed,Free Fallin' Sons of Keith,"Martin Necas; Fabian Zetterlund",Malmö Ducks,"Pierre-Luc Dubois; Sebastian Aho",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-05,completed,Ovies Målrekord,"Lucas Raymond; Elvis Merzlikins; Alex Ovechkin",FLIPPMACKA HC,"J.T. Miller; Brady Skjei; Jordan Binnington",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-02,completed,FLIPPMACKA HC,"Aleksander Barkov; Anze Kopitar",Malmö Ducks,"Martin Necas; Dougie Hamilton",Div_2_Messier/05.png
+2024-25,Div 2 Messier,2024-11-02,completed,Malmö Ducks,"William Eklund; Fabian Zetterlund",Jaromir Juggernaut,"Tom Wilson; Cole Sillinger",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-11-01,completed,Free Fallin' Sons of Keith,Pierre-Luc Dubois,FLIPPMACKA HC,Will Cuylle,Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-11-01,completed,Free Fallin' Sons of Keith,Miro Heiskanen,Malmö Ducks,"Marco Rossi; Jordan Kyrou",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-31,vetoed,Malmö Ducks,"Dougie Hamilton; Drake Batherson",FLIPPMACKA HC,"Juraj Slafkovsky; Aaron Ekblad",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-30,completed,Malmö Ducks,"Matvei Michkov; Jason Robertson; Miro Heiskanen; Anze Kopitar",FLIPPMACKA HC,"Cutter Gauthier; Lucas Raymond; Drake Batherson; Brayden Point",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-30,completed,Ovies Målrekord,"Alex Pietrangelo; Claude Giroux",FLIPPMACKA HC,"Devon Toews; Alex Ovechkin",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-30,completed,Kvicklund,"Lane Hutson; Adam Fantilli; Quinton Byfield; Alexandar Georgiev; Alex Lyon; Connor McDavid; Leon Draisaitl",FLIPPMACKA HC,"Steven Stamkos; Sergei Bobrovsky; Elias Pettersson; Brock Faber; Erik Karlsson; Patrick Kane; William Nylander",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-29,completed,Torpadie Trashers,"Ryan Nugent-Hopkins; Samuel Girard",FLIPPMACKA HC,"Dougie Hamilton; Ryan O'Reilly",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-28,completed,Thunbergs Melting IceCaps,"Brock Boeser; Zach Hyman",FLIPPMACKA HC,"Jason Robertson; Miro Heiskanen",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-28,completed,FriskvårdsFredag,"Sam Reinhart; Mattias Ekholm",Ovies Målrekord,"MacKenzie Weegar; Carter Verhaeghe",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-28,completed,AmazingAstor,Anton Lundell,Andy Flyers,Brock Nelson,Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-28,completed,Jaromir Juggernaut,"Dylan Guenther; Darcy Kuemper",FLIPPMACKA HC,"Lane Hutson; Claude Giroux",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-27,completed,FriskvårdsFredag,"Jordan Eberle; Adam Boqvist; Filip Hronek",FLIPPMACKA HC,"Samuel Girard; Jonas Siegenthaler; Dawson Mercer",Div_2_Messier/06.png
+2024-25,Div 2 Messier,2024-10-25,completed,Malmö Ducks,"Drake Batherson; Lucas Raymond",FLIPPMACKA HC,"Matvei Michkov; Clayton Keller",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-23,completed,Free Fallin' Sons of Keith,"Tomas Hertl; Filip Forsberg; Roman Josi; Sebastian Aho",Malmö Ducks,"Moritz Seider; Kyle Connor; Clayton Keller; Brayden Point",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-23,completed,Ovies Målrekord,"J.T. Miller; Sam Reinhart; Roope Hintz; Cameron Talbot",FLIPPMACKA HC,"Quinton Byfield; Darcy Kuemper; Connor McDavid; Brock Boeser",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-22,completed,Gåxsjö Hockey Heads,"Mark Scheifele; Jesper Bratt",FLIPPMACKA HC,"Lucas Raymond; Zach Hyman",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-20,completed,FriskvårdsFredag,"Matt Duchene; Jonas Siegenthaler",FLIPPMACKA HC,"Anthony Beauvillier; Marcus Pettersson",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-18,completed,Ovies Målrekord,Jordan Binnington,FLIPPMACKA HC,Martin Necas,Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-18,completed,Torpadie Trashers,"Alex DeBrincat; J.J. Moser",FLIPPMACKA HC,"Mark Scheifele; Filip Hronek",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-17,completed,Malmö Ducks,Sebastian Aho,FLIPPMACKA HC,Jesper Bratt,Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-16,vetoed,Portvin on Ice,Pavel Zacha,Andy Flyers,Seth Jarvis,Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-16,completed,Malmö Ducks,Bowen Byram,FLIPPMACKA HC,Viktor Arvidsson,Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-15,completed,Jaromir Juggernaut,"Evan Bouchard; Matt Boldy; Jack Eichel",Malmö Ducks,"Filip Forsberg; Aleksander Barkov; Jesper Bratt; Aaron Ekblad",Div_2_Messier/07.png
+2024-25,Div 2 Messier,2024-10-13,vetoed,Free Fallin' Sons of Keith,"Matt Boldy; Evan Bouchard; Jack Eichel",Malmö Ducks,"Jake Sanderson; Brayden Point; Kyle Connor",Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-13,completed,FriskvårdsFredag,Drew O'Connor,FLIPPMACKA HC,Alexander Holtz,Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-13,completed,FriskvårdsFredag,"Auston Matthews; Carter Verhaeghe",FLIPPMACKA HC,"Leon Draisaitl; Sam Reinhart",Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-12,completed,Malmö Ducks,Robert Thomas,FLIPPMACKA HC,Drake Batherson,Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-12,completed,Malmö Ducks,Tom Wilson,FLIPPMACKA HC,Cam York,Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-09,completed,Jaromir Juggernaut,Gabriel Landeskog,Andy Flyers,Sean Durzi,Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-08,completed,FLIPPMACKA HC,"J.T. Miller; Adam Boqvist; Alex DeBrincat; Sebastian Aho",Malmö Ducks,"Jack Eichel; Evan Bouchard; Matt Boldy; Eeli Tolvanen",Div_2_Messier/08.png
+2024-25,Div 2 Messier,2024-10-07,vetoed,Jaromir Juggernaut,"Jack Eichel; Evan Bouchard; Matt Boldy; Eeli Tolvanen",FLIPPMACKA HC,"Travis Konecny; Filip Forsberg; Sean Durzi; Jesper Bratt",Div_2_Messier/08.png
+2024-25,Div 3 Dionne,2025-02-28,completed,De va Draipen,Steven Stamkos,Falukorvarna,Jordan Kyrou,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-26,completed,Anzelm Avalanche,"Connor McMichael; Elvis Merzlikins",Falukorvarna,Tomas Hertl,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-26,completed,Anzelm Avalanche,"Adam Fox; Gustav Forsling",Uport Slackers,"Robert Thomas; Ryan Nugent-Hopkins",Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-21,completed,Byavägen Flyers,Lane Hutson,Falukorvarna,Mattias Ekholm,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-15,completed,Anzelm Avalanche,"Anton Lundell; Ryan Nugent-Hopkins",Falukorvarna,Timo Meier,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-13,completed,Uport Slackers,Brock Faber,Falukorvarna,Trevor Moore,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-11,completed,Anzelm Avalanche,Tomas Hertl,Uport Slackers,Alex Tuch,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-09,completed,Uport Slackers,Brayden Point,SKBG ELITE,Mikko Rantanen,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-05,completed,Bjursås Beavers,"JJ Peterka; Jack Eichel; Mats Zuccarello",🌳,"Cole Caufield; Kyle Connor; Quinton Byfield",Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-04,vetoed,🌳,"Tim Stutzle; Brock Faber; Matt Boldy",Falukorvarna,"Elias Pettersson; Seth Jones",Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-03,completed,NoseFace,"J.T. Miller; Vladimir Tarasenko",Falukorvarna,"Steven Stamkos; Jonathan Huberdeau",Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-02-02,completed,Bjursås Beavers,Simon Edvinsson,🌳,Brady Skjei,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-01-27,completed,Falukorvarna,Brandon Montour,Fredde's Kings&Queens,Jake Sanderson,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-01-27,completed,Bjursås Beavers,Cole Caufield,Falukorvarna,Matt Boldy,Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-01-26,completed,🌳,"Chris Kreider; Mats Zuccarello",Falukorvarna,"Owen Tippett; Ryan Nugent-Hopkins",Div_3_Dionne/01.png
+2024-25,Div 3 Dionne,2025-01-26,completed,Anzelm Avalanche,Casey Mittelstadt,Falukorvarna,Vladimir Tarasenko,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-24,completed,De va Draipen,Troy Terry,Bjursås Beavers,Vince Dunn,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-21,completed,Backes in the USSR,Claude Giroux,Falukorvarna,Mats Zuccarello,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-18,completed,Falukorvarna,"William Nylander; Adrian Kempe; Claude Giroux",Fredde's Kings&Queens,"Connor Bedard; Jack Hughes; Michael Bunting",Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-14,completed,Bjursås Beavers,Filip Forsberg,Falukorvarna,Sebastian Aho,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-13,completed,Bjursås Beavers,"Kyle Connor; Mark Stone",Falukorvarna,"J.T. Miller; Connor Bedard",Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-11,vetoed,Bjursås Beavers,"Kyle Connor; Mark Stone",Falukorvarna,"J.T. Miller; Connor Bedard",Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2025-01-03,completed,🌳,Ryan Nugent-Hopkins,NoseFace,Mika Zibanejad,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2024-12-25,completed,De va Draipen,Brock Boeser,Falukorvarna,Mark Stone,Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2024-12-15,completed,Bjursås Beavers,"Bo Horvat; Jason Zucker",Falukorvarna,"Artturi Lehkonen; Troy Terry",Div_3_Dionne/02.png
+2024-25,Div 3 Dionne,2024-12-15,completed,Anzelm Avalanche,"Mason McTavish; Filip Chytil; Alex Tuch",Falukorvarna,"Brock Boeser; Anton Lundell; Philip Broberg",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-12,completed,Anzelm Avalanche,"Timo Meier; Adam Larsson",Falukorvarna,"Filip Forsberg; Lane Hutson",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-11,completed,Falukorvarna,"Alex Tuch; Jake Sanderson",SKBG ELITE,Victor Hedman,Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-11,completed,Sunnes Pågar,Matty Beniers,Falukorvarna,Shane Pinto,Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-07,completed,Uport Slackers,"Valeri Nichushkin; Adin Hill",🌳,Andrei Svechnikov,Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-07,completed,Falukorvarna,"Tim Stutzle; Pavel Dorofeyev; Alexis Lafreniere",Bjursås Beavers,"Matt Boldy; Artturi Lehkonen; Jaden Schwartz",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-07,completed,De va Draipen,"Juraj Slafkovsky; Noah Hanifin",Falukorvarna,"Owen Power; Joel Farabee",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-12-03,completed,Anzelm Avalanche,"Jake DeBrusk; Brock Boeser; Brandt Clarke",🌳,"Adam Fantilli; Joel Eriksson Ek",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-26,completed,THLs Dream Team,Dylan Strome,Falukorvarna,Bo Horvat,Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-25,completed,Anzelm Avalanche,"Joel Eriksson Ek; Martin Necas; Lukas Dostal",Bjursås Beavers,"Tim Stutzle; Connor Bedard; Alexis Lafreniere",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-24,completed,Bjursås Beavers,"Ryan Strome; Reilly Smith; Nick Schmaltz",Falukorvarna,"Juraj Slafkovsky; Kevin Lankinen",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-22,completed,THLs Dream Team,Travis Sanheim,Falukorvarna,Nick Schmaltz,Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-20,completed,Falukorvarna,"Timo Meier; Noah Hanifin",🌳,"Alex DeBrincat; Mika Zibanejad",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-18,vetoed,De va Draipen,"Mika Zibanejad; Alex DeBrincat",Falukorvarna,"Jason Robertson; Owen Power",Div_3_Dionne/03.png
+2024-25,Div 3 Dionne,2024-11-17,completed,Bjursås Beavers,"Pavel Dorofeyev; Dmitry Orlov; Gustav Nyquist; Sebastian Aho",Falukorvarna,"Ryan Nugent-Hopkins; Artturi Lehkonen; Mattias Ekholm",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-17,completed,Falukorvarna,"Cole Caufield; Victor Hedman",Anzelm Avalanche,"Tim Stutzle; Kris Letang",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-13,completed,Fredde's Kings&Queens,"Marco Rossi; Zach Werenski",Falukorvarna,"Pavel Dorofeyev; Brock Faber",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-10,completed,SKBG ELITE,Anze Kopitar,Bjursås Beavers,Troy Terry,Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-10,completed,Fredde's Kings&Queens,"William Nylander; Jeff Skinner",Falukorvarna,Jack Hughes,Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-04,completed,Fredde's Kings&Queens,John Carlson,Falukorvarna,Mika Zibanejad,Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-04,completed,Fredde's Kings&Queens,"Mikael Granlund; Cole Sillinger",Falukorvarna,"Quinton Byfield; Dawson Mercer",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-03,completed,Anzelm Avalanche,Blake Coleman,Falukorvarna,Christopher Tanev,Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-03,completed,Sunnes Pågar,Pavel Buchnevich,Falukorvarna,Jeff Skinner,Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-11-01,completed,Falukorvarna,"Matt Boldy; Zach Werenski",SKBG ELITE,"Sam Reinhart; Jake Sanderson",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-10-31,completed,Anzelm Avalanche,"Connor Bedard; Anton Lundell",NoseFace,"Maxim Tsyplakov; Steven Stamkos",Div_3_Dionne/04.png
+2024-25,Div 3 Dionne,2024-10-31,completed,Sunnes Pågar,"Nikita Kucherov; William Karlsson",Falukorvarna,"Sebastian Aho; William Nylander",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-30,completed,Bjursås Beavers,"Martin Necas; Evan Bouchard",Byavägen Flyers,Brady Tkachuk,Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-29,vetoed,Falukorvarna,"Steven Stamkos; Maxim Tsyplakov",Anzelm Avalanche,"Blake Coleman; Mikael Granlund",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-29,completed,Sunnes Pågar,"Morgan Frost; Brandon Hagel",Falukorvarna,"Dylan Strome; John Carlson",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-25,completed,🌳,Matthew Knies,Falukorvarna,Dawson Mercer,Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-24,completed,Sunnes Pågar,Artemi Panarin,NoseFace,Matthew Tkachuk,Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-23,completed,Sunnes Pågar,"Evgeni Malkin; Alex Pietrangelo",Falukorvarna,"Cam York; Pavel Buchnevich",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-22,completed,Fredde's Kings&Queens,Trevor Zegras,Falukorvarna,Pierre-Luc Dubois,Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-20,completed,Falukorvarna,"Evgeni Malkin; Morgan Frost",🌳,"Brock Boeser; Bowen Byram",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-17,completed,Falukorvarna,"Alex DeBrincat; Nikita Kucherov; Bryan Rust",🌳,"Seth Jarvis; Nathan MacKinnon; Charlie Coyle",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-17,completed,Anzelm Avalanche,"Cole Caufield; Victor Hedman",🌳,"Timo Meier; Elias Pettersson",Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-13,completed,Anzelm Avalanche,Matthew Knies,Falukorvarna,Jamie Benn,Div_3_Dionne/05.png
+2024-25,Div 3 Dionne,2024-10-07,vetoed,Anzelm Avalanche,"Alex Pietrangelo; Gustav Nyquist",Falukorvarna,Steven Stamkos,Div_3_Dionne/05.png
+2024-25,Div 3 Francis,2025-02-18,completed,Finnish Marauders,Elias Pettersson,Chris P Bacon HC,Jesper Bratt,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-02-08,completed,Chris P Bacon HC,"Matt Boldy; Cole Caufield",eddtillimdead,"David Pastrnak; Troy Terry",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-02-04,completed,Mighty Drunks,Travis Konecny,Finnish Marauders,Bo Horvat,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-23,completed,042 Shithawks,Jordan Binnington,2 girls no cup,Thatcher Demko,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-19,completed,Chris P Bacon HC,"Drake Batherson; Tage Thompson",Mighty Drunks,"Matvei Michkov; Kyle Connor",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-19,completed,042 Shithawks,"Leon Draisaitl; Alex Tuch",Chris P Bacon HC,"Tim Stutzle; Jack Hughes",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-16,completed,Monkrapids Top Corns,Gabriel Vilardi,Chris P Bacon HC,Alex Tuch,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-12,completed,042 Shithawks,"Thomas Harley; Roope Hintz",Chris P Bacon HC,"Gabriel Vilardi; Seth Jones",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-08,completed,042 Shithawks,Brad Marchand,Valpens förvirrade hjärna,Mathew Barzal,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2025-01-07,completed,2 girls no cup,Ryan O'Reilly,Finnish Marauders,Tomas Hertl,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-12-31,completed,Chris P Bacon HC,"Matvei Michkov; Rasmus Dahlin",2 girls no cup,"Esa Lindell; Filip Forsberg",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-12-31,completed,Chris P Bacon HC,"Rasmus Sandin; Elias Pettersson",2 girls no cup,"Vince Dunn; Steven Stamkos",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-12-09,completed,2 girls no cup,"Dylan Larkin; Patrik Laine",Chris P Bacon HC,Kyle Connor,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-11-24,completed,Monkrapids Top Corns,"Mika Zibanejad; Jakob Chychrun",eddtillimdead,Noah Dobson,Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-11-21,completed,Chris P Bacon HC,"Jean-Gabriel Pageau; Filip Forsberg",2 girls no cup,"Kyle Connor; JJ Peterka",Div_3_Francis/01.png
+2024-25,Div 3 Francis,2024-11-19,completed,Monkrapids Top Corns,"Patrick Kane; John Tavares",Finnish Marauders,Sebastian Aho,Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-14,completed,Bengstbol IF,"Alex DeBrincat; Sean Monahan",Mighty Drunks,"Yegor Chinakhov; Moritz Seider",Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-14,completed,Valpens förvirrade hjärna,Andrei Svechnikov,Chris P Bacon HC,Steven Stamkos,Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-14,completed,042 Shithawks,"Artturi Lehkonen; Thomas Harley",eddtillimdead,Cole Caufield,Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-13,completed,Chris P Bacon HC,Roope Hintz,Monkrapids Top Corns,Alex Tuch,Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-12,completed,Eastfield,"Timo Meier; Shayne Gostisbehere",2 girls no cup,"Matvei Michkov; Brandon Montour",Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-08,completed,Chris P Bacon HC,Artemi Panarin,Valpens förvirrade hjärna,"Adam Fox; Nico Hischier",Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-11-03,completed,042 Shithawks,"Josh Norris; Pavel Buchnevich",eddtillimdead,Mika Zibanejad,Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-10-28,completed,Chris P Bacon HC,"Dylan Larkin; David Pastrnak",2 girls no cup,"Filip Forsberg; Elias Pettersson",Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-10-28,completed,Mighty Drunks,"Auston Matthews; K'Andre Miller; Tage Thompson",Chris P Bacon HC,"Leon Draisaitl; Kyle Connor; Adam Fox",Div_3_Francis/02.png
+2024-25,Div 3 Francis,2024-10-16,completed,Valpens förvirrade hjärna,Brad Marchand,Eastfield,Ryan Nugent-Hopkins,Div_3_Francis/03.png
+2024-25,Div 3 Francis,2024-10-15,completed,Monkrapids Top Corns,"Mark Scheifele; Mark Stone",Finnish Marauders,Matthew Tkachuk,Div_3_Francis/03.png
+2024-25,Div 3 Francis,2024-10-14,completed,Chris P Bacon HC,"Joel Farabee; Elias Pettersson",Eastfield,"Mitch Marner; Matvei Michkov",Div_3_Francis/03.png
+2024-25,Div 3 Francis,2024-10-10,completed,042 Shithawks,"Kevin Fiala; Mika Zibanejad",Chris P Bacon HC,Filip Forsberg,Div_3_Francis/03.png
+2024-25,Div 3 Howe,2025-02-18,completed,The Canadian OG,"Chris Kreider; Alex Ovechkin",Flippis Junior,Tim Stutzle,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-09,completed,Skanstull Sharks,Jonathan Drouin,KHT Rangers,Nick Schmaltz,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-03,completed,Skanstull Sharks,"Anthony Cirelli; Jason Zucker; Alex DeBrincat; Pierre-Luc Dubois",The Canadian OG,"Mathew Barzal; Josh Norris; Matt Duchene; Radko Gudas",Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-02,completed,The Canadian OG,Tim Stutzle,Den Blommande Löken,Travis Konecny,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-02,completed,Den Blommande Löken,Aleksander Barkov,Skanstull Sharks,Zach Hyman,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-02,completed,Skanstull Sharks,"Nick Schmaltz; Artemi Panarin",Flippis Junior,Filip Forsberg,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-02-01,vetoed,Snabba Puckar,Tim Stutzle,Den Blommande Löken,Jordan Kyrou,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-30,completed,The Canadian OG,Andrei Svechnikov,Salikepeter HC,Gabriel Vilardi,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-30,completed,Snabba Puckar,"Macklin Celebrini; Kirill Kaprizov",The Canadian OG,Travis Konecny,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-28,completed,KHT Rangers,Adam Fantilli,The Canadian OG,Bo Horvat,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-27,completed,The Canadian OG,"Alex DeBrincat; Kirill Kaprizov",Pastore Bob,"Anze Kopitar; Mikko Rantanen",Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-27,completed,The Canadian OG,Seth Jarvis,KHT Rangers,Rasmus Dahlin,Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-27,completed,Flippis Junior,"Ivan Barbashev; Artemi Panarin; Nick Schmaltz",Salikepeter HC,"Matthew Tkachuk; Blake Coleman; Oliver Bjorkstrand",Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-25,completed,🪨🌊,"Jared McCann; Mitch Marner; Pyotr Kochetkov",Snabba Puckar,"Roman Josi; Brock Nelson; Juuse Saros",Div_3_Howe/01.png
+2024-25,Div 3 Howe,2025-01-24,completed,The Canadian OG,"Mason Lohrei; Juraj Slafkovsky",KHT Rangers,"Drew Doughty; Jonathan Drouin",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-22,completed,Lords HC,"Timo Meier; Lane Hutson; Lucas Raymond",Salikepeter HC,"Sidney Crosby; Mark Stone; Nick Schmaltz",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-20,completed,Salikepeter HC,"Andrei Svechnikov; Nikolaj Ehlers",Flippis Junior,"Roope Hintz; Nick Suzuki",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-18,completed,Skanstull Sharks,Matt Duchene,Salikepeter HC,Thomas Harley,Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-18,completed,Snabba Puckar,Connor Bedard,Salikepeter HC,Timo Meier,Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-18,completed,Flippis Junior,Matthew Tkachuk,Salikepeter HC,Artemi Panarin,Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-03,completed,Flippis Junior,"Evan Bouchard; Leon Draisaitl; Nikolaj Ehlers",🪨🌊,"Brock Nelson; Roman Josi; Auston Matthews",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-01,completed,KHT Rangers,"Seth Jones; Jake Guentzel; Adrian Kempe",Salikepeter HC,"Matthew Tkachuk; Luke Hughes; Lucas Raymond",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2025-01-01,completed,🪨🌊,"Matvei Michkov; Alex Killorn; Trevor van Riemsdyk; Leon Draisaitl",Salikepeter HC,"Patrik Laine; Connor Bedard; Robert Thomas; Nick Suzuki",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2024-12-30,completed,The Canadian OG,"Macklin Celebrini; Aaron Ekblad; Sam Montembeault; Gabriel Vilardi",KHT Rangers,"Bo Horvat; Luke Hughes; Lucas Raymond; Tage Thompson",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2024-12-14,completed,🪨🌊,"Connor Bedard; Patrik Laine",Flippis Junior,"Mikhail Sergachev; Drake Batherson",Div_3_Howe/02.png
+2024-25,Div 3 Howe,2024-12-09,completed,Salikepeter HC,"Ivan Barbashev; Matt Duchene",The Canadian OG,Lucas Raymond,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-12-06,completed,KHT Rangers,"Matthew Tkachuk; Moritz Seider; Brayden Point",🪨🌊,"Robert Thomas; Nathan MacKinnon; Mikhail Sergachev",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-12-05,completed,The Canadian OG,"John Carlson; Tage Thompson",KHT Rangers,"Matt Boldy; Seth Jarvis",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-12-05,completed,🪨🌊,Nick Suzuki,Salikepeter HC,Lucas Raymond,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-12-05,completed,Flippis Junior,"Auston Matthews; Steven Stamkos",Den Blommande Löken,"Tim Stutzle; Dylan Larkin; Jesper Bratt",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-12-04,vetoed,Salikepeter HC,"Robert Thomas; Nathan MacKinnon; Mikhail Sergachev",KHT Rangers,"Leon Draisaitl; Adrian Kempe; Brayden McNabb",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-28,completed,Skanstull Sharks,"Aleksander Barkov; Filip Hronek",Den Blommande Löken,Adam Fox,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-26,completed,HighValley Tjäkkers,Valeri Nichushkin,KHT Rangers,Mike Matheson,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-24,completed,🪨🌊,"Dustin Wolf; Brayden Point",Flippis Junior,"Connor Bedard; Dylan Larkin",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-22,completed,Snabba Puckar,Pavel Dorofeyev,KHT Rangers,Leo Carlsson,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-21,completed,🪨🌊,Brady Skjei,KHT Rangers,Aaron Ekblad,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-20,completed,Karls Gossar Blå,"Mark Scheifele; Nico Hischier; Andrei Vasilevskiy",🪨🌊,"Nikita Kucherov; Dylan Larkin",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-18,vetoed,Karls Gossar Blå,"Jesper Bratt; Alex Ovechkin",Flippis Junior,"Nikita Kucherov; Dylan Larkin",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-16,completed,Lords HC,Connor Ingram,KHT Rangers,Brady Skjei,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-15,completed,The Canadian OG,Matthew Knies,KHT Rangers,Juraj Slafkovsky,Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-12,completed,Den Blommande Löken,"J.T. Miller; Carter Verhaeghe; Shea Theodore",Lords HC,"Dylan Guenther; Jakob Chychrun; Martin Necas; Artturi Lehkonen",Div_3_Howe/03.png
+2024-25,Div 3 Howe,2024-11-07,completed,🪨🌊,Matthew Tkachuk,Flippis Junior,Artemi Panarin,Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-11-02,completed,🪨🌊,"Connor Bedard; Artemi Panarin; Lucas Raymond",Salikepeter HC,"Leon Draisaitl; Roope Hintz; Matvei Michkov",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-31,completed,Flippis Junior,Alex Ovechkin,Skanstull Sharks,Owen Tippett,Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-28,completed,🪨🌊,"Leon Draisaitl; Evan Bouchard",Flippis Junior,"Matthew Tkachuk; Roman Josi",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-28,completed,Salikepeter HC,"Connor Bedard; Lane Hutson",Den Blommande Löken,"Jakob Chychrun; Zach Hyman",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-25,completed,Pastore Bob,"Ryan Nugent-Hopkins; Kirill Kaprizov; Brady Tkachuk",🪨🌊,"Matthew Tkachuk; Roman Josi; Nico Hischier",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-24,completed,🪨🌊,"Nick Paul; Juuse Saros",Den Blommande Löken,"Aleksander Barkov; Artturi Lehkonen",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-22,completed,TruckDanne,"Rickard Rakell; Philip Broberg",KHT Rangers,Gabriel Vilardi,Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-22,completed,The Canadian OG,"Juraj Slafkovsky; Seth Jarvis",HighValley Tjäkkers,"Alexis Lafreniere; Morgan Rielly",Div_3_Howe/04.png
+2024-25,Div 3 Howe,2024-10-20,completed,The Canadian OG,Matt Boldy,Flippis Junior,Andrei Svechnikov,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-20,completed,TruckDanne,Clayton Keller,Flippis Junior,Evan Bouchard,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-20,completed,🪨🌊,"Aleksander Barkov; Brady Tkachuk",Salikepeter HC,"Adrian Kempe; Artemi Panarin",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-18,completed,HighValley Tjäkkers,"Tomas Hertl; Juraj Slafkovsky",Den Blommande Löken,Steven Stamkos,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-15,completed,🪨🌊,Drake Batherson,TruckDanne,Gabriel Landeskog,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-13,completed,The Canadian OG,Ivan Barbashev,Snabba Puckar,Michael Bunting,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-12,completed,Lords HC,Logan Cooley,Karls Gossar Blå,Brayden Schenn,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-11,vetoed,The Canadian OG,Matthew Knies,Den Blommande Löken,Michael Bunting,Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-11,completed,🪨🌊,"Roope Hintz; Adrian Kempe; Artemi Panarin",Salikepeter HC,"John Tavares; Jake Guentzel; Zach Hyman",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-11,completed,Den Blommande Löken,"Auston Matthews; Cam York",🪨🌊,"Kirill Kaprizov; Moritz Seider",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-09,completed,🪨🌊,"Ryan Nugent-Hopkins; Zach Hyman",Flippis Junior,"Tim Stutzle; Jesper Bratt",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-08,completed,HighValley Tjäkkers,"Connor McDavid; Mike Matheson; Adam Henrique",Den Blommande Löken,"MacKenzie Weegar; Kirill Kaprizov; Jack Eichel",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-08,completed,KHT Rangers,"Andrei Kuzmenko; Connor Ingram; Quinton Byfield; Nathan MacKinnon",Flippis Junior,"Linus Ullmark; Boone Jenner; Clayton Keller; Leon Draisaitl",Div_3_Howe/05.png
+2024-25,Div 3 Howe,2024-10-07,completed,🪨🌊,Jake Guentzel,Flippis Junior,Brayden Point,Div_3_Howe/05.png
+2024-25,Div 4 Lemieux,2025-02-28,completed,Kiko's Nasi Lemak,Owen Tippett,Suntrip HC,Steven Stamkos,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-25,completed,Västerås Draconian,Roope Hintz,Kiko's Nasi Lemak,Dylan Guenther,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-20,completed,Suntrip HC,Elias Pettersson,Kiko's Nasi Lemak,Roope Hintz,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-12,completed,Colorado LavaLamps,Juraj Slafkovsky,SiggePP,Valeri Nichushkin,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-08,completed,Colorado LavaLamps,Alexander Romanov,SiggePP,Mike Matheson,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-08,completed,Kiko's Nasi Lemak,Steven Stamkos,SiggePP,Juraj Slafkovsky,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-08,completed,Västerås Draconian,"Pavel Buchnevich; Thomas Harley",SiggePP,"Michael Kesselring; Kirby Dach",Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-08,completed,Västerås Draconian,Jesper Bratt,SiggePP,Brayden Point,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-05,completed,Flata Kickers,Nazem Kadri,Crosbys cry babies,Vincent Trocheck,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-02-02,completed,SiggePP,Jake Walman,Flata Kickers,Miro Heiskanen,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-30,completed,Västerås Draconian,"Lane Hutson; Timo Meier; JJ Peterka",Suntrip HC,"Dougie Hamilton; Josh Morrissey; Scott Laughton",Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-30,completed,Suntrip HC,"Dustin Wolf; Nathan MacKinnon",Gottepåsen,"Cale Makar; Tim Stutzle; Mackenzie Blackwood",Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-30,completed,Västerås Draconian,"Josh Norris; Travis Konecny",SiggePP,"Marco Rossi; Jesper Bratt",Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-30,completed,Colorado LavaLamps,Brock Nelson,Suntrip HC,Roope Hintz,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-28,completed,Colorado LavaLamps,Sam Reinhart,West Coast Express,Jack Hughes,Div_4_Lemieux/01.png
+2024-25,Div 4 Lemieux,2025-01-22,vetoed,Västerås Draconian,"Patrik Laine; Jake Sanderson; Dylan Strome; Jared McCann",Kjells Angels,"Kirill Marchenko; Dougie Hamilton; Fabian Zetterlund; Jesper Bratt",Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-22,completed,West Coast Express,"Mathew Barzal; Sam Reinhart; Jordan Staal; Dylan Cozens",SiggePP,"Steven Stamkos; Jonathan Huberdeau; Travis Konecny; Niko Mikkola",Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-22,completed,Colorado LavaLamps,"Mike Matheson; Sam Bennett",Kjells Angels,"Nikolaj Ehlers; Michael Kesselring",Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-22,completed,Västerås Draconian,"Carter Verhaeghe; Brayden Point; Brad Marchand",Suntrip HC,Connor McDavid,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-20,vetoed,Västerås Draconian,"Brock Nelson; Brayden Point; Brad Marchand",Suntrip HC,Connor McDavid,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-19,completed,Colorado LavaLamps,Viktor Arvidsson,SiggePP,Shane Pinto,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-19,completed,West Coast Express,"Aleksander Barkov; Jonathan Huberdeau; Niko Mikkola",SiggePP,"Nico Hischier; Thomas Harley; Josh Norris",Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-12,completed,SiggePP,Ryan Donato,Börjegatan Bunnies,Erik Cernak,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-11,completed,West Coast Express,Travis Konecny,Kiko's Nasi Lemak,Jake Guentzel,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2025-01-11,completed,West Coast Express,Brock Boeser,SiggePP,Matthew Knies,Div_4_Lemieux/02.png
+2024-25,Div 4 Lemieux,2024-12-13,completed,Colorado LavaLamps,"Alex Pietrangelo; Roope Hintz; Ivan Barbashev; Gabriel Vilardi",SiggePP,"Aleksander Barkov; Esa Lindell; Pierre-Luc Dubois; Jake Neighbours",Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-13,completed,Colorado LavaLamps,Brandon Hagel,Kjells Angels,Alex Ovechkin,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-09,completed,Crosbys cry babies,Jamie Benn,SiggePP,Alex Pietrangelo,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-08,vetoed,SiggePP,"Aleksander Barkov; Jack Hughes; Travis Sanheim",Colorado LavaLamps,"Gabriel Vilardi; Kirill Kaprizov",Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-07,completed,Börjegatan Bunnies,Andrei Svechnikov,SiggePP,Brock Boeser,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-04,completed,Västerås Draconian,"Dylan Guenther; Brandt Clarke",Flata Kickers,Clayton Keller,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-02,completed,Colorado LavaLamps,Pierre-Luc Dubois,SiggePP,Jamie Benn,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-12-01,completed,SiggePP,Roope Hintz,Börjegatan Bunnies,Lucas Raymond,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-27,completed,Kiko's Nasi Lemak,Juraj Slafkovsky,SiggePP,Gabriel Vilardi,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-25,completed,Colorado LavaLamps,Artturi Lehkonen,Kjells Angels,Jake Sanderson,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-23,completed,SiggePP,Miro Heiskanen,Börjegatan Bunnies,Brandon Montour,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-22,completed,Kiko's Nasi Lemak,Rickard Rakell,Kjells Angels,Pavel Zacha,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-12,completed,Kjells Angels,Brock Faber,SiggePP,Jakob Chychrun,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-08,completed,Kjells Angels,Gustav Nyquist,SiggePP,Leo Carlsson,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-03,completed,Crosbys cry babies,Martin Necas,West Coast Express,Steven Stamkos,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-11-01,completed,Suntrip HC,Owen Tippett,SiggePP,Brock Faber,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-10-27,completed,Västerås Draconian,Nick Paul,SiggePP,Morgan Frost,Div_4_Lemieux/03.png
+2024-25,Div 4 Lemieux,2024-10-27,completed,SiggePP,Simon Edvinsson,Crosbys cry babies,Jake Walman,Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-27,completed,Kiko's Nasi Lemak,Evan Bouchard,West Coast Express,"Martin Necas; Quinn Hughes",Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-25,vetoed,Team wakeras,"Martin Necas; Quinn Hughes",Kiko's Nasi Lemak,"Erik Karlsson; Viktor Arvidsson",Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-25,completed,Kiko's Nasi Lemak,"Ryan Nugent-Hopkins; Gabriel Vilardi",Suntrip HC,Carter Verhaeghe,Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-25,completed,Suntrip HC,"Tim Stutzle; Brayden Point",SiggePP,"Kirill Kaprizov; Lucas Raymond",Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-23,completed,Gottepåsen,Noah Hanifin,SiggePP,Jake Walman,Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-21,completed,Kiko's Nasi Lemak,"Seth Jones; Evgeni Malkin",Flata Kickers,Vincent Trocheck,Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-21,completed,Kiko's Nasi Lemak,"Gustav Forsling; Drake Batherson",Suntrip HC,"Mats Zuccarello; Brad Marchand",Div_4_Lemieux/04.png
+2024-25,Div 4 Lemieux,2024-10-21,completed,Kiko's Nasi Lemak,"Carter Verhaeghe; Brent Burns",Gottepåsen,Chris Kreider,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-21,completed,Crosbys cry babies,Alex Laferriere,SiggePP,Nick Paul,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-20,completed,Kiko's Nasi Lemak,Elias Pettersson,Suntrip HC,Cale Makar,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-20,completed,Västerås Draconian,Jesper Bratt,Flata Kickers,Joel Eriksson Ek,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-20,completed,SiggePP,"Tim Stutzle; Juraj Slafkovsky",Västerås Draconian,"Clayton Keller; Andrei Kuzmenko",Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-19,completed,SiggePP,Brady Skjei,Kiko's Nasi Lemak,Martin Necas,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-18,vetoed,Börjegatan Bunnies,"Tim Stutzle; Juraj Slafkovsky",Västerås Draconian,"Roope Hintz; Elias Lindholm",Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-15,completed,SiggePP,Owen Tippett,Colorado LavaLamps,Valeri Nichushkin,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-10,vetoed,Kiko's Nasi Lemak,"Michael Bunting; Rickard Rakell; Claude Giroux",Kjells Angels,"Travis Konecny; Mats Zuccarello",Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-09,vetoed,Colorado LavaLamps,"Martin Necas; Taylor Hall; Gustav Nyquist; Valeri Nichushkin",SiggePP,"Jack Hughes; Owen Tippett",Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-09,completed,Flata Kickers,Cutter Gauthier,SiggePP,Ivan Barbashev,Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-08,vetoed,Kjells Angels,"Travis Konecny; Mats Zuccarello",Kiko's Nasi Lemak,"Michael Bunting; Rickard Rakell",Div_4_Lemieux/05.png
+2024-25,Div 4 Lemieux,2024-10-08,completed,Colorado LavaLamps,"Alex Ovechkin; Jeremy Swayman",Gottepåsen,"Brady Tkachuk; Stuart Skinner",Div_4_Lemieux/05.png
+2024-25,Div 4 Yzerman,2025-01-27,completed,Gåxsjö Junior,"Adam Fox; Evgeni Malkin",Moves Like Jagr,"Seth Jones; Morgan Rielly",Div_4_Yzerman/01.png
+2024-25,Div 4 Yzerman,2025-01-14,completed,Dropstokk Penguins,"Jordan Kyrou; Jordan Binnington",Pusselbit Painters,"Steven Stamkos; Alex Lyon",Div_4_Yzerman/01.png
+2024-25,Div 4 Yzerman,2024-11-01,completed,trollskott,Ryan Nugent-Hopkins,Moves Like Jagr,Casey Mittelstadt,Div_4_Yzerman/01.png
+2024-25,Div 4 Yzerman,2024-10-30,completed,Robson's Sabres,Matt Duchene,Bronco Stars,Pavel Buchnevich,Div_4_Yzerman/01.png
+2024-25,Div 4 Yzerman,2024-10-19,completed,Robson's Sabres,"Jonathan Huberdeau; Pavel Buchnevich; Paul Cotter",Bronco Stars,"JJ Peterka; Brayden Point",Div_4_Yzerman/01.png
+2024-25,Div 4 Yzerman,2024-10-19,completed,Moves Like Jagr,Kevin Fiala,Robson's Sabres,Jordan Eberle,Div_4_Yzerman/01.png

@@ -154,7 +154,9 @@ export type Stage =
   | 'consolation-semifinal'
   | 'consolation-final'
   | 'ninth-place'
-  | 'eleventh-place';
+  | 'eleventh-place'
+  /** Consolation-bracket game from the screenshot era, where the exact place isn't shown. */
+  | 'placement';
 
 export interface MatchSide {
   teamId: TeamId;

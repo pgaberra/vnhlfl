@@ -39,6 +39,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--source", type=Path, required=True, help="folder with the .xlsx files")
     parser.add_argument("--out", type=Path, required=True, help="folder the JSON is written to")
     parser.add_argument("--curation", type=Path, default=HERE / "curation")
+    parser.add_argument("--transcribed", type=Path, default=HERE / "transcribed")
     parser.add_argument(
         "--names",
         choices=["team", "full"],
@@ -49,7 +50,9 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
 
-    builder = LeagueBuilder(load(args.source, args.curation), name_mode=args.names)
+    builder = LeagueBuilder(
+        load(args.source, args.curation, args.transcribed), name_mode=args.names
+    )
     files = builder.build()
     texts = {name: dump(payload) for name, payload in files.items()}
     version = hashlib.sha256("".join(texts.values()).encode()).hexdigest()[:12]

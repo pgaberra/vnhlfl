@@ -312,6 +312,7 @@ export const STAGE_LABEL: Record<Matchup['stage'], string> = {
   'consolation-final': 'B-final',
   'ninth-place': 'Match om 9:e',
   'eleventh-place': 'Match om 11:e',
+  placement: 'Placeringsmatch',
 };
 
 export interface Meeting {

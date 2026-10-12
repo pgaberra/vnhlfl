@@ -119,3 +119,23 @@ summary {
   font-size: var(--text-sm);
   padding-bottom: var(--space-2);
 }
+
+.h2h {
+  max-height: 32rem;
+  overflow-y: auto;
+}
+
+.h2h thead th {
+  position: sticky;
+  top: 0;
+}
+
+.notice {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line-strong);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: var(--text-sm);
+  color: var(--ink-2);
+}

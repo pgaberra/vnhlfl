@@ -15,15 +15,17 @@ from difflib import get_close_matches
 from pathlib import Path
 from typing import Any, Literal
 
-from .normalize import key, season_label, slug
+from .normalize import clean, key, season_label, slug
 from .resolve import Candidate, TeamResolver, read_overrides
 from .sources import (
     FINAL_ROUND,
+    MatchRow,
     Owners,
     PickRow,
     Replacement,
     StandingRow,
     TradeRow,
+    read_matchups,
     read_owners,
     read_picks,
     read_replacements,
@@ -53,6 +55,9 @@ class Sources:
     owners: Owners
     replacements: list[Replacement]
     overrides: list[tuple[str, str, str]]
+    matchups: list[MatchRow] = field(default_factory=list)
+    # Team names known to lack a GM in `Namn och lag`, published as their own GM until mapped.
+    unmapped: set[str] = field(default_factory=set)
 
 
 def load(source_dir: Path, curation_dir: Path) -> Sources:
@@ -64,7 +69,16 @@ def load(source_dir: Path, curation_dir: Path) -> Sources:
         owners=read_owners(owners_file),
         replacements=read_replacements(owners_file),
         overrides=read_overrides(curation_dir / "team-aliases.csv"),
+        matchups=read_matchups(source_dir / "Matcher.xlsx"),
+        unmapped=read_unmapped(curation_dir / "unmapped-teams.txt"),
     )
+
+
+def read_unmapped(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    lines = path.read_text(encoding="utf-8").splitlines()
+    return {key(line) for line in lines if line.strip() and not line.startswith("#")}
 
 
 def display_team(name: str) -> str:
@@ -81,6 +95,30 @@ def unique_names(names: list[str]) -> list[str]:
 
     latest = {same(n): display_team(n) for n in names}
     return list(dict.fromkeys(latest[same(n)] for n in names))
+
+
+# The founder's playoff labels: an A bracket for the title (with games for 3rd and 5th) and a
+# B bracket for the rest (with games for 9th and 11th).
+STAGES = {
+    "grund": "regular",
+    "a-kvart": "quarterfinal",
+    "a-semi": "semifinal",
+    "a-final": "final",
+    "3-4": "third-place",
+    "5-6": "fifth-place",
+    "b-kvart": "consolation-quarterfinal",
+    "b-semi": "consolation-semifinal",
+    "b-final": "consolation-final",
+    "9-10": "ninth-place",
+    "11-12": "eleventh-place",
+}
+
+
+def stage_of(label: str) -> str:
+    stage = STAGES.get(clean(label).lower())
+    if stage is None:
+        raise ValueError(f"Unknown match stage: {label!r}")
+    return stage
 
 
 def tier_of(division: str) -> int | None:
@@ -130,7 +168,11 @@ class LeagueBuilder:
             return key(owner)
         if key(team) not in self._unknown:
             self._unknown.add(key(team))
-            self.report.warn(f"No manager listed for team '{team}'; treating it as its own GM")
+            if key(team) not in self.src.unmapped:
+                self.report.warn(
+                    f"No manager listed for team '{team}'; add it to `Namn och lag`"
+                    " (or, until then, to curation/unmapped-teams.txt)"
+                )
         return f"team:{key(team)}"
 
     def _collect(self) -> None:
@@ -215,6 +257,7 @@ class LeagueBuilder:
         standings = {"snapshots": self._snapshots()}
         draft = {"drafts": self._drafts()}
         trades = self._trades()
+        matchups = self._matchups()
         league["coverage"] = {
             "finalStandings": sorted(
                 {r.season for r in self.src.standings if r.round == FINAL_ROUND}
@@ -224,9 +267,20 @@ class LeagueBuilder:
             ),
             "draft": sorted({p.season for p in self.src.picks}),
             "trades": sorted({t["seasonId"] for t in trades["trades"]}),
-            "matchups": [],
+            "matchups": sorted({m["seasonId"] for m in matchups["matchups"]}),
         }
-        return {"league": league, "standings": standings, "draft": draft, "trades": trades}
+        known = len(self._unknown & self.src.unmapped)
+        if known:
+            self.report.notes.append(
+                f"{known} team names have no GM yet (curation/unmapped-teams.txt)"
+            )
+        return {
+            "league": league,
+            "standings": standings,
+            "draft": draft,
+            "trades": trades,
+            "matchups": matchups,
+        }
 
     def _final_rows(self) -> dict[str, StandingRow]:
         out: dict[str, StandingRow] = {}
@@ -314,6 +368,8 @@ class LeagueBuilder:
             }
             if self.name_mode == "full" and manager in self.manager_names:
                 entry["realName"] = self.manager_names[manager]
+            if manager.startswith("team:"):
+                entry["unmapped"] = True
             out.append(entry)
         return sorted(out, key=lambda m: m["id"])
 
@@ -412,6 +468,34 @@ class LeagueBuilder:
                 }
             )
         return {"trades": out}
+
+    def _matchups(self) -> dict[str, Any]:
+        resolver = self.resolver()
+
+        def place(season: str, division: str, team: str) -> str | None:
+            return self.team_id(season, division, team) or resolver.resolve(season, division, team)
+
+        out = []
+        for m in sorted(self.src.matchups, key=lambda m: (m.season, m.division, m.week, m.row)):
+            home = place(m.season, m.division, m.home)
+            away = place(m.season, m.division, m.away)
+            if home is None or away is None or home == away:
+                missing = [t for t, tid in ((m.home, home), (m.away, away)) if tid is None]
+                self.report.warn(
+                    f"Matcher row {m.row} ({m.season} {m.division}): can't place {missing}"
+                )
+                continue
+            out.append(
+                {
+                    "seasonId": m.season,
+                    "divisionId": division_id(m.season, m.division),
+                    "week": m.week,
+                    "stage": stage_of(m.stage),
+                    "home": {"teamId": home, "points": round(m.home_points, 2)},
+                    "away": {"teamId": away, "points": round(m.away_points, 2)},
+                }
+            )
+        return {"matchups": out}
 
     def _replacement_links(self) -> dict[str, dict[str, Any]]:
         resolver = self.resolver()

@@ -48,6 +48,8 @@ export interface Manager {
   /** Present only when the founder has publishing consent (pipeline `--names full`). */
   realName?: string;
   teamNames: string[];
+  /** The team has no GM in the founder's mapping yet; its career may be split. */
+  unmapped?: boolean;
 }
 
 export interface StandingRecord {
@@ -135,4 +137,35 @@ export interface Trade {
 export interface TradeSide {
   teamId: TeamId;
   receives: string[];
+}
+
+export interface MatchupsFile {
+  matchups: Matchup[];
+}
+
+export type Stage =
+  | 'regular'
+  | 'quarterfinal'
+  | 'semifinal'
+  | 'final'
+  | 'third-place'
+  | 'fifth-place'
+  | 'consolation-quarterfinal'
+  | 'consolation-semifinal'
+  | 'consolation-final'
+  | 'ninth-place'
+  | 'eleventh-place';
+
+export interface MatchSide {
+  teamId: TeamId;
+  points: number;
+}
+
+export interface Matchup {
+  seasonId: SeasonId;
+  divisionId: DivisionId;
+  week: number;
+  stage: Stage;
+  home: MatchSide;
+  away: MatchSide;
 }

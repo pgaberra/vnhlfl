@@ -1,9 +1,9 @@
 import { httpResource } from '@angular/common/http';
 import { computed, Service, signal } from '@angular/core';
 import { indexLeague } from './league-index';
-import { DraftFile, LeagueFile, StandingsFile, TradesFile } from './models';
+import { DraftFile, LeagueFile, MatchupsFile, StandingsFile, TradesFile } from './models';
 
-type LazyFile = 'standings' | 'draft' | 'trades';
+type LazyFile = 'standings' | 'draft' | 'trades' | 'matchups';
 
 /**
  * Loads the pipeline's JSON. `league.json` (small) loads at start; the larger files load the
@@ -20,11 +20,13 @@ export class LeagueData {
     standings: false,
     draft: false,
     trades: false,
+    matchups: false,
   });
 
   readonly standings = httpResource<StandingsFile>(() => this.url('standings'));
   readonly draft = httpResource<DraftFile>(() => this.url('draft'));
   readonly trades = httpResource<TradesFile>(() => this.url('trades'));
+  readonly matchups = httpResource<MatchupsFile>(() => this.url('matchups'));
 
   /** Ask for a lazily loaded file; a no-op once it is loading or loaded. */
   need(...files: LazyFile[]): void {

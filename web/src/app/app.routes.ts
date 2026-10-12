@@ -34,6 +34,11 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/all-time/all-time-page').then((m) => m.AllTimePage),
   },
   {
+    path: 'inbordes',
+    title: `Inbördes möten${suffix}`,
+    loadComponent: () => import('./pages/h2h/h2h-page').then((m) => m.H2hPage),
+  },
+  {
     path: 'trades',
     title: `Trades${suffix}`,
     loadComponent: () => import('./pages/trades/trades-page').then((m) => m.TradesPage),

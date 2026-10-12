@@ -6,6 +6,7 @@ import pytest
 
 from vnhlfl_pipeline.__main__ import main
 from vnhlfl_pipeline.build import LeagueBuilder, load
+from vnhlfl_pipeline.sources import StandingRow
 
 from .workbooks import write_league
 
@@ -154,3 +155,29 @@ def test_real_name_check_matches_whole_names_only() -> None:
 
     texts = ['{"name": "Erik Epsilon United"}', '{"player": "Adam Foxworth"}']
     assert real_names_in(texts, ["Erik Epsilon", "Adam Fox", "Solo"]) == ["Erik Epsilon"]
+
+
+def test_matchups_resolve_teams_and_stages(built: Any) -> None:
+    files, _ = built
+    games = files["matchups"]["matchups"]
+    assert [g["stage"] for g in games] == ["regular", "regular", "final"]
+    first = games[0]
+    assert first["home"] == {"teamId": "2021-22:alpha-wolves", "points": 300.5}
+    assert first["away"]["teamId"] == "2021-22:beta-bears"
+    assert files["league"]["coverage"]["matchups"] == ["2021-22"]
+
+
+def test_an_acknowledged_unmapped_team_is_its_own_gm_without_a_warning(tmp_path: Path) -> None:
+    write_league(tmp_path)
+    (tmp_path / "unmapped-teams.txt").write_text("# pending\nOmega Owls\n", encoding="utf-8")
+    sources = load(tmp_path, tmp_path)
+    sources.standings.append(
+        StandingRow(
+            "2022-23", "Div 1 Gretzky", "final", 4, False, "Omega Owls", 1, 20, 0, 1.0, 0, 0, 0
+        )
+    )
+    builder = LeagueBuilder(sources)
+    files = builder.build()
+    owls = next(m for m in files["league"]["managers"] if m["name"] == "Omega Owls")
+    assert owls["unmapped"] is True
+    assert builder.report.warnings == []

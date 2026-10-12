@@ -1,0 +1,145 @@
+<div class="page">
+  <header class="page-head">
+    <p class="eyebrow">Inbördes möten</p>
+    <h1>Vem har övertaget?</h1>
+    <p class="lede">Välj två GM:s och se alla matcher de spelat mot varandra, slutspel inräknat.</p>
+  </header>
+
+  @if (index()) {
+    <section class="card">
+      <div class="toolbar">
+        <label class="field">
+          <span>GM</span>
+          <select [value]="a() ?? ''" (change)="select('a', $event)">
+            <option value="">Välj GM</option>
+            @for (m of managers(); track m.id) {
+              <option [value]="m.id">{{ m.name }}</option>
+            }
+          </select>
+        </label>
+        <button type="button" class="btn" (click)="swap()" aria-label="Byt plats">⇄</button>
+        <label class="field">
+          <span>Mot</span>
+          <select [value]="b() ?? ''" (change)="select('b', $event)">
+            <option value="">Välj GM</option>
+            @for (m of managers(); track m.id) {
+              <option [value]="m.id">{{ m.name }}</option>
+            }
+          </select>
+        </label>
+      </div>
+    </section>
+
+    @if (left() && right()) {
+      @if (meetings(); as h) {
+        <section class="card score" aria-label="Facit">
+          <div class="side">
+            <app-manager-link [manager]="left()!" />
+            <span class="big">{{ h.wins }}</span>
+          </div>
+          <div class="mid">
+            <span class="muted">{{ h.games }} matcher</span>
+            @if (h.ties) {
+              <span class="muted">{{ h.ties }} oavgjorda</span>
+            }
+          </div>
+          <div class="side right">
+            <app-manager-link [manager]="right()!" />
+            <span class="big">{{ h.losses }}</span>
+          </div>
+          @if (h.games) {
+            <p class="hint full">
+              Poäng i mötena: {{ h.pointsFor | points }} mot {{ h.pointsAgainst | points }}.
+            </p>
+          }
+        </section>
+
+        @if (careers(); as c) {
+          <section class="card" aria-labelledby="career-title">
+            <h2 id="career-title">Karriärerna</h2>
+            <div class="table-scroll">
+              <table class="data">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="num">{{ left()!.name }}</th>
+                    <th scope="col" class="num">{{ right()!.name }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Säsonger</th>
+                    <td class="num">{{ c[0].seasons }}</td>
+                    <td class="num">{{ c[1].seasons }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Vinster</th>
+                    <td class="num">{{ c[0].wins }}</td>
+                    <td class="num">{{ c[1].wins }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Vinst%</th>
+                    <td class="num">{{ c[0].winPct | pct }}</td>
+                    <td class="num">{{ c[1].winPct | pct }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Poäng/säsong</th>
+                    <td class="num">{{ c[0].pointsPerSeason | points }}</td>
+                    <td class="num">{{ c[1].pointsPerSeason | points }}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Titlar</th>
+                    <td class="num">{{ c[0].titles }}</td>
+                    <td class="num">{{ c[1].titles }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        }
+
+        <section class="card" aria-labelledby="games-title">
+          <h2 id="games-title">Alla möten</h2>
+          @if (h.games.length) {
+            <div class="table-scroll">
+              <table class="data">
+                <thead>
+                  <tr>
+                    <th scope="col">Säsong</th>
+                    <th scope="col">Vecka</th>
+                    <th scope="col">Match</th>
+                    <th scope="col" class="num">{{ left()!.name }}</th>
+                    <th scope="col" class="num">{{ right()!.name }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (g of h.games; track $index) {
+                    <tr [class.playoff]="g.playoff">
+                      <td>{{ g.division.seasonLabel }} · {{ g.division.name }}</td>
+                      <td>{{ g.matchup.week }}</td>
+                      <td>{{ stageLabel[g.matchup.stage] }}</td>
+                      <td class="num" [class.win]="g.result === 'W'">
+                        {{ g.mine.points | points }}
+                      </td>
+                      <td class="num" [class.win]="g.result === 'L'">
+                        {{ g.theirs.points | points }}
+                      </td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+          } @else {
+            <p class="empty">De har inte mötts i någon match som finns registrerad.</p>
+          }
+        </section>
+      } @else {
+        <app-load-state [refs]="[data.matchups]" />
+      }
+    } @else {
+      <p class="empty">Välj två GM:s ovan.</p>
+    }
+  } @else {
+    <app-load-state [refs]="[data.league]" />
+  }
+</div>

@@ -28,3 +28,16 @@ tr.hot {
 .left li:not(:last-child)::after {
   content: ',';
 }
+
+.teams {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2 14rem;
+  font-size: var(--text-sm);
+}
+
+.teams li {
+  padding: 2px 0;
+  break-inside: avoid;
+}

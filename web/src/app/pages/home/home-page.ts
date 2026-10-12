@@ -35,15 +35,19 @@ export class HomePage {
     const idx = this.index();
     if (!idx) return null;
     const latest = idx.seasons.at(-1)!;
+    const finished = idx.seasons.filter((s) => !idx.inProgress.has(s.id)).at(-1)!;
     return {
       seasons: idx.seasons.length,
       managers: idx.manager.size,
+      // Teams that handed over mid-season are counted once, under the GM who finished.
       teams: latest.divisions.reduce(
-        (n, d) => n + d.teamIds.filter((id) => idx.team.get(id)?.final).length,
+        (n, d) => n + d.teamIds.filter((id) => !idx.team.get(id)?.replacedBy).length,
         0,
       ),
       divisions: latest.divisions.length,
       latest,
+      latestInProgress: idx.inProgress.has(latest.id),
+      finished,
     };
   });
 
@@ -51,7 +55,7 @@ export class HomePage {
     const idx = this.index();
     const facts = this.facts();
     if (!idx || !facts) return [];
-    return champions(idx, facts.latest.id).map((team) => ({
+    return champions(idx, facts.finished.id).map((team) => ({
       team,
       manager: idx.manager.get(team.managerId)!,
       division: idx.division.get(team.divisionId)!,
@@ -62,18 +66,21 @@ export class HomePage {
   protected readonly topChampions = computed(() => {
     const idx = this.index();
     if (!idx) return [];
-    return [...idx.seasons].reverse().map((season) => {
-      const all = champions(idx, season.id);
-      const top = all.filter((t) => idx.division.get(t.divisionId)?.tier === 1);
-      return {
-        season,
-        teams: (top.length ? top : all).map((team) => ({
-          team,
-          manager: idx.manager.get(team.managerId)!,
-          division: idx.division.get(team.divisionId)!,
-        })),
-      };
-    });
+    return [...idx.seasons]
+      .reverse()
+      .filter((season) => !idx.inProgress.has(season.id))
+      .map((season) => {
+        const all = champions(idx, season.id);
+        const top = all.filter((t) => idx.division.get(t.divisionId)?.tier === 1);
+        return {
+          season,
+          teams: (top.length ? top : all).map((team) => ({
+            team,
+            manager: idx.manager.get(team.managerId)!,
+            division: idx.division.get(team.divisionId)!,
+          })),
+        };
+      });
   });
 
   protected readonly topTen = computed(() => {

@@ -13,3 +13,6 @@ One line each: `[date] area: chose X over Y — why`. Read before reopening a se
 - [2026-10-11] standings: the final rank is Yahoo's end-of-season table, playoffs included, and a title is rank 1 in it — that is how the founder's sheet records it.
 - [2026-10-11] data: dropped the founder's `Poäng` career totals in `GMs` as a cross-check — they don't reconcile with the season tables (4 of 126 match) and the column is partly `#VALUE!`.
 - [2026-10-11] quality: deferred ESLint for the web (Prettier + Vitest + build run in CI) — small codebase; add angular-eslint when a second contributor appears.
+- [2026-10-12] data: published 2025/26–2026/27 with 64 unmapped team names as provisional GMs over waiting for an updated `Namn och lag` — the owner's call; tracked in issue #1, and `curation/unmapped-teams.txt` keeps `--strict` failing on new unknown names.
+- [2026-10-12] matchups: head-to-head "slutspel" counts the A bracket incl. its 3rd/5th-place games, not the B bracket — the B bracket decides nothing about the title.
+- [2026-10-12] data: kept the founder's `Matcher` scores as given over correcting them — ~10 games differ from the final tables by exactly 100 points, which looks like typos only the founder can confirm.

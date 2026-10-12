@@ -66,6 +66,19 @@ class TradeRow:
 
 
 @dataclass(frozen=True)
+class MatchRow:
+    row: int
+    season: str
+    division: str
+    week: int
+    stage: str  # `Grund` for the regular season, else the founder's playoff label
+    home: str
+    away: str
+    home_points: float
+    away_points: float
+
+
+@dataclass(frozen=True)
 class Replacement:
     season: str
     day: date | None
@@ -260,3 +273,30 @@ def read_replacements(path: Path) -> list[Replacement]:
         for r in rows
         if r and not _missing(r[0]) and not _missing(r[2])
     ]
+
+
+def read_matchups(path: Path) -> list[MatchRow]:
+    """The `Matcher` sheet: one row per game, regular season and playoffs. Optional file."""
+    if not path.exists():
+        return []
+    out: list[MatchRow] = []
+    for number, row in _rows(path, "Matcher"):
+        if _missing(row.get("Säsong")) or _missing(row.get("Hemma")):
+            continue
+        try:
+            out.append(
+                MatchRow(
+                    row=number,
+                    season=season_id(row["Säsong"]),
+                    division=clean(row["Div"]),
+                    week=int(clean(row["vecka"])),
+                    stage=clean(row["Grund/Slut"]),
+                    home=clean(row["Hemma"]),
+                    away=clean(row["Borta"]),
+                    home_points=float(clean(row["Poäng +"]).replace(",", ".")),
+                    away_points=float(clean(row["Poäng -"]).replace(",", ".")),
+                )
+            )
+        except (KeyError, ValueError) as error:
+            raise ValueError(f"Matcher row {number}: {error}") from error
+    return out

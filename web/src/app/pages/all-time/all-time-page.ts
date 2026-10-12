@@ -1,7 +1,7 @@
 import { Component, computed, inject, signal } from '@angular/core';
 import { LucideTrophy } from '@lucide/angular';
 import { LeagueData } from '../../data/league-data';
-import { allTimeTable, AllTimeSort } from '../../data/stats';
+import { allTimeTable, AllTimeSort, STAGE_LABEL, weekRecords } from '../../data/stats';
 import { NumberPipe, PctPipe, PointsPipe } from '../../shared/format';
 import { LoadState } from '../../shared/load-state';
 import { ManagerLink } from '../../shared/manager-link';
@@ -96,10 +96,58 @@ interface Column {
             där en GM lämnade innan slutet räknas inte.
           </p>
         </section>
+
+        <section class="card" aria-labelledby="records">
+          <div class="card-head">
+            <h2 id="records">Veckorekord</h2>
+            <p class="hint">Alla matcher som finns registrerade, slutspel inräknat.</p>
+          </div>
+          @if (records(); as r) {
+            <div class="grid-2">
+              @for (list of r; track list.title) {
+                <div>
+                  <h3>{{ list.title }}</h3>
+                  <ol class="records">
+                    @for (w of list.rows; track $index) {
+                      <li>
+                        <span class="value">{{ w.value | points }}</span>
+                        <span>
+                          <app-manager-link [manager]="w.manager" [asTeam]="w.team" />
+                          <span class="muted"> {{ w.when }}</span>
+                        </span>
+                      </li>
+                    }
+                  </ol>
+                </div>
+              }
+            </div>
+          } @else {
+            <app-load-state [refs]="[data.matchups]" />
+          }
+        </section>
       } @else {
         <app-load-state [refs]="[data.league]" />
       }
     </div>
+  `,
+  styles: `
+    .records {
+      margin: var(--space-2) 0 0;
+      padding-left: var(--space-5);
+      display: grid;
+      gap: var(--space-1);
+      font-size: var(--text-sm);
+    }
+    .records li {
+      display: flex;
+      gap: var(--space-3);
+      align-items: baseline;
+    }
+    .value {
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      min-width: 4rem;
+    }
   `,
 })
 export class AllTimePage {
@@ -107,6 +155,33 @@ export class AllTimePage {
   protected readonly index = this.data.index;
   protected readonly sort = signal<AllTimeSort>('wins');
   protected readonly tier = signal<number | undefined>(undefined);
+
+  constructor() {
+    this.data.need('matchups');
+  }
+
+  protected readonly records = computed(() => {
+    const idx = this.index();
+    if (!idx || !this.data.matchups.hasValue()) return null;
+    const matchups = this.data.matchups.value().matchups;
+    const describe = (by: 'score' | 'margin') =>
+      weekRecords(matchups, { by, limit: 10 }).map((w) => {
+        const team = idx.team.get(w.side.teamId)!;
+        const division = idx.division.get(w.matchup.divisionId)!;
+        const stage =
+          w.matchup.stage === 'regular' ? `v${w.matchup.week}` : STAGE_LABEL[w.matchup.stage];
+        return {
+          value: by === 'margin' ? w.side.points - w.opponent.points : w.side.points,
+          manager: idx.manager.get(team.managerId)!,
+          team: team.name,
+          when: `${division.seasonLabel} ${division.name}, ${stage}`,
+        };
+      });
+    return [
+      { title: 'Flest poäng en vecka', rows: describe('score') },
+      { title: 'Största vinstmarginal', rows: describe('margin') },
+    ];
+  });
 
   protected readonly columns: Column[] = [
     { key: 'seasons', label: 'Säsonger' },

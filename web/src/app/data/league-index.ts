@@ -26,6 +26,8 @@ export interface LeagueIndex {
   manager: Map<ManagerId, Manager>;
   /** Each GM's team-seasons, oldest first. */
   teamsOf: Map<ManagerId, TeamSeason[]>;
+  /** Seasons with no final table yet (the one being played). */
+  inProgress: Set<SeasonId>;
 }
 
 export function indexLeague(league: LeagueFile): LeagueIndex {
@@ -53,6 +55,9 @@ export function indexLeague(league: LeagueFile): LeagueIndex {
     team: new Map(league.teams.map((t) => [t.id, t])),
     manager: new Map(league.managers.map((m) => [m.id, m])),
     teamsOf,
+    inProgress: new Set(
+      seasons.filter((s) => !league.coverage.finalStandings.includes(s.id)).map((s) => s.id),
+    ),
   };
 }
 

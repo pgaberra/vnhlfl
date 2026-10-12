@@ -9,6 +9,13 @@
         }
       </header>
 
+      @if (m.unmapped) {
+        <p class="notice" role="note">
+          Det här lagnamnet är inte kopplat till en GM än. Har GM:en spelat under ett annat namn
+          tidigare syns de säsongerna på en egen sida tills kopplingen är på plats.
+        </p>
+      }
+
       <section class="tiles" aria-label="Karriären i siffror">
         @for (t of tiles(); track t.label) {
           <app-stat-tile [label]="t.label" [value]="t.value" [sub]="t.sub" />
@@ -36,7 +43,9 @@
                   }
                   {{ f.rank | ordinal }}
                 } @else {
-                  <span class="muted">lämnade</span>
+                  <span class="muted">{{
+                    idx.inProgress.has(s.team.seasonId) ? 'pågår' : 'lämnade'
+                  }}</span>
                 }
               </span>
               @switch (s.move) {
@@ -115,7 +124,11 @@
                     <td class="num">{{ f.pointsFor | points }}</td>
                     <td class="num">{{ f.moves | num }}</td>
                   } @else {
-                    <td class="num muted" colspan="5">Ingen sluttabell</td>
+                    <td class="num muted" colspan="5">
+                      {{
+                        idx.inProgress.has(s.team.seasonId) ? 'Säsongen pågår' : 'Ingen sluttabell'
+                      }}
+                    </td>
                   }
                 </tr>
               }
@@ -163,11 +176,62 @@
             <svg lucideSwords class="icon" aria-hidden="true"></svg>
             Inbördes möten
           </h2>
+          <a routerLink="/inbordes" [queryParams]="{ a: m.id }">Jämför med en annan GM</a>
         </div>
-        <p class="empty">
-          Matchresultaten är inte inlästa ännu. När de hämtas från Yahoo visas här
-          {{ name() }}s facit mot varje motståndare.
-        </p>
+        @if (h2h(); as h) {
+          @if (h.rows.length) {
+            <p class="hint">
+              {{ h.games }} matcher, varav {{ h.playoffGames }} i slutspelet. Matchdata finns för
+              {{ h.seasons }}.
+            </p>
+            <div class="table-scroll h2h">
+              <table class="data">
+                <thead>
+                  <tr>
+                    <th scope="col">Motståndare</th>
+                    <th scope="col" class="num">Matcher</th>
+                    <th scope="col" class="num">V-F-O</th>
+                    <th scope="col" class="num">Poäng för</th>
+                    <th scope="col" class="num">Poäng emot</th>
+                    <th scope="col" class="num">Slutspel</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (row of h.rows; track row.opponent.id) {
+                    <tr>
+                      <td class="name">
+                        <a routerLink="/inbordes" [queryParams]="{ a: m.id, b: row.opponent.id }">{{
+                          row.opponent.name
+                        }}</a>
+                      </td>
+                      <td class="num">{{ row.games }}</td>
+                      <td
+                        class="num"
+                        [class.up]="row.wins > row.losses"
+                        [class.down]="row.wins < row.losses"
+                      >
+                        {{ row | record }}
+                      </td>
+                      <td class="num">{{ row.pointsFor | points }}</td>
+                      <td class="num">{{ row.pointsAgainst | points }}</td>
+                      <td class="num">
+                        {{
+                          row.playoffGames
+                            ? row.playoffWins + '-' + (row.playoffGames - row.playoffWins)
+                            : ''
+                        }}
+                      </td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+          } @else {
+            <p class="empty">Inga matcher registrerade för {{ name() }} än.</p>
+          }
+        } @else {
+          <app-load-state [refs]="[data.matchups]" />
+        }
       </section>
 
       <section class="card" aria-labelledby="trades">

@@ -73,6 +73,11 @@ export class SeasonPage {
     });
   });
 
+  protected readonly inProgress = computed(() => {
+    const season = this.season();
+    return !!season && !!this.index()?.inProgress.has(season.id);
+  });
+
   protected readonly finished = computed(() => this.rows().filter((r) => r.team.final));
   protected readonly left = computed(() => this.rows().filter((r) => !r.team.final));
 

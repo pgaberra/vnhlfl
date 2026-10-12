@@ -42,14 +42,18 @@
       <app-stat-tile label="Säsonger" [value]="f.seasons" [sub]="'sedan 2021/22'" />
       <app-stat-tile label="GM:s genom åren" [value]="f.managers" />
       <app-stat-tile label="Lag i ligan nu" [value]="f.teams" [sub]="f.divisions + ' divisioner'" />
-      <app-stat-tile label="Senaste säsongen" [value]="f.latest.label" />
+      <app-stat-tile
+        label="Senaste säsongen"
+        [value]="f.latest.label"
+        [sub]="f.latestInProgress ? 'pågår' : null"
+      />
     </section>
 
     <div class="grid-2">
       <section class="card" aria-labelledby="champs">
         <div class="card-head">
-          <h2 id="champs">Mästare {{ f.latest.label }}</h2>
-          <a [routerLink]="['/sasong', f.latest.id]">Hela säsongen</a>
+          <h2 id="champs">Mästare {{ f.finished.label }}</h2>
+          <a [routerLink]="['/sasong', f.finished.id]">Hela säsongen</a>
         </div>
         <ul class="champions">
           @for (c of latestChampions(); track c.team.id) {

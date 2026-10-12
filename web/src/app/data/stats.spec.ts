@@ -1,18 +1,21 @@
 import { describe, expect, it } from 'vitest';
 import { formatPct, formatRecord, ordinal } from '../shared/format';
 import { indexLeague } from './league-index';
-import { FinalStanding, LeagueFile, TeamSeason, Trade } from './models';
+import { FinalStanding, LeagueFile, Matchup, TeamSeason, Trade } from './models';
 import {
   adpDelta,
   allTimeTable,
   career,
   champions,
+  gamesOf,
+  headToHead,
   mostActiveTraders,
   mostTradedPlayers,
   playoffSpots,
   rankPath,
   totals,
   tradePartners,
+  weekRecords,
 } from './stats';
 
 function final(rank: number, wins: number, losses: number, pointsFor: number): FinalStanding {
@@ -293,5 +296,58 @@ describe('format', () => {
 
   it('prints a record', () => {
     expect(formatRecord({ wins: 11, losses: 10, ties: 0 })).toBe('11-10-0');
+  });
+});
+
+describe('matchups', () => {
+  function game(
+    home: string,
+    away: string,
+    hp: number,
+    ap: number,
+    stage: Matchup['stage'] = 'regular',
+  ): Matchup {
+    return {
+      seasonId: '2023-24',
+      divisionId: 'b1',
+      week: 1,
+      stage,
+      home: { teamId: `2023-24:${home}`, points: hp },
+      away: { teamId: `2023-24:${away}`, points: ap },
+    };
+  }
+  const games = [
+    game('bears', 'eagles', 300, 200),
+    game('eagles', 'bears', 250, 250),
+    game('eagles', 'bears', 280, 270, 'final'),
+    game('bears', 'wolves', 100, 400, 'consolation-final'),
+  ];
+
+  it("reads games from the GM's side", () => {
+    expect(gamesOf(games, index, 'eagles').map((g) => [g.mine.points, g.result])).toEqual([
+      [200, 'L'],
+      [250, 'T'],
+      [280, 'W'],
+    ]);
+  });
+
+  it('builds a record per opponent with playoffs counted separately', () => {
+    const [eagles, wolves] = headToHead(games, index, 'bears');
+    expect(eagles).toMatchObject({
+      games: 3,
+      wins: 1,
+      losses: 1,
+      ties: 1,
+      playoffGames: 1,
+      playoffWins: 0,
+    });
+    expect(eagles.pointsFor).toBe(820);
+    expect(wolves).toMatchObject({ games: 1, losses: 1, playoffGames: 0 });
+  });
+
+  it('ranks single-week scores and margins', () => {
+    expect(weekRecords(games, { limit: 1 })[0].side.points).toBe(400);
+    const margin = weekRecords(games, { by: 'margin', limit: 1 })[0];
+    expect(margin.side.points - margin.opponent.points).toBe(300);
   });
 });

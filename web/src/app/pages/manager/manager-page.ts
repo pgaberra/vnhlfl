@@ -15,6 +15,7 @@ import {
   rankPath,
   snapshotsFor,
   totals,
+  headToHead,
   tradePartners,
   tradesOf,
 } from '../../data/stats';
@@ -64,7 +65,7 @@ export class ManagerPage {
   protected readonly index = this.data.index;
 
   constructor() {
-    this.data.need('standings', 'trades', 'draft');
+    this.data.need('standings', 'trades', 'draft', 'matchups');
     const title = inject(Title);
     effect(() => {
       const m = this.manager();
@@ -130,6 +131,23 @@ export class ManagerPage {
           playoffSpots: playoffSpots(idx, s.team.divisionId),
         };
       });
+  });
+
+  protected readonly h2h = computed(() => {
+    const idx = this.index();
+    if (!idx || !this.data.matchups.hasValue()) return null;
+    const matchups = this.data.matchups.value().matchups;
+    const rows = headToHead(matchups, idx, this.id());
+    const seasons = idx.league.coverage.matchups
+      .map((id) => idx.season.get(id)?.label)
+      .filter(Boolean);
+    return {
+      rows,
+      games: rows.reduce((n, r) => n + r.games, 0),
+      playoffGames: rows.reduce((n, r) => n + r.playoffGames, 0),
+      seasons:
+        seasons.length > 1 ? `${seasons.at(0)}–${seasons.at(-1)}` : (seasons[0] ?? 'inga säsonger'),
+    };
   });
 
   protected readonly trades = computed(() => {

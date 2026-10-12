@@ -571,6 +571,377 @@
      ]
     }
    ]
+  },
+  {
+   "id": "2025-26",
+   "label": "2025/26",
+   "divisions": [
+    {
+     "id": "2025-26-div-1-gretzky",
+     "name": "Div 1 Gretzky",
+     "tier": 1,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:kht-rangers",
+      "2025-26:steninge-jets",
+      "2025-26:jaromir-juggernaut",
+      "2025-26:sampa",
+      "2025-26:musketorerna",
+      "2025-26:sandby-boys",
+      "2025-26:gyllene-knektarna",
+      "2025-26:stangby-canucks",
+      "2025-26:henke-panthers",
+      "2025-26:sea-bass",
+      "2025-26:team-wrongass",
+      "2025-26:bengtsbol-if",
+      "2025-26:skbg-elite",
+      "2025-26:too-hot-to-yandle"
+     ]
+    },
+    {
+     "id": "2025-26-div-2-jagr",
+     "name": "Div 2 Jagr",
+     "tier": 2,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:flippmacka-hc",
+      "2025-26:banan-med-permobil",
+      "2025-26:andy-flyers",
+      "2025-26:gaxsjo-hockeyheads",
+      "2025-26:mighty-drunks",
+      "2025-26:teamstoof",
+      "2025-26:ik-oddevold",
+      "2025-26:uttran-north-stars",
+      "2025-26:den-blommande-loken",
+      "2025-26:lundqvist-win",
+      "2025-26:uport-slackerz",
+      "2025-26:mcsorleys-bojda-blad",
+      "2025-26:blue-forest",
+      "2025-26:mot-divison-8-hc",
+      "2025-26:borjebus"
+     ]
+    },
+    {
+     "id": "2025-26-div-2-messier",
+     "name": "Div 2 Messier",
+     "tier": 2,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:eastfield-snigels",
+      "2025-26:thls-dream-team",
+      "2025-26:klockarbergets-javlar",
+      "2025-26:falukorvarna",
+      "2025-26:gudrun-streamercanes",
+      "2025-26:sega-puckar",
+      "2025-26:pigga-pagar",
+      "2025-26:finnish-marauders",
+      "2025-26:patrik-uncut",
+      "2025-26:thunbergs-melting-icecaps",
+      "2025-26:fixwell-hockey",
+      "2025-26:siggepp",
+      "2025-26:dropstokk-penguins",
+      "2025-26:ragdolls",
+      "2025-26:mac-attack"
+     ]
+    },
+    {
+     "id": "2025-26-div-3-dionne",
+     "name": "Div 3 Dionne",
+     "tier": 3,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:kjells-angels",
+      "2025-26:sons-of-glenn",
+      "2025-26:halifax-citadels",
+      "2025-26:lule-devils",
+      "2025-26:falu-red-colors",
+      "2025-26:sunnyvale-shithawks",
+      "2025-26:eddtillimdead",
+      "2025-26:melwood-hc",
+      "2025-26:torpadie-trashers",
+      "2025-26:truck-driver-d",
+      "2025-26:foreberg",
+      "2025-26:donnedain",
+      "2025-26:portvin-on-ice",
+      "2025-26:vasteras-draconian",
+      "2025-26:wealdstone-raiders"
+     ]
+    },
+    {
+     "id": "2025-26-div-3-francis",
+     "name": "Div 3 Francis",
+     "tier": 3,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:munkasen-machines",
+      "2025-26:cristers-grand-team",
+      "2025-26:malmoiterna",
+      "2025-26:moves-like-jagr",
+      "2025-26:lords-hc",
+      "2025-26:flata-kickers-alexander-b",
+      "2025-26:team-zuuuuc",
+      "2025-26:ovies-malrekord",
+      "2025-26:henriks-peerless-team",
+      "2025-26:burely-legal",
+      "2025-26:2-girls-no-cup",
+      "2025-26:purple-cobras",
+      "2025-26:freddes-kings-queens",
+      "2025-26:stenfors"
+     ]
+    },
+    {
+     "id": "2025-26-div-3-howe",
+     "name": "Div 3 Howe",
+     "tier": 3,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:vnhl-olof",
+      "2025-26:byavagen-flyers",
+      "2025-26:chris-p-bacon-hc",
+      "2025-26:kvicklund",
+      "2025-26:high-valley-roosters",
+      "2025-26:skridsko-mot-stolpen",
+      "2025-26:chicago-blackhaks",
+      "2025-26:valpens-mammutsnabel",
+      "2025-26:fishbone-brothers",
+      "2025-26:west-coast-express",
+      "2025-26:gm",
+      "2025-26:salikepeter",
+      "2025-26:de-a-bara-a-ak",
+      "2025-26:team-wakeras"
+     ]
+    },
+    {
+     "id": "2025-26-div-4-lemieux",
+     "name": "Div 4 Lemieux",
+     "tier": 4,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:monkrapids-top-corns",
+      "2025-26:majorna-bruins",
+      "2025-26:cow-bow",
+      "2025-26:wall-of-belfour",
+      "2025-26:alviks-a-lagare",
+      "2025-26:admiral-general-allardeen",
+      "2025-26:gaxsjo-junior",
+      "2025-26:borjegatan-bunnies",
+      "2025-26:crosbys-cry-babies",
+      "2025-26:hockeynroll-hc",
+      "2025-26:pastore-bob",
+      "2025-26:sunnes-pagar",
+      "2025-26:kingston-bagpipes",
+      "2025-26:owen-16",
+      "2025-26:manhattans-skogvaktare",
+      "2025-26:owens-world-class-team"
+     ]
+    },
+    {
+     "id": "2025-26-div-4-yzerman",
+     "name": "Div 4 Yzerman",
+     "tier": 4,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2025-26:rosa-faran",
+      "2025-26:pusselbit-painters",
+      "2025-26:eken",
+      "2025-26:andres-bold-team",
+      "2025-26:ftw-panthers",
+      "2025-26:anzelm-avalanche",
+      "2025-26:kikos-nasi-lemak",
+      "2025-26:river-valley-rugmunchers",
+      "2025-26:the-puckfather",
+      "2025-26:bronco",
+      "2025-26:backes-in-the-ussr",
+      "2025-26:too-lucky-for-you",
+      "2025-26:johans-phenomenal-team",
+      "2025-26:kungdraparna",
+      "2025-26:gustavs-best-team",
+      "2025-26:petters-phenomenal-team"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-27",
+   "label": "2026/27",
+   "divisions": [
+    {
+     "id": "2026-27-div-1-gretzky",
+     "name": "Div 1 Gretzky",
+     "tier": 1,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:eastfield-snigels",
+      "2026-27:flippmacka-hc",
+      "2026-27:gyllene-knektarna",
+      "2026-27:jaromir-juggernaut",
+      "2026-27:jens",
+      "2026-27:kht-rangers",
+      "2026-27:kjells-angels",
+      "2026-27:munkasen-machines",
+      "2026-27:musketoren",
+      "2026-27:no-sandby-no-party",
+      "2026-27:sampa",
+      "2026-27:steninge-jets",
+      "2026-27:tullinge-tuggers",
+      "2026-27:vnhl-olof"
+     ]
+    },
+    {
+     "id": "2026-27-div-2-jagr",
+     "name": "Div 2 Jagr",
+     "tier": 2,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:andy-flyers",
+      "2026-27:bengsbol",
+      "2026-27:biscuit-rippers",
+      "2026-27:byavagen-flyers",
+      "2026-27:cristers-crazy-team",
+      "2026-27:falukorvarna",
+      "2026-27:gaxsjo-hockeyheads",
+      "2026-27:henke-panthers",
+      "2026-27:klockarbergets-javlar",
+      "2026-27:mac-attack",
+      "2026-27:mighty-drunks",
+      "2026-27:rosa-faran",
+      "2026-27:stangby-canucks",
+      "2026-27:team-wrongass"
+     ]
+    },
+    {
+     "id": "2026-27-div-3-messier",
+     "name": "Div 3 Messier",
+     "tier": 3,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:den-blommande-loken",
+      "2026-27:donaldo-ducks",
+      "2026-27:finnish-marauders",
+      "2026-27:halifax-citadels",
+      "2026-27:ik-oddevold",
+      "2026-27:majorna-bruins",
+      "2026-27:malmoiterna",
+      "2026-27:monkrapids-top-corns",
+      "2026-27:pigga-pagar",
+      "2026-27:skbg-elite",
+      "2026-27:teamstoof",
+      "2026-27:too-hot-to-yandle",
+      "2026-27:uttran-north-stars",
+      "2026-27:vnhl-patrik"
+     ]
+    },
+    {
+     "id": "2026-27-div-4-howe",
+     "name": "Div 4 Howe",
+     "tier": 4,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:blue-forest",
+      "2026-27:borjebus",
+      "2026-27:dropstokk-penguins",
+      "2026-27:falu-red-colors",
+      "2026-27:high-valley-roosters",
+      "2026-27:kvicklund",
+      "2026-27:lule-devils",
+      "2026-27:lundqvist-win",
+      "2026-27:mcsorleys-bojda-blad",
+      "2026-27:moves-like-jagr",
+      "2026-27:pusselbit-painters",
+      "2026-27:ragdolls",
+      "2026-27:uport-slackerz",
+      "2026-27:vnhlfl-eken"
+     ]
+    },
+    {
+     "id": "2026-27-div-5-francis",
+     "name": "Div 5 Francis",
+     "tier": 5,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:chicago-blackhaks",
+      "2026-27:cow-bow",
+      "2026-27:eddtillimdead",
+      "2026-27:fishbone-brothers",
+      "2026-27:flata-kickers-alexander-b",
+      "2026-27:lords-hc",
+      "2026-27:melwood-hc",
+      "2026-27:ovies-malrekord",
+      "2026-27:siggepp",
+      "2026-27:skridsko-mot-stolpen",
+      "2026-27:sunnyvale-shithawks",
+      "2026-27:team-zuuuuc",
+      "2026-27:valpens-minisnabel",
+      "2026-27:wall-of-belfour"
+     ]
+    },
+    {
+     "id": "2026-27-div-6-dionne",
+     "name": "Div 6 Dionne",
+     "tier": 6,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:2-girls-no-cup",
+      "2026-27:admiral-general-allardeen",
+      "2026-27:andres-bold-team",
+      "2026-27:anzelm-avalanche",
+      "2026-27:det",
+      "2026-27:foreberg",
+      "2026-27:ftw-panthers",
+      "2026-27:gaxsjo-junior",
+      "2026-27:kikos-nasi-lemak",
+      "2026-27:nose-face",
+      "2026-27:simply-lemieux",
+      "2026-27:torpadie-trashers",
+      "2026-27:truck-driver-d",
+      "2026-27:west-coast-express"
+     ]
+    },
+    {
+     "id": "2026-27-div-7-crosby",
+     "name": "Div 7 Crosby",
+     "tier": 7,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:backes-in-the-ussr",
+      "2026-27:borjegatan-bunnies",
+      "2026-27:crosbys-cry-babies",
+      "2026-27:donnedain",
+      "2026-27:draconian-dreams",
+      "2026-27:gustavs-glorious-team",
+      "2026-27:kingston-bagpipes",
+      "2026-27:nohas-dandy-team",
+      "2026-27:puckfadern",
+      "2026-27:river-valley-rugmunchers",
+      "2026-27:stenfors-bk",
+      "2026-27:sunnes-pagar",
+      "2026-27:team-wakeras",
+      "2026-27:too-lucky-for-u"
+     ]
+    },
+    {
+     "id": "2026-27-div-8-yzerman",
+     "name": "Div 8 Yzerman",
+     "tier": 8,
+     "draftFormat": "auction",
+     "teamIds": [
+      "2026-27:ange-peacocks",
+      "2026-27:baden-baden-hk",
+      "2026-27:brunkers-bk",
+      "2026-27:hagel-bagels",
+      "2026-27:igor-skridskotonov",
+      "2026-27:kippers-keepers",
+      "2026-27:knee-check-ruutuine",
+      "2026-27:lago-lowlifes",
+      "2026-27:mcdavid-co",
+      "2026-27:mighty-marconi",
+      "2026-27:olers",
+      "2026-27:plenvuforthewin",
+      "2026-27:teal-destroy",
+      "2026-27:the-golden-jet"
+     ]
+    }
+   ]
   }
  ],
  "managers": [
@@ -582,12 +953,28 @@
    ]
   },
   {
+   "id": "admiral-general-allardeen",
+   "name": "Admiral General Allardeen",
+   "teamNames": [
+    "Admiral General Allardeen"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "alexanders-expert-team",
    "name": "alexander's Rad team",
    "teamNames": [
     "alexander's Expert Team",
     "alexander's Rad team"
    ]
+  },
+  {
+   "id": "alviks-a-lagare",
+   "name": "Alviks A-lagare",
+   "teamNames": [
+    "Alviks A-lagare"
+   ],
+   "unmapped": true
   },
   {
    "id": "amazingastor",
@@ -600,11 +987,27 @@
    ]
   },
   {
+   "id": "andres-bold-team",
+   "name": "André's Bold Team",
+   "teamNames": [
+    "André's Bold Team"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "andy-flyers",
    "name": "Andy Flyers",
    "teamNames": [
     "Andy Flyers"
    ]
+  },
+  {
+   "id": "ange-peacocks",
+   "name": "Ånge Peacocks",
+   "teamNames": [
+    "Ånge Peacocks"
+   ],
+   "unmapped": true
   },
   {
    "id": "anzelm-avalanche",
@@ -628,6 +1031,14 @@
    ]
   },
   {
+   "id": "baden-baden-hk",
+   "name": "Baden-Baden HK",
+   "teamNames": [
+    "Baden-Baden HK"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "bamsingarna",
    "name": "Bamsingarna",
    "teamNames": [
@@ -640,6 +1051,38 @@
    "teamNames": [
     "Bamsingarna 2.0"
    ]
+  },
+  {
+   "id": "banan-med-permobil",
+   "name": "Banan med Permobil",
+   "teamNames": [
+    "Banan med Permobil"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "bengsbol",
+   "name": "Bengsbol",
+   "teamNames": [
+    "Bengsbol"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "bengtsbol-if",
+   "name": "Bengtsbol IF",
+   "teamNames": [
+    "Bengtsbol IF"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "biscuit-rippers",
+   "name": "Biscuit Rippers",
+   "teamNames": [
+    "Biscuit Rippers"
+   ],
+   "unmapped": true
   },
   {
    "id": "bjorkarnas-stad-hc",
@@ -666,10 +1109,10 @@
   },
   {
    "id": "borjebus",
-   "name": "Suntrip HC",
+   "name": "Suntrip hc",
    "teamNames": [
     "Börjebus",
-    "Suntrip HC"
+    "Suntrip hc"
    ]
   },
   {
@@ -678,6 +1121,14 @@
    "teamNames": [
     "Börjegatan Bunnies"
    ]
+  },
+  {
+   "id": "bronco",
+   "name": "Bronco",
+   "teamNames": [
+    "Bronco"
+   ],
+   "unmapped": true
   },
   {
    "id": "bros-before-ahos",
@@ -692,6 +1143,14 @@
    "teamNames": [
     "Brunkers BK"
    ]
+  },
+  {
+   "id": "burely-legal",
+   "name": "Burely Legal",
+   "teamNames": [
+    "Burely Legal"
+   ],
+   "unmapped": true
   },
   {
    "id": "byavagen-flyers",
@@ -741,6 +1200,30 @@
    ]
   },
   {
+   "id": "cow-bow",
+   "name": "cow bow",
+   "teamNames": [
+    "cow bow"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "cristers-crazy-team",
+   "name": "crister's Crazy Team",
+   "teamNames": [
+    "crister's Crazy Team"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "cristers-grand-team",
+   "name": "crister's Grand Team",
+   "teamNames": [
+    "crister's Grand Team"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "cristers-groovy-team",
    "name": "crister's Unmatched Team",
    "teamNames": [
@@ -751,9 +1234,9 @@
   },
   {
    "id": "crosbys-cry-babies",
-   "name": "Crosbys cry babies",
+   "name": "Crosbys Cry Babies",
    "teamNames": [
-    "Crosbys cry babies"
+    "Crosbys Cry Babies"
    ]
   },
   {
@@ -765,10 +1248,10 @@
   },
   {
    "id": "de-a-bara-a-ak",
-   "name": "De är Bara å åk",
+   "name": "De är bara å åk",
    "teamNames": [
     "De Ä bara å ÅK",
-    "De är Bara å åk"
+    "De är bara å åk"
    ]
   },
   {
@@ -790,12 +1273,28 @@
    ]
   },
   {
+   "id": "det",
+   "name": "Det🌲",
+   "teamNames": [
+    "Det🌲"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "det-grona-tradet",
    "name": "🌳",
    "teamNames": [
     "Det Gröna Trädet",
     "🌳"
    ]
+  },
+  {
+   "id": "donaldo-ducks",
+   "name": "Donaldo Ducks 🦆",
+   "teamNames": [
+    "Donaldo Ducks 🦆"
+   ],
+   "unmapped": true
   },
   {
    "id": "donnedain",
@@ -805,6 +1304,14 @@
     "Henry's World-Class Team",
     "De va Draipen"
    ]
+  },
+  {
+   "id": "draconian-dreams",
+   "name": "Draconian Dreams",
+   "teamNames": [
+    "Draconian Dreams"
+   ],
+   "unmapped": true
   },
   {
    "id": "dropstokk-penguins",
@@ -878,9 +1385,9 @@
   },
   {
    "id": "fixwell-hockey",
-   "name": "Fixwell Hockey",
+   "name": "FIXWELL HOCKEY",
    "teamNames": [
-    "Fixwell Hockey"
+    "FIXWELL HOCKEY"
    ]
   },
   {
@@ -893,9 +1400,9 @@
   },
   {
    "id": "flippmacka-hc",
-   "name": "FLIPPMACKA HC",
+   "name": "Flippmacka Hc",
    "teamNames": [
-    "FLIPPMACKA HC"
+    "Flippmacka Hc"
    ]
   },
   {
@@ -922,6 +1429,14 @@
    ]
   },
   {
+   "id": "ftw-panthers",
+   "name": "FTW Panthers",
+   "teamNames": [
+    "FTW Panthers"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "gaxsjo-hockeyheads",
    "name": "Gåxsjö Hockey Heads",
    "teamNames": [
@@ -930,10 +1445,18 @@
   },
   {
    "id": "gaxsjo-junior",
-   "name": "Gåxsjö Junior",
+   "name": "Gåxsjö junior",
    "teamNames": [
-    "Gåxsjö Junior"
+    "Gåxsjö junior"
    ]
+  },
+  {
+   "id": "gm",
+   "name": "🌲",
+   "teamNames": [
+    "🌲"
+   ],
+   "unmapped": true
   },
   {
    "id": "gottepasen",
@@ -941,6 +1464,30 @@
    "teamNames": [
     "Gottepåsen"
    ]
+  },
+  {
+   "id": "gudrun-streamercanes",
+   "name": "Gudrun Streamercanes",
+   "teamNames": [
+    "Gudrun Streamercanes"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "gustavs-best-team",
+   "name": "Gustav's Best Team",
+   "teamNames": [
+    "Gustav's Best Team"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "gustavs-glorious-team",
+   "name": "Gustav's Glorious Team",
+   "teamNames": [
+    "Gustav's Glorious Team"
+   ],
+   "unmapped": true
   },
   {
    "id": "gustavs-grand-team",
@@ -958,11 +1505,27 @@
    ]
   },
   {
+   "id": "hagel-bagels",
+   "name": "Hagel Bagels",
+   "teamNames": [
+    "Hagel Bagels"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "hak-eye",
    "name": "HÅK-EYE",
    "teamNames": [
     "HÅK-EYE"
    ]
+  },
+  {
+   "id": "halifax-citadels",
+   "name": "Halifax Citadels",
+   "teamNames": [
+    "Halifax Citadels"
+   ],
+   "unmapped": true
   },
   {
    "id": "hallbo-hc",
@@ -989,7 +1552,7 @@
   },
   {
    "id": "henriks-peerless-team",
-   "name": "NoseFace",
+   "name": "Nose Face Killah",
    "teamNames": [
     "Henrik's Peerless team",
     "Nose Face Killah",
@@ -1027,11 +1590,27 @@
    ]
   },
   {
+   "id": "hockeynroll-hc",
+   "name": "Hockey'n'Roll HC",
+   "teamNames": [
+    "Hockey'n'Roll HC"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "humblas-smallkarameller",
    "name": "Humblas smällkarameller",
    "teamNames": [
     "Humblas smällkarameller"
    ]
+  },
+  {
+   "id": "igor-skridskotonov",
+   "name": "Igor Skridskotonov",
+   "teamNames": [
+    "Igor Skridskotonov"
+   ],
+   "unmapped": true
   },
   {
    "id": "ik-oddevold",
@@ -1055,6 +1634,14 @@
    ]
   },
   {
+   "id": "jens",
+   "name": "Jens",
+   "teamNames": [
+    "Jens"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "jespers-impressive-team",
    "name": "Jesper's ExtraordinaryTeam",
    "teamNames": [
@@ -1069,6 +1656,14 @@
     "Joachim's Quality Team",
     "Bengstbol IF"
    ]
+  },
+  {
+   "id": "johans-phenomenal-team",
+   "name": "Johan's Phenomenal Team",
+   "teamNames": [
+    "Johan's Phenomenal Team"
+   ],
+   "unmapped": true
   },
   {
    "id": "jozos-first-rate-team",
@@ -1107,11 +1702,35 @@
    ]
   },
   {
+   "id": "kippers-keepers",
+   "name": "Kipper's Keepers",
+   "teamNames": [
+    "Kipper's Keepers"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "kjells-angels",
    "name": "Kjells Angels",
    "teamNames": [
     "Kjells Angels"
    ]
+  },
+  {
+   "id": "klockarbergets-javlar",
+   "name": "Klockarbergets Jävlar",
+   "teamNames": [
+    "Klockarbergets Jävlar"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "knee-check-ruutuine",
+   "name": "Knee-Check Ruutuine",
+   "teamNames": [
+    "Knee-Check Ruutuine"
+   ],
+   "unmapped": true
   },
   {
    "id": "kumlabunkern",
@@ -1121,6 +1740,14 @@
    ]
   },
   {
+   "id": "kungdraparna",
+   "name": "Kungdräparna",
+   "teamNames": [
+    "Kungdräparna"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "kvicklund",
    "name": "Kvicklund",
    "teamNames": [
@@ -1128,6 +1755,14 @@
     "David Veckans NHL",
     "Kvicklund Veckans NHL"
    ]
+  },
+  {
+   "id": "lago-lowlifes",
+   "name": "Lago Lowlifes",
+   "teamNames": [
+    "Lago Lowlifes"
+   ],
+   "unmapped": true
   },
   {
    "id": "lokomotiv-hov",
@@ -1175,6 +1810,14 @@
    ]
   },
   {
+   "id": "majorna-bruins",
+   "name": "Majorna Bruins",
+   "teamNames": [
+    "Majorna Bruins"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "malmoiterna",
    "name": "Malmö Ducks",
    "teamNames": [
@@ -1184,7 +1827,7 @@
   },
   {
    "id": "manhattans-skogvaktare",
-   "name": "Skeletor",
+   "name": "Nils's Nifty Team",
    "teamNames": [
     "Manhattans skogvaktare",
     "Nils's Nifty Team",
@@ -1215,6 +1858,14 @@
    ]
   },
   {
+   "id": "mcdavid-co",
+   "name": "McDavid & Co",
+   "teamNames": [
+    "McDavid & Co"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "mcsorleys-bojda-blad",
    "name": "McSorleys böjda blad",
    "teamNames": [
@@ -1243,6 +1894,14 @@
    ]
   },
   {
+   "id": "mighty-marconi",
+   "name": "Mighty Marconi",
+   "teamNames": [
+    "Mighty Marconi"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "mikelikehockey",
    "name": "Mikelikehockey",
    "teamNames": [
@@ -1255,6 +1914,14 @@
    "teamNames": [
     "Monkrapids Top Corns"
    ]
+  },
+  {
+   "id": "mot-divison-8-hc",
+   "name": "Mot divison 8 HC",
+   "teamNames": [
+    "Mot divison 8 HC"
+   ],
+   "unmapped": true
   },
   {
    "id": "moves-like-jagr",
@@ -1273,6 +1940,22 @@
    ]
   },
   {
+   "id": "musketoren",
+   "name": "Musketören",
+   "teamNames": [
+    "Musketören"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "musketorerna",
+   "name": "Musketörerna",
+   "teamNames": [
+    "Musketörerna"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "njurunda-devils",
    "name": "Apokalops Nu!",
    "teamNames": [
@@ -1288,6 +1971,38 @@
    ]
   },
   {
+   "id": "no-sandby-no-party",
+   "name": "No Sandby No Party",
+   "teamNames": [
+    "No Sandby No Party"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "nohas-dandy-team",
+   "name": "noha's Dandy Team",
+   "teamNames": [
+    "noha's Dandy Team"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "nose-face",
+   "name": "NOSE FACE",
+   "teamNames": [
+    "NOSE FACE"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "olers",
+   "name": "Ölers",
+   "teamNames": [
+    "Ölers"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "oppenheimer-atomics",
    "name": "Oppenheimer Atomics",
    "teamNames": [
@@ -1300,6 +2015,22 @@
    "teamNames": [
     "Ovies Målrekord"
    ]
+  },
+  {
+   "id": "owen-16",
+   "name": "Owen-16",
+   "teamNames": [
+    "Owen-16"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "owens-world-class-team",
+   "name": "owen's World-Class Team",
+   "teamNames": [
+    "owen's World-Class Team"
+   ],
+   "unmapped": true
   },
   {
    "id": "pac-mans-dreamteam",
@@ -1317,12 +2048,28 @@
    ]
   },
   {
+   "id": "patrik-uncut",
+   "name": "Patrik Uncut!",
+   "teamNames": [
+    "Patrik Uncut!"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "patriks-mosquito-bites",
    "name": "Mosquitos",
    "teamNames": [
     "Patrik's Mosquito Bites",
     "Mosquitos"
    ]
+  },
+  {
+   "id": "petters-phenomenal-team",
+   "name": "Petter's Phenomenal Team",
+   "teamNames": [
+    "Petter's Phenomenal Team"
+   ],
+   "unmapped": true
   },
   {
    "id": "pigga-pagar",
@@ -1337,6 +2084,14 @@
    "teamNames": [
     "Pitepojkar"
    ]
+  },
+  {
+   "id": "plenvuforthewin",
+   "name": "Plenvuforthewin",
+   "teamNames": [
+    "Plenvuforthewin"
+   ],
+   "unmapped": true
   },
   {
    "id": "portvin-on-ice",
@@ -1354,6 +2109,22 @@
    ]
   },
   {
+   "id": "puckfadern",
+   "name": "Puckfadern",
+   "teamNames": [
+    "Puckfadern"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "purple-cobras",
+   "name": "Purple Cobras",
+   "teamNames": [
+    "Purple Cobras"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "pusselbit-painters",
    "name": "Pusselbit Painters",
    "teamNames": [
@@ -1362,11 +2133,19 @@
   },
   {
    "id": "ragdolls",
-   "name": "Ragdolls 13",
+   "name": "Ragdolls",
    "teamNames": [
     "Ragdolls",
     "Ragdolls 13"
    ]
+  },
+  {
+   "id": "river-valley-rugmunchers",
+   "name": "River Valley Rugmunchers",
+   "teamNames": [
+    "River Valley Rugmunchers"
+   ],
+   "unmapped": true
   },
   {
    "id": "roberts-rad-team",
@@ -1436,11 +2215,27 @@
    ]
   },
   {
+   "id": "sega-puckar",
+   "name": "Sega Puckar",
+   "teamNames": [
+    "Sega Puckar"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "siggepp",
    "name": "SiggePP",
    "teamNames": [
     "SiggePP"
    ]
+  },
+  {
+   "id": "simply-lemieux",
+   "name": "Simply Lemieux",
+   "teamNames": [
+    "Simply Lemieux"
+   ],
+   "unmapped": true
   },
   {
    "id": "skanstull-sharks",
@@ -1474,6 +2269,14 @@
    ]
   },
   {
+   "id": "sons-of-glenn",
+   "name": "Sons of Glenn",
+   "teamNames": [
+    "Sons of Glenn"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "stangby-canucks",
    "name": "Stångby Canucks",
    "teamNames": [
@@ -1488,6 +2291,14 @@
     "🪨🌊©️",
     "🪨🌊"
    ]
+  },
+  {
+   "id": "stenfors-bk",
+   "name": "Stenfors BK",
+   "teamNames": [
+    "Stenfors BK"
+   ],
+   "unmapped": true
   },
   {
    "id": "steninge-jets",
@@ -1519,6 +2330,14 @@
    ]
   },
   {
+   "id": "teal-destroy",
+   "name": "Teal & Destroy",
+   "teamNames": [
+    "Teal & Destroy"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "team-all-sellers",
    "name": "Team All Sellers",
    "teamNames": [
@@ -1534,9 +2353,9 @@
   },
   {
    "id": "team-wakeras",
-   "name": "Team wakeras",
+   "name": "Team Wåkerås",
    "teamNames": [
-    "Team wakeras"
+    "Team Wåkerås"
    ]
   },
   {
@@ -1570,12 +2389,28 @@
    ]
   },
   {
+   "id": "the-golden-jet",
+   "name": "The Golden Jet",
+   "teamNames": [
+    "The Golden Jet"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "the-miracle-squad",
    "name": "The miacle squad",
    "teamNames": [
     "The Miracle Squad",
     "The miacle squad"
    ]
+  },
+  {
+   "id": "the-puckfather",
+   "name": "The Puckfather",
+   "teamNames": [
+    "The Puckfather"
+   ],
+   "unmapped": true
   },
   {
    "id": "the-red-lions",
@@ -1613,6 +2448,14 @@
    ]
   },
   {
+   "id": "too-lucky-for-u",
+   "name": "Too Lucky For U",
+   "teamNames": [
+    "Too Lucky For U"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "too-lucky-for-you",
    "name": "Too lucky for you!",
    "teamNames": [
@@ -1643,6 +2486,14 @@
     "Truck Driver D",
     "TruckDanne"
    ]
+  },
+  {
+   "id": "tullinge-tuggers",
+   "name": "Tullinge Tuggers",
+   "teamNames": [
+    "Tullinge Tuggers"
+   ],
+   "unmapped": true
   },
   {
    "id": "umepenguins",
@@ -1681,6 +2532,22 @@
     "Valpens Coyotes",
     "Valpens förvirrade hjärna"
    ]
+  },
+  {
+   "id": "valpens-mammutsnabel",
+   "name": "Valpens Mammutsnabel",
+   "teamNames": [
+    "Valpens Mammutsnabel"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "valpens-minisnabel",
+   "name": "Valpens Minisnabel",
+   "teamNames": [
+    "Valpens Minisnabel"
+   ],
+   "unmapped": true
   },
   {
    "id": "vasteras-draconian",
@@ -1722,8 +2589,24 @@
    ]
   },
   {
+   "id": "vnhlfl-eken",
+   "name": "VNHLFL Eken",
+   "teamNames": [
+    "VNHLFL Eken"
+   ],
+   "unmapped": true
+  },
+  {
+   "id": "wall-of-belfour",
+   "name": "Wall of Belfour",
+   "teamNames": [
+    "Wall of Belfour"
+   ],
+   "unmapped": true
+  },
+  {
    "id": "wealdstone-raiders",
-   "name": "Free Fallin' Sons of Keith",
+   "name": "Sons of Keith",
    "teamNames": [
     "Wealdstone Raiders",
     "Sons of Keith",
@@ -8512,6 +9395,3205 @@
     "waiver": 10,
     "moves": 91
    }
+  },
+  {
+   "id": "2025-26:2-girls-no-cup",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 7,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4501.85,
+    "fab": 2,
+    "waiver": 9,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:admiral-general-allardeen",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "admiral-general-allardeen",
+   "name": "Admiral General Allardeen",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4910.81,
+    "fab": 64,
+    "waiver": 9,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2025-26:alviks-a-lagare",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "alviks-a-lagare",
+   "name": "Alviks A-lagare",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4798.93,
+    "fab": 100,
+    "waiver": 6,
+    "moves": 62
+   }
+  },
+  {
+   "id": "2025-26:andres-bold-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "andres-bold-team",
+   "name": "André's Bold Team",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4740.22,
+    "fab": 78,
+    "waiver": 7,
+    "moves": 78
+   }
+  },
+  {
+   "id": "2025-26:andy-flyers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 15,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5169.18,
+    "fab": 60,
+    "waiver": 12,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2025-26:anzelm-avalanche",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "anzelm-avalanche",
+   "name": "Anzelm Avalanche",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4732.26,
+    "fab": 50,
+    "waiver": 3,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:backes-in-the-ussr",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "backes-in-the-ussr",
+   "name": "Backes in the USSR",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4496.99,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 54
+   }
+  },
+  {
+   "id": "2025-26:banan-med-permobil",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "banan-med-permobil",
+   "name": "Banan med Permobil",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5174.98,
+    "fab": 40,
+    "waiver": 11,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:bengtsbol-if",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "bengtsbol-if",
+   "name": "Bengtsbol IF",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 7,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4804.88,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2025-26:blue-forest",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4649.51,
+    "fab": 44,
+    "waiver": 9,
+    "moves": 73
+   }
+  },
+  {
+   "id": "2025-26:borjebus",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "borjebus",
+   "name": "Suntrip Hc",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:borjegatan-bunnies",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "borjegatan-bunnies",
+   "name": "Börjegatan Bunnies",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4650.95,
+    "fab": 63,
+    "waiver": 10,
+    "moves": 75
+   }
+  },
+  {
+   "id": "2025-26:bronco",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "bronco",
+   "name": "Bronco",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4622.72,
+    "fab": 90,
+    "waiver": 4,
+    "moves": 51
+   }
+  },
+  {
+   "id": "2025-26:burely-legal",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "burely-legal",
+   "name": "Burely Legal",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4391.64,
+    "fab": 97,
+    "waiver": 6,
+    "moves": 17
+   }
+  },
+  {
+   "id": "2025-26:byavagen-flyers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "byavagen-flyers",
+   "name": "Byavägen Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4885.0,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2025-26:chicago-blackhaks",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4817.11,
+    "fab": 70,
+    "waiver": 9,
+    "moves": 76
+   }
+  },
+  {
+   "id": "2025-26:chris-p-bacon-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "chris-p-bacon-hc",
+   "name": "Chris P Bacon HC",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4869.6,
+    "fab": 20,
+    "waiver": 2,
+    "moves": 55
+   }
+  },
+  {
+   "id": "2025-26:cow-bow",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "cow-bow",
+   "name": "cow bow",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4742.5,
+    "fab": 100,
+    "waiver": 2,
+    "moves": 33
+   }
+  },
+  {
+   "id": "2025-26:cristers-grand-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "cristers-grand-team",
+   "name": "crister's Grand Team",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 4936.99,
+    "fab": 0,
+    "waiver": 2,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2025-26:crosbys-cry-babies",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "crosbys-cry-babies",
+   "name": "Crosbys cry babies",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4681.71,
+    "fab": 3,
+    "waiver": 1,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2025-26:de-a-bara-a-ak",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "de-a-bara-a-ak",
+   "name": "De är bara å åk",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4613.81,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 53
+   }
+  },
+  {
+   "id": "2025-26:den-blommande-loken",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "den-blommande-loken",
+   "name": "Den Blommande Löken",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4968.19,
+    "fab": 22,
+    "waiver": 6,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2025-26:donnedain",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "donnedain",
+   "name": "De va Draipen",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4574.48,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 47
+   }
+  },
+  {
+   "id": "2025-26:dropstokk-penguins",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk penguins",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4116.48,
+    "fab": 100,
+    "waiver": 1,
+    "moves": 19
+   }
+  },
+  {
+   "id": "2025-26:eastfield-snigels",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "eastfield-snigels",
+   "name": "Eastfield",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4981.26,
+    "fab": 74,
+    "waiver": 8,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2025-26:eddtillimdead",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "eddtillimdead",
+   "name": "eddtillimdead",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4743.52,
+    "fab": 97,
+    "waiver": 4,
+    "moves": 62
+   }
+  },
+  {
+   "id": "2025-26:eken",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "eken",
+   "name": "Eken",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4675.33,
+    "fab": 100,
+    "waiver": 9,
+    "moves": 49
+   }
+  },
+  {
+   "id": "2025-26:falu-red-colors",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "falu-red-colors",
+   "name": "Bjursås Beavers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4958.16,
+    "fab": 0,
+    "waiver": 2,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:falukorvarna",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "falukorvarna",
+   "name": "Falukorvarna",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5104.46,
+    "fab": 79,
+    "waiver": 2,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:finnish-marauders",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "finnish-marauders",
+   "name": "Finnish Marauders",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4934.69,
+    "fab": 28,
+    "waiver": 12,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2025-26:fishbone-brothers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "fishbone-brothers",
+   "name": "Fishbone Brothers",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4879.89,
+    "fab": 93,
+    "waiver": 4,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2025-26:fixwell-hockey",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "fixwell-hockey",
+   "name": "FIXWELL HOCKEY",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4554.76,
+    "fab": 100,
+    "waiver": 10,
+    "moves": 45
+   }
+  },
+  {
+   "id": "2025-26:flata-kickers-alexander-b",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "flata-kickers-alexander-b",
+   "name": "Flata Kickers",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4911.88,
+    "fab": 77,
+    "waiver": 4,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2025-26:flippmacka-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "flippmacka-hc",
+   "name": "Flippmacka HC",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4774.27,
+    "fab": 60,
+    "waiver": 10,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2025-26:foreberg",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "foreberg",
+   "name": "Föreberg Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4624.34,
+    "fab": 68,
+    "waiver": 14,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2025-26:freddes-kings-queens",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "freddes-kings-queens",
+   "name": "Fredde's Kings&Queens",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4194.29,
+    "fab": 60,
+    "waiver": 11,
+    "moves": 55
+   }
+  },
+  {
+   "id": "2025-26:ftw-panthers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "ftw-panthers",
+   "name": "FTW Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5028.11,
+    "fab": 74,
+    "waiver": 11,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2025-26:gaxsjo-hockeyheads",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4867.84,
+    "fab": 60,
+    "waiver": 1,
+    "moves": 78
+   }
+  },
+  {
+   "id": "2025-26:gaxsjo-junior",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "gaxsjo-junior",
+   "name": "Gåxsjö Junior",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4431.45,
+    "fab": 85,
+    "waiver": 3,
+    "moves": 43
+   }
+  },
+  {
+   "id": "2025-26:gm",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "gm",
+   "name": "🌲",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4828.98,
+    "fab": 91,
+    "waiver": 8,
+    "moves": 78
+   }
+  },
+  {
+   "id": "2025-26:gudrun-streamercanes",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "gudrun-streamercanes",
+   "name": "Gudrun Streamercanes",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4876.89,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:gustavs-best-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "gustavs-best-team",
+   "name": "Gustav's Best Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:gyllene-knektarna",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "gyllene-knektarna",
+   "name": "Gyllene Knektarna",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4620.59,
+    "fab": 0,
+    "waiver": 8,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:halifax-citadels",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "halifax-citadels",
+   "name": "Halifax Citadels",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5160.01,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 72
+   }
+  },
+  {
+   "id": "2025-26:henke-panthers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4796.39,
+    "fab": 72,
+    "waiver": 9,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2025-26:henriks-peerless-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "henriks-peerless-team",
+   "name": "Nose Face Killah",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4629.28,
+    "fab": 24,
+    "waiver": 5,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2025-26:high-valley-roosters",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "high-valley-roosters",
+   "name": "High Valley Roosters",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4681.13,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 62
+   }
+  },
+  {
+   "id": "2025-26:hockeynroll-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "hockeynroll-hc",
+   "name": "Hockey'n'Roll HC",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4744.72,
+    "fab": 80,
+    "waiver": 12,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2025-26:ik-oddevold",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "ik-oddevold",
+   "name": "IK ODDEVOLD",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4830.4,
+    "fab": 60,
+    "waiver": 14,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2025-26:jaromir-juggernaut",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "jaromir-juggernaut",
+   "name": "Jaromir Juggernaut",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5150.86,
+    "fab": 0,
+    "waiver": 6,
+    "moves": 70
+   }
+  },
+  {
+   "id": "2025-26:johans-phenomenal-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "johans-phenomenal-team",
+   "name": "Johan's Phenomenal Team",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4151.83,
+    "fab": 100,
+    "waiver": 13,
+    "moves": 15
+   }
+  },
+  {
+   "id": "2025-26:kht-rangers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "kht-rangers",
+   "name": "KHT Rangers",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4981.64,
+    "fab": 9,
+    "waiver": 10,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2025-26:kikos-nasi-lemak",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "kikos-nasi-lemak",
+   "name": "Kiko's Nasi Lemak",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4659.19,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2025-26:kingston-bagpipes",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 5,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4078.22,
+    "fab": 100,
+    "waiver": 4,
+    "moves": 9
+   }
+  },
+  {
+   "id": "2025-26:kjells-angels",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "kjells-angels",
+   "name": "Kjells Angels",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 15,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5282.94,
+    "fab": 68,
+    "waiver": 12,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2025-26:klockarbergets-javlar",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "klockarbergets-javlar",
+   "name": "Klockarbergets Jävlar",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4835.65,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2025-26:kungdraparna",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "kungdraparna",
+   "name": "Kungdräparna",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 0,
+    "losses": 19,
+    "ties": 0,
+    "pointsFor": 3437.25,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 17
+   }
+  },
+  {
+   "id": "2025-26:kvicklund",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "kvicklund",
+   "name": "Kvicklund",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4669.51,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 48
+   }
+  },
+  {
+   "id": "2025-26:lords-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "lords-hc",
+   "name": "Lords HC",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4580.58,
+    "fab": 0,
+    "waiver": 1,
+    "moves": 79
+   }
+  },
+  {
+   "id": "2025-26:lule-devils",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "lule-devils",
+   "name": "Luleå Dolphins",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 5090.56,
+    "fab": 80,
+    "waiver": 1,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:lundqvist-win",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "lundqvist-win",
+   "name": "Flippis junior",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4542.6,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:mac-attack",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "mac-attack",
+   "name": "Gudrun Hurricanes",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:majorna-bruins",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "majorna-bruins",
+   "name": "Majorna Bruins",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 15,
+    "losses": 4,
+    "ties": 0,
+    "pointsFor": 5016.57,
+    "fab": 18,
+    "waiver": 5,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2025-26:malmoiterna",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "malmoiterna",
+   "name": "Malmö Ducks",
+   "otherNames": [],
+   "final": {
+    "rank": 3,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5063.96,
+    "fab": 25,
+    "waiver": 10,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2025-26:manhattans-skogvaktare",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "manhattans-skogvaktare",
+   "name": "Nils's Nifty Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:mcsorleys-bojda-blad",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "mcsorleys-bojda-blad",
+   "name": "McSorleys böjda blad",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4416.18,
+    "fab": 0,
+    "waiver": 4,
+    "moves": 59
+   }
+  },
+  {
+   "id": "2025-26:melwood-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "melwood-hc",
+   "name": "Melwood HC",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4499.37,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 14
+   }
+  },
+  {
+   "id": "2025-26:mighty-drunks",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "mighty-drunks",
+   "name": "Mighty Drunks",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4790.25,
+    "fab": 20,
+    "waiver": 2,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2025-26:monkrapids-top-corns",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4913.91,
+    "fab": 69,
+    "waiver": 13,
+    "moves": 45
+   }
+  },
+  {
+   "id": "2025-26:mot-divison-8-hc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "mot-divison-8-hc",
+   "name": "Mot divison 8 HC",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 5,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4619.21,
+    "fab": 99,
+    "waiver": 3,
+    "moves": 73
+   }
+  },
+  {
+   "id": "2025-26:moves-like-jagr",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "moves-like-jagr",
+   "name": "Moves like Jagr",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 4951.21,
+    "fab": 100,
+    "waiver": 14,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:munkasen-machines",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "munkasen-machines",
+   "name": "Munkåsen",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5359.51,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 87
+   }
+  },
+  {
+   "id": "2025-26:musketorerna",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "musketorerna",
+   "name": "Musketörerna",
+   "otherNames": [],
+   "final": {
+    "rank": 5,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4895.08,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:ovies-malrekord",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4550.91,
+    "fab": 0,
+    "waiver": 12,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2025-26:owen-16",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "owen-16",
+   "name": "Owen-16",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 0,
+    "losses": 19,
+    "ties": 0,
+    "pointsFor": 3853.89,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 6
+   }
+  },
+  {
+   "id": "2025-26:owens-world-class-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "owens-world-class-team",
+   "name": "owen's World-Class Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:pastore-bob",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "pastore-bob",
+   "name": "Pastore Bob",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4363.48,
+    "fab": 100,
+    "waiver": 7,
+    "moves": 35
+   }
+  },
+  {
+   "id": "2025-26:patrik-uncut",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "patrik-uncut",
+   "name": "Patrik Uncut!",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4592.57,
+    "fab": 53,
+    "waiver": 9,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2025-26:petters-phenomenal-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "petters-phenomenal-team",
+   "name": "Petter's Phenomenal Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:pigga-pagar",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "pigga-pagar",
+   "name": "Pigga Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 5130.6,
+    "fab": 98,
+    "waiver": 6,
+    "moves": 84
+   }
+  },
+  {
+   "id": "2025-26:portvin-on-ice",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "portvin-on-ice",
+   "name": "Portvin on Ice",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 2,
+    "losses": 17,
+    "ties": 0,
+    "pointsFor": 4121.28,
+    "fab": 81,
+    "waiver": 5,
+    "moves": 30
+   }
+  },
+  {
+   "id": "2025-26:purple-cobras",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "purple-cobras",
+   "name": "Purple Cobras",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4291.63,
+    "fab": 100,
+    "waiver": 8,
+    "moves": 51
+   }
+  },
+  {
+   "id": "2025-26:pusselbit-painters",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "pusselbit-painters",
+   "name": "Pusselbit Painters",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5207.78,
+    "fab": 77,
+    "waiver": 10,
+    "moves": 62
+   }
+  },
+  {
+   "id": "2025-26:ragdolls",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "ragdolls",
+   "name": "Ragdolls",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 3,
+    "losses": 16,
+    "ties": 0,
+    "pointsFor": 4246.93,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 66
+   }
+  },
+  {
+   "id": "2025-26:river-valley-rugmunchers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "river-valley-rugmunchers",
+   "name": "River Valley Rugmunchers",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4858.77,
+    "fab": 70,
+    "waiver": 1,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2025-26:rosa-faran",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "rosa-faran",
+   "name": "Rosa Faran",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 4935.15,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 75
+   }
+  },
+  {
+   "id": "2025-26:salikepeter",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "salikepeter",
+   "name": "Salikepeter HC",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4576.78,
+    "fab": 85,
+    "waiver": 5,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2025-26:sampa",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "sampa",
+   "name": "Happy Sampa Skaters",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4752.8,
+    "fab": 53,
+    "waiver": 2,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2025-26:sandby-boys",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "sandby-boys",
+   "name": "Sandby Boys",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5055.01,
+    "fab": 0,
+    "waiver": 5,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:sea-bass",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "sea-bass",
+   "name": "Seabass",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4761.12,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2025-26:sega-puckar",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "sega-puckar",
+   "name": "Sega Puckar",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 4894.79,
+    "fab": 82,
+    "waiver": 13,
+    "moves": 82
+   }
+  },
+  {
+   "id": "2025-26:siggepp",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "siggepp",
+   "name": "SiggePP",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4584.28,
+    "fab": 75,
+    "waiver": 4,
+    "moves": 69
+   }
+  },
+  {
+   "id": "2025-26:skbg-elite",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": {
+    "rank": 13,
+    "clinched": false,
+    "wins": 7,
+    "losses": 12,
+    "ties": 0,
+    "pointsFor": 4717.09,
+    "fab": 71,
+    "waiver": 1,
+    "moves": 54
+   }
+  },
+  {
+   "id": "2025-26:skridsko-mot-stolpen",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "skridsko-mot-stolpen",
+   "name": "trollskott",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4879.23,
+    "fab": 0,
+    "waiver": 14,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2025-26:sons-of-glenn",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "sons-of-glenn",
+   "name": "Sons of Glenn",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5168.57,
+    "fab": 0,
+    "waiver": 10,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2025-26:stangby-canucks",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4899.49,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 86
+   }
+  },
+  {
+   "id": "2025-26:stenfors",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "stenfors",
+   "name": "🪨🌊",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 5,
+    "losses": 14,
+    "ties": 0,
+    "pointsFor": 4312.46,
+    "fab": 100,
+    "waiver": 3,
+    "moves": 27
+   }
+  },
+  {
+   "id": "2025-26:steninge-jets",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "steninge-jets",
+   "name": "Steninge Jets",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 13,
+    "losses": 6,
+    "ties": 0,
+    "pointsFor": 5025.77,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2025-26:sunnes-pagar",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "sunnes-pagar",
+   "name": "Sunnes Pågar",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4064.22,
+    "fab": 85,
+    "waiver": 8,
+    "moves": 24
+   }
+  },
+  {
+   "id": "2025-26:sunnyvale-shithawks",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "sunnyvale-shithawks",
+   "name": "042 Shithawks",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 4930.54,
+    "fab": 30,
+    "waiver": 6,
+    "moves": 73
+   }
+  },
+  {
+   "id": "2025-26:team-wakeras",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "team-wakeras",
+   "name": "Team Wåkerås",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 6,
+    "losses": 13,
+    "ties": 0,
+    "pointsFor": 4564.34,
+    "fab": 54,
+    "waiver": 10,
+    "moves": 68
+   }
+  },
+  {
+   "id": "2025-26:team-wrongass",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "team-wrongass",
+   "name": "Mr Wrongass",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4777.41,
+    "fab": 40,
+    "waiver": 4,
+    "moves": 77
+   }
+  },
+  {
+   "id": "2025-26:team-zuuuuc",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-francis",
+   "managerId": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "otherNames": [],
+   "final": {
+    "rank": 7,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4736.72,
+    "fab": 60,
+    "waiver": 7,
+    "moves": 80
+   }
+  },
+  {
+   "id": "2025-26:teamstoof",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": {
+    "rank": 6,
+    "clinched": true,
+    "wins": 11,
+    "losses": 8,
+    "ties": 0,
+    "pointsFor": 5157.99,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 83
+   }
+  },
+  {
+   "id": "2025-26:the-puckfather",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "the-puckfather",
+   "name": "The Puckfather",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4335.04,
+    "fab": 0,
+    "waiver": 2,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2025-26:thls-dream-team",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "thls-dream-team",
+   "name": "THLs Dream Team",
+   "otherNames": [],
+   "final": {
+    "rank": 2,
+    "clinched": true,
+    "wins": 16,
+    "losses": 3,
+    "ties": 0,
+    "pointsFor": 4927.44,
+    "fab": 63,
+    "waiver": 11,
+    "moves": 63
+   }
+  },
+  {
+   "id": "2025-26:thunbergs-melting-icecaps",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-messier",
+   "managerId": "thunbergs-melting-icecaps",
+   "name": "Thunbergs Melting IceCaps",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4783.98,
+    "fab": 94,
+    "waiver": 14,
+    "moves": 64
+   }
+  },
+  {
+   "id": "2025-26:too-hot-to-yandle",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-1-gretzky",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too Hot To Yandle",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 4,
+    "losses": 15,
+    "ties": 0,
+    "pointsFor": 4488.61,
+    "fab": 30,
+    "waiver": 3,
+    "moves": 74
+   }
+  },
+  {
+   "id": "2025-26:too-lucky-for-you",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-yzerman",
+   "managerId": "too-lucky-for-you",
+   "name": "Too lucky for you!",
+   "otherNames": [],
+   "final": {
+    "rank": 12,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4396.04,
+    "fab": 100,
+    "waiver": 6,
+    "moves": 12
+   }
+  },
+  {
+   "id": "2025-26:torpadie-trashers",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "otherNames": [],
+   "final": {
+    "rank": 9,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4733.69,
+    "fab": 100,
+    "waiver": 11,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2025-26:truck-driver-d",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 9,
+    "losses": 10,
+    "ties": 0,
+    "pointsFor": 4453.55,
+    "fab": 49,
+    "waiver": 7,
+    "moves": 88
+   }
+  },
+  {
+   "id": "2025-26:uport-slackerz",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "uport-slackerz",
+   "name": "Uport Slackers",
+   "otherNames": [],
+   "final": {
+    "rank": 11,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4630.74,
+    "fab": 2,
+    "waiver": 8,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2025-26:uttran-north-stars",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-2-jagr",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4987.29,
+    "fab": 0,
+    "waiver": 7,
+    "moves": 70
+   }
+  },
+  {
+   "id": "2025-26:valpens-mammutsnabel",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "valpens-mammutsnabel",
+   "name": "Valpens Mammutsnabel",
+   "otherNames": [],
+   "final": {
+    "rank": 8,
+    "clinched": false,
+    "wins": 8,
+    "losses": 11,
+    "ties": 0,
+    "pointsFor": 4563.03,
+    "fab": 100,
+    "waiver": 12,
+    "moves": 72
+   }
+  },
+  {
+   "id": "2025-26:vasteras-draconian",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "vasteras-draconian",
+   "name": "Västerås Draconian",
+   "otherNames": [],
+   "final": {
+    "rank": 14,
+    "clinched": false,
+    "wins": 1,
+    "losses": 18,
+    "ties": 0,
+    "pointsFor": 4266.29,
+    "fab": 0,
+    "waiver": 9,
+    "moves": 67
+   }
+  },
+  {
+   "id": "2025-26:vnhl-olof",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "vnhl-olof",
+   "name": "Winnesota",
+   "otherNames": [],
+   "final": {
+    "rank": 1,
+    "clinched": true,
+    "wins": 12,
+    "losses": 7,
+    "ties": 0,
+    "pointsFor": 4818.52,
+    "fab": 38,
+    "waiver": 3,
+    "moves": 85
+   }
+  },
+  {
+   "id": "2025-26:wall-of-belfour",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-4-lemieux",
+   "managerId": "wall-of-belfour",
+   "name": "Wall of Belfour",
+   "otherNames": [],
+   "final": {
+    "rank": 4,
+    "clinched": true,
+    "wins": 14,
+    "losses": 5,
+    "ties": 0,
+    "pointsFor": 5115.01,
+    "fab": 33,
+    "waiver": 14,
+    "moves": 71
+   }
+  },
+  {
+   "id": "2025-26:wealdstone-raiders",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-dionne",
+   "managerId": "wealdstone-raiders",
+   "name": "Sons of Keith",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2025-26:west-coast-express",
+   "seasonId": "2025-26",
+   "divisionId": "2025-26-div-3-howe",
+   "managerId": "west-coast-express",
+   "name": "West Coast Express",
+   "otherNames": [],
+   "final": {
+    "rank": 10,
+    "clinched": false,
+    "wins": 10,
+    "losses": 9,
+    "ties": 0,
+    "pointsFor": 4854.83,
+    "fab": 0,
+    "waiver": 13,
+    "moves": 81
+   }
+  },
+  {
+   "id": "2026-27:2-girls-no-cup",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "2-girls-no-cup",
+   "name": "2 girls no cup",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:admiral-general-allardeen",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "admiral-general-allardeen",
+   "name": "Admiral General Allardeen",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:andres-bold-team",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "andres-bold-team",
+   "name": "André's Bold Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:andy-flyers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "andy-flyers",
+   "name": "Andy Flyers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:ange-peacocks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "ange-peacocks",
+   "name": "Ånge Peacocks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:anzelm-avalanche",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "anzelm-avalanche",
+   "name": "Anzelm Avalanche",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:backes-in-the-ussr",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "backes-in-the-ussr",
+   "name": "Backes in the USSR",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:baden-baden-hk",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "baden-baden-hk",
+   "name": "Baden-Baden HK",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:bengsbol",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "bengsbol",
+   "name": "Bengsbol",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:biscuit-rippers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "biscuit-rippers",
+   "name": "Biscuit Rippers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:blue-forest",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "blue-forest",
+   "name": "FriskvårdsFredag",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:borjebus",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "borjebus",
+   "name": "Suntrip hc",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:borjegatan-bunnies",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "borjegatan-bunnies",
+   "name": "Börjegatan Bunnies",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:brunkers-bk",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "brunkers-bk",
+   "name": "Brunkers BK",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:byavagen-flyers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "byavagen-flyers",
+   "name": "Byavägen Flyers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:chicago-blackhaks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "chicago-blackhaks",
+   "name": "Chicago Bläckhåks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:cow-bow",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "cow-bow",
+   "name": "cow bow",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:cristers-crazy-team",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "cristers-crazy-team",
+   "name": "crister's Crazy Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:crosbys-cry-babies",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "crosbys-cry-babies",
+   "name": "Crosbys Cry Babies",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:den-blommande-loken",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "den-blommande-loken",
+   "name": "Den Blommande Löken",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:det",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "det",
+   "name": "Det🌲",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:donaldo-ducks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "donaldo-ducks",
+   "name": "Donaldo Ducks 🦆",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:donnedain",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "donnedain",
+   "name": "De va Draipen",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:draconian-dreams",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "draconian-dreams",
+   "name": "Draconian Dreams",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:dropstokk-penguins",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "dropstokk-penguins",
+   "name": "Dropstokk Penguins",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:eastfield-snigels",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "eastfield-snigels",
+   "name": "Eastfield",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:eddtillimdead",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "eddtillimdead",
+   "name": "eddtillimdead",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:falu-red-colors",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "falu-red-colors",
+   "name": "Bjursås Beavers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:falukorvarna",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "falukorvarna",
+   "name": "Falukorvarna",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:finnish-marauders",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "finnish-marauders",
+   "name": "Finnish Marauders",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:fishbone-brothers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "fishbone-brothers",
+   "name": "Fishbone Brothers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:flata-kickers-alexander-b",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "flata-kickers-alexander-b",
+   "name": "Flata Kickers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:flippmacka-hc",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "flippmacka-hc",
+   "name": "Flippmacka Hc",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:foreberg",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "foreberg",
+   "name": "Föreberg Flyers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:ftw-panthers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "ftw-panthers",
+   "name": "FTW Panthers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:gaxsjo-hockeyheads",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "gaxsjo-hockeyheads",
+   "name": "Gåxsjö Hockey Heads",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:gaxsjo-junior",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "gaxsjo-junior",
+   "name": "Gåxsjö junior",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:gustavs-glorious-team",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "gustavs-glorious-team",
+   "name": "Gustav's Glorious Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:gyllene-knektarna",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "gyllene-knektarna",
+   "name": "Gyllene Knektarna",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:hagel-bagels",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "hagel-bagels",
+   "name": "Hagel Bagels",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:halifax-citadels",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "halifax-citadels",
+   "name": "Halifax Citadels",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:henke-panthers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "henke-panthers",
+   "name": "Henke Panthers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:high-valley-roosters",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "high-valley-roosters",
+   "name": "High Valley Roosters",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:igor-skridskotonov",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "igor-skridskotonov",
+   "name": "Igor Skridskotonov",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:ik-oddevold",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "ik-oddevold",
+   "name": "IK ODDEVOLD",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:jaromir-juggernaut",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "jaromir-juggernaut",
+   "name": "Jaromir Juggernaut",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:jens",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "jens",
+   "name": "Jens",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kht-rangers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "kht-rangers",
+   "name": "KHT Rangers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kikos-nasi-lemak",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "kikos-nasi-lemak",
+   "name": "Kiko's Nasi Lemak",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kingston-bagpipes",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "kingston-bagpipes",
+   "name": "Kingston Bagpipes",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kippers-keepers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "kippers-keepers",
+   "name": "Kipper's Keepers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kjells-angels",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "kjells-angels",
+   "name": "Kjells Angels",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:klockarbergets-javlar",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "klockarbergets-javlar",
+   "name": "Klockarbergets Jävlar",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:knee-check-ruutuine",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "knee-check-ruutuine",
+   "name": "Knee-Check Ruutuine",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:kvicklund",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "kvicklund",
+   "name": "Kvicklund",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:lago-lowlifes",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "lago-lowlifes",
+   "name": "Lago Lowlifes",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:lords-hc",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "lords-hc",
+   "name": "Lords HC",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:lule-devils",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "lule-devils",
+   "name": "Luleå Dolphins",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:lundqvist-win",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "lundqvist-win",
+   "name": "Flippis Junior",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:mac-attack",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "mac-attack",
+   "name": "Gudrun Hurricanes",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:majorna-bruins",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "majorna-bruins",
+   "name": "Majorna Bruins",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:malmoiterna",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "malmoiterna",
+   "name": "Malmö Ducks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:mcdavid-co",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "mcdavid-co",
+   "name": "McDavid & Co",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:mcsorleys-bojda-blad",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "mcsorleys-bojda-blad",
+   "name": "McSorleys böjda blad",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:melwood-hc",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "melwood-hc",
+   "name": "Melwood HC",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:mighty-drunks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "mighty-drunks",
+   "name": "Mighty Drunks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:mighty-marconi",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "mighty-marconi",
+   "name": "Mighty Marconi",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:monkrapids-top-corns",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "monkrapids-top-corns",
+   "name": "Monkrapids Top Corns",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:moves-like-jagr",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "moves-like-jagr",
+   "name": "Moves Like Jagr",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:munkasen-machines",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "munkasen-machines",
+   "name": "Munkåsen",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:musketoren",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "musketoren",
+   "name": "Musketören",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:no-sandby-no-party",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "no-sandby-no-party",
+   "name": "No Sandby No Party",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:nohas-dandy-team",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "nohas-dandy-team",
+   "name": "noha's Dandy Team",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:nose-face",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "nose-face",
+   "name": "NOSE FACE",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:olers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "olers",
+   "name": "Ölers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:ovies-malrekord",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "ovies-malrekord",
+   "name": "Ovies Målrekord",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:pigga-pagar",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "pigga-pagar",
+   "name": "Pigga Pågar",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:plenvuforthewin",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "plenvuforthewin",
+   "name": "Plenvuforthewin",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:puckfadern",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "puckfadern",
+   "name": "Puckfadern",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:pusselbit-painters",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "pusselbit-painters",
+   "name": "Pusselbit Painters",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:ragdolls",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "ragdolls",
+   "name": "Ragdolls",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:river-valley-rugmunchers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "river-valley-rugmunchers",
+   "name": "River Valley Rugmunchers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:rosa-faran",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "rosa-faran",
+   "name": "Rosa Faran",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:sampa",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "sampa",
+   "name": "Happy Sampa Skaters",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:siggepp",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "siggepp",
+   "name": "SiggePP",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:simply-lemieux",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "simply-lemieux",
+   "name": "Simply Lemieux",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:skbg-elite",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "skbg-elite",
+   "name": "SKBG ELITE",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:skridsko-mot-stolpen",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "skridsko-mot-stolpen",
+   "name": "trollskott",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:stangby-canucks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "stangby-canucks",
+   "name": "Stångby Canucks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:stenfors-bk",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "stenfors-bk",
+   "name": "Stenfors BK",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:steninge-jets",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "steninge-jets",
+   "name": "Steninge Jets",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:sunnes-pagar",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "sunnes-pagar",
+   "name": "Sunnes Pågar",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:sunnyvale-shithawks",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "sunnyvale-shithawks",
+   "name": "042 Shithawks",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:teal-destroy",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "teal-destroy",
+   "name": "Teal & Destroy",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:team-wakeras",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "team-wakeras",
+   "name": "Team Wåkerås",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:team-wrongass",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-2-jagr",
+   "managerId": "team-wrongass",
+   "name": "Mr Wrongass",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:team-zuuuuc",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "team-zuuuuc",
+   "name": "Fittadora Flyers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:teamstoof",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "teamstoof",
+   "name": "Teamstoof",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:the-golden-jet",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-8-yzerman",
+   "managerId": "the-golden-jet",
+   "name": "The Golden Jet",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:too-hot-to-yandle",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "too-hot-to-yandle",
+   "name": "Too Hot To Yandle",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:too-lucky-for-u",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-7-crosby",
+   "managerId": "too-lucky-for-u",
+   "name": "Too Lucky For U",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:torpadie-trashers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "torpadie-trashers",
+   "name": "Torpadie Trashers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:truck-driver-d",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "truck-driver-d",
+   "name": "TruckDanne",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:tullinge-tuggers",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "tullinge-tuggers",
+   "name": "Tullinge Tuggers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:uport-slackerz",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "uport-slackerz",
+   "name": "Uport Slackers",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:uttran-north-stars",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "uttran-north-stars",
+   "name": "Uttran North Stars",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:valpens-minisnabel",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "valpens-minisnabel",
+   "name": "Valpens Minisnabel",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:vnhl-olof",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-1-gretzky",
+   "managerId": "vnhl-olof",
+   "name": "Winnesota",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:vnhl-patrik",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-3-messier",
+   "managerId": "vnhl-patrik",
+   "name": "VNHL Patrik",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:vnhlfl-eken",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-4-howe",
+   "managerId": "vnhlfl-eken",
+   "name": "VNHLFL Eken",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:wall-of-belfour",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-5-francis",
+   "managerId": "wall-of-belfour",
+   "name": "Wall of Belfour",
+   "otherNames": [],
+   "final": null
+  },
+  {
+   "id": "2026-27:west-coast-express",
+   "seasonId": "2026-27",
+   "divisionId": "2026-27-div-6-dionne",
+   "managerId": "west-coast-express",
+   "name": "West Coast Express",
+   "otherNames": [],
+   "final": null
   }
  ],
  "coverage": {
@@ -8519,7 +12601,8 @@
    "2021-22",
    "2022-23",
    "2023-24",
-   "2024-25"
+   "2024-25",
+   "2025-26"
   ],
   "weeklyStandings": [
    "2021-22",
@@ -8530,14 +12613,20 @@
    "2021-22",
    "2022-23",
    "2023-24",
-   "2024-25"
+   "2024-25",
+   "2025-26",
+   "2026-27"
   ],
   "trades": [
    "2021-22",
    "2022-23",
    "2023-24"
   ],
-  "matchups": []
+  "matchups": [
+   "2021-22",
+   "2022-23",
+   "2023-24"
+  ]
  },
- "dataVersion": "5eee6d6e7002"
+ "dataVersion": "678e13aef8e7"
 }

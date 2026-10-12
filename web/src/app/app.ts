@@ -171,6 +171,7 @@ export class App {
     { path: '/gm', label: 'GM:s' },
     { path: '/sasong', label: 'Säsonger' },
     { path: '/maratontabell', label: 'Maratontabell' },
+    { path: '/inbordes', label: 'Inbördes' },
     { path: '/trades', label: 'Trades' },
     { path: '/draft', label: 'Draft' },
     { path: '/om', label: 'Om' },

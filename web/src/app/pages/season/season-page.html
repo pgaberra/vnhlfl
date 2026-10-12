@@ -28,98 +28,110 @@
             >
           }
         </nav>
-        <div class="card-head">
-          <h2 id="table-title">Sluttabell {{ d.name }}</h2>
-          <p class="hint">
-            @if (d.tier === null) {
-              Tre parallella divisioner det första året.
-            } @else {
-              Nivå {{ d.tier }} av {{ season()!.divisions.at(-1)?.tier }}.
-            }
-          </p>
-        </div>
-        <div class="table-scroll">
-          <table class="data">
-            <thead>
-              <tr>
-                <th scope="col" class="num">Plac.</th>
-                <th scope="col">Lag</th>
-                <th scope="col" class="num">V-F-O</th>
-                <th scope="col" class="num">Vinst%</th>
-                <th scope="col" class="num">Poäng</th>
-                <th scope="col" class="num">Moves</th>
-                <th scope="col">Säsongen efter</th>
-              </tr>
-            </thead>
-            <tbody>
-              @for (row of finished(); track row.team.id) {
-                <tr
-                  [class.hot]="hovered() === row.team.id"
-                  (mouseenter)="hovered.set(row.team.id)"
-                  (mouseleave)="hovered.set(null)"
-                >
-                  @let f = row.team.final!;
-                  <td class="num">
-                    @if (f.rank === 1) {
-                      <svg lucideTrophy class="icon trophy" aria-label="Mästare"></svg>
-                    }
-                    {{ f.rank }}
-                    @if (f.clinched) {
-                      <abbr class="playoff" title="Gick till slutspel">*</abbr>
-                    }
-                  </td>
-                  <td class="name">
-                    <app-manager-link [manager]="row.manager" [asTeam]="row.team.name" />
-                    @if (row.team.replaces; as r) {
-                      <span class="note">tog över {{ idx.team.get(r.teamId)?.name }}</span>
-                    }
-                  </td>
-                  <td class="num">{{ f | record }}</td>
-                  <td class="num">
-                    {{ (f.wins + f.ties / 2) / (f.wins + f.losses + f.ties) | pct }}
-                  </td>
-                  <td class="num">{{ f.pointsFor | points }}</td>
-                  <td class="num">{{ f.moves | num }}</td>
-                  <td>
-                    @if (row.next; as n) {
-                      @switch (row.move) {
-                        @case ('up') {
-                          <span class="up"
-                            ><svg lucideArrowUp class="icon" aria-label="Upp"></svg
-                          ></span>
-                        }
-                        @case ('down') {
-                          <span class="down"
-                            ><svg lucideArrowDown class="icon" aria-label="Ner"></svg
-                          ></span>
-                        }
-                      }
-                      {{ n.name }}
-                    } @else {
-                      <span class="muted">–</span>
-                    }
-                  </td>
-                </tr>
-              }
-            </tbody>
-          </table>
-        </div>
-        @if (left().length) {
-          <div class="hint left">
-            <span>Lämnade under säsongen:</span>
-            <ul>
-              @for (row of left(); track row.team.id) {
-                <li>
-                  <app-manager-link [manager]="row.manager" [asTeam]="row.team.name" />
-                  @if (row.replacedBy; as r) {
-                    <span>&nbsp;(ersattes av {{ r.name }})</span>
-                  }
-                </li>
-              }
-            </ul>
+        @if (inProgress()) {
+          <div class="card-head">
+            <h2 id="table-title">Lagen i {{ d.name }}</h2>
+            <p class="hint">Säsongen pågår. Sluttabellen kommer när den är spelad.</p>
           </div>
+          <ul class="teams">
+            @for (row of rows(); track row.team.id) {
+              <li><app-manager-link [manager]="row.manager" [asTeam]="row.team.name" /></li>
+            }
+          </ul>
+        } @else {
+          <div class="card-head">
+            <h2 id="table-title">Sluttabell {{ d.name }}</h2>
+            <p class="hint">
+              @if (d.tier === null) {
+                Tre parallella divisioner det första året.
+              } @else {
+                Nivå {{ d.tier }} av {{ season()!.divisions.at(-1)?.tier }}.
+              }
+            </p>
+          </div>
+          <div class="table-scroll">
+            <table class="data">
+              <thead>
+                <tr>
+                  <th scope="col" class="num">Plac.</th>
+                  <th scope="col">Lag</th>
+                  <th scope="col" class="num">V-F-O</th>
+                  <th scope="col" class="num">Vinst%</th>
+                  <th scope="col" class="num">Poäng</th>
+                  <th scope="col" class="num">Moves</th>
+                  <th scope="col">Säsongen efter</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (row of finished(); track row.team.id) {
+                  <tr
+                    [class.hot]="hovered() === row.team.id"
+                    (mouseenter)="hovered.set(row.team.id)"
+                    (mouseleave)="hovered.set(null)"
+                  >
+                    @let f = row.team.final!;
+                    <td class="num">
+                      @if (f.rank === 1) {
+                        <svg lucideTrophy class="icon trophy" aria-label="Mästare"></svg>
+                      }
+                      {{ f.rank }}
+                      @if (f.clinched) {
+                        <abbr class="playoff" title="Gick till slutspel">*</abbr>
+                      }
+                    </td>
+                    <td class="name">
+                      <app-manager-link [manager]="row.manager" [asTeam]="row.team.name" />
+                      @if (row.team.replaces; as r) {
+                        <span class="note">tog över {{ idx.team.get(r.teamId)?.name }}</span>
+                      }
+                    </td>
+                    <td class="num">{{ f | record }}</td>
+                    <td class="num">
+                      {{ (f.wins + f.ties / 2) / (f.wins + f.losses + f.ties) | pct }}
+                    </td>
+                    <td class="num">{{ f.pointsFor | points }}</td>
+                    <td class="num">{{ f.moves | num }}</td>
+                    <td>
+                      @if (row.next; as n) {
+                        @switch (row.move) {
+                          @case ('up') {
+                            <span class="up"
+                              ><svg lucideArrowUp class="icon" aria-label="Upp"></svg
+                            ></span>
+                          }
+                          @case ('down') {
+                            <span class="down"
+                              ><svg lucideArrowDown class="icon" aria-label="Ner"></svg
+                            ></span>
+                          }
+                        }
+                        {{ n.name }}
+                      } @else {
+                        <span class="muted">–</span>
+                      }
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+          @if (left().length) {
+            <div class="hint left">
+              <span>Lämnade under säsongen:</span>
+              <ul>
+                @for (row of left(); track row.team.id) {
+                  <li>
+                    <app-manager-link [manager]="row.manager" [asTeam]="row.team.name" />
+                    @if (row.replacedBy; as r) {
+                      <span>&nbsp;(ersattes av {{ r.name }})</span>
+                    }
+                  </li>
+                }
+              </ul>
+            </div>
+          }
+          <p class="hint">* = gick till slutspel. Placeringen räknar in slutspelet.</p>
         }
-        <p class="hint">* = gick till slutspel. Placeringen räknar in slutspelet.</p>
       </section>
 
       <section class="card" aria-labelledby="chart-title">

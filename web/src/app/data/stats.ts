@@ -7,6 +7,8 @@ import {
   Draft,
   Manager,
   ManagerId,
+  Matchup,
+  MatchSide,
   Pick,
   Snapshot,
   TeamId,
@@ -285,4 +287,129 @@ export function mostDraftedFirstRounders(drafts: readonly Draft[], limit = 10): 
     }
   }
   return ranked(counts, limit);
+}
+
+// ---- Matchups -----------------------------------------------------------------------------
+
+/** The title bracket (with its placement games); the B bracket and its games are not playoffs. */
+export const PLAYOFF_STAGES = new Set([
+  'quarterfinal',
+  'semifinal',
+  'final',
+  'third-place',
+  'fifth-place',
+]);
+
+export const STAGE_LABEL: Record<Matchup['stage'], string> = {
+  regular: 'Grundserie',
+  quarterfinal: 'Kvartsfinal',
+  semifinal: 'Semifinal',
+  final: 'Final',
+  'third-place': 'Match om 3:e',
+  'fifth-place': 'Match om 5:e',
+  'consolation-quarterfinal': 'B-kvartsfinal',
+  'consolation-semifinal': 'B-semifinal',
+  'consolation-final': 'B-final',
+  'ninth-place': 'Match om 9:e',
+  'eleventh-place': 'Match om 11:e',
+};
+
+export interface Meeting {
+  matchup: Matchup;
+  /** From the GM's side: their score first. */
+  mine: MatchSide;
+  theirs: MatchSide;
+  result: 'W' | 'L' | 'T';
+}
+
+/** Every game the GM played, from their side, oldest first. */
+export function gamesOf(
+  matchups: readonly Matchup[],
+  index: LeagueIndex,
+  id: ManagerId,
+): Meeting[] {
+  const out: Meeting[] = [];
+  for (const m of matchups) {
+    const homeIsMe = index.team.get(m.home.teamId)?.managerId === id;
+    const awayIsMe = index.team.get(m.away.teamId)?.managerId === id;
+    if (homeIsMe === awayIsMe) continue;
+    const [mine, theirs] = homeIsMe ? [m.home, m.away] : [m.away, m.home];
+    const result = mine.points > theirs.points ? 'W' : mine.points < theirs.points ? 'L' : 'T';
+    out.push({ matchup: m, mine, theirs, result });
+  }
+  return out.sort(
+    (a, b) =>
+      a.matchup.seasonId.localeCompare(b.matchup.seasonId) || a.matchup.week - b.matchup.week,
+  );
+}
+
+export interface HeadToHead {
+  opponent: Manager;
+  games: number;
+  wins: number;
+  losses: number;
+  ties: number;
+  pointsFor: number;
+  pointsAgainst: number;
+  playoffGames: number;
+  playoffWins: number;
+}
+
+/** The GM's record against each opponent, most games first. */
+export function headToHead(
+  matchups: readonly Matchup[],
+  index: LeagueIndex,
+  id: ManagerId,
+): HeadToHead[] {
+  const rows = new Map<ManagerId, HeadToHead>();
+  for (const g of gamesOf(matchups, index, id)) {
+    const opponentId = index.team.get(g.theirs.teamId)?.managerId;
+    const opponent = opponentId ? index.manager.get(opponentId) : undefined;
+    if (!opponent) continue;
+    const row = rows.get(opponent.id) ?? {
+      opponent,
+      games: 0,
+      wins: 0,
+      losses: 0,
+      ties: 0,
+      pointsFor: 0,
+      pointsAgainst: 0,
+      playoffGames: 0,
+      playoffWins: 0,
+    };
+    row.games++;
+    if (g.result === 'W') row.wins++;
+    else if (g.result === 'L') row.losses++;
+    else row.ties++;
+    row.pointsFor += g.mine.points;
+    row.pointsAgainst += g.theirs.points;
+    if (PLAYOFF_STAGES.has(g.matchup.stage)) {
+      row.playoffGames++;
+      if (g.result === 'W') row.playoffWins++;
+    }
+    rows.set(opponent.id, row);
+  }
+  return [...rows.values()].sort(
+    (a, b) => b.games - a.games || b.wins - b.losses - (a.wins - a.losses),
+  );
+}
+
+export interface WeekScore {
+  side: MatchSide;
+  opponent: MatchSide;
+  matchup: Matchup;
+}
+
+/** Highest single-week scores, or the biggest winning margins with `by: 'margin'`. */
+export function weekRecords(
+  matchups: readonly Matchup[],
+  options: { by?: 'score' | 'margin'; limit?: number } = {},
+): WeekScore[] {
+  const all: WeekScore[] = matchups.flatMap((m) => [
+    { side: m.home, opponent: m.away, matchup: m },
+    { side: m.away, opponent: m.home, matchup: m },
+  ]);
+  const value = (w: WeekScore): number =>
+    options.by === 'margin' ? w.side.points - w.opponent.points : w.side.points;
+  return all.sort((a, b) => value(b) - value(a)).slice(0, options.limit ?? 10);
 }

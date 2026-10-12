@@ -279,4 +279,24 @@ def write_league(folder: Path) -> Path:
             ]
         },
     )
+    _save(
+        folder / "Matcher.xlsx",
+        {
+            "Matcher": [
+                ["Säsong", "Grund/Slut", "Div", "vecka", "Hemma", "Borta", "Poäng +", "Poäng -"],
+                ["2021/2022", "Grund", "Div Ett", 1, "Alpha Wolves", "Beta Bears", 300.5, 250],
+                [
+                    "2021/2022",
+                    "Grund",
+                    "Div Ett",
+                    2,
+                    "\xa0Epsilon Eagles",
+                    "Alpha Wolves",
+                    200,
+                    210,
+                ],
+                ["2021/2022", "A-Final", "Div Ett", 24, "Beta Bears", "Alpha Wolves", 280, 290],
+            ]
+        },
+    )
     return folder

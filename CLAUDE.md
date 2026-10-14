@@ -23,6 +23,7 @@ project deliberately uses only a small part of it (see `DECISIONS.md`).
 # pipeline (from pipeline/)
 python -m venv .venv && .venv/Scripts/python -m pip install -e ".[dev]"
 .venv/Scripts/python -m vnhlfl_pipeline --source ../source-data --out ../web/public/data --strict
+.venv/Scripts/python -m vnhlfl_pipeline.mapping_sheet --source ../source-data --out "../source-data/Lag och GM.xlsx"  # team→GM sheet for the founder
 .venv/Scripts/python -m pytest -q; .venv/Scripts/python -m ruff check .; .venv/Scripts/python -m ruff format --check .; .venv/Scripts/python -m mypy
 
 # web (from web/)

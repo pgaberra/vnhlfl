@@ -25,6 +25,9 @@ founder's .xlsx files ──▶ pipeline/ (Python) ──▶ web/public/data/*.j
 1. Put the latest spreadsheets in `source-data/` (gitignored).
 2. From `pipeline/`: `.venv/Scripts/python -m vnhlfl_pipeline --source ../source-data --out ../web/public/data --strict`
 3. Fix any warning (usually a new nickname: add it to `pipeline/curation/team-aliases.csv`).
+   New team names need a GM: generate the founder's fill-in sheet with
+   `.venv/Scripts/python -m vnhlfl_pipeline.mapping_sheet --source ../source-data --out "../source-data/Lag och GM.xlsx"`,
+   send it, and put the filled-in file back in `source-data/`; it takes precedence over `Namn och lag`.
 4. Commit `web/public/data` and push; the site redeploys.
 
 ## What's missing

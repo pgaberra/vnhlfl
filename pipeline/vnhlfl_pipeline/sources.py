@@ -241,7 +241,7 @@ def read_trades(path: Path) -> list[TradeRow]:
     return out
 
 
-def read_owners(path: Path) -> Owners:
+def read_owners(path: Path, mapping: Path | None = None) -> Owners:
     owners = Owners()
 
     def add(team: Any, manager: Any) -> None:
@@ -253,6 +253,10 @@ def read_owners(path: Path) -> Owners:
         if clean(team) not in names:
             names.append(clean(team))
 
+    # The founder's filled-in `Lag och GM.xlsx` (see mapping_sheet.py) wins over the old sheets.
+    if mapping and mapping.exists():
+        for _, row in _rows(mapping, "Lag"):
+            add(row.get("Lagnamn"), row.get("GM"))
     for _, row in _rows(path, "lagnamn"):
         add(row.get("Lagnamn"), row.get("Namn"))
     for _, row in _rows(path, "GMs"):

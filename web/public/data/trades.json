@@ -9570,7 +9570,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Brent Burns"
      ]
@@ -9839,7 +9839,7 @@
      ]
     },
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "William Karlsson"
      ]
@@ -11403,7 +11403,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Brad Marchand",
       "Jeremy Swayman"
@@ -11671,7 +11671,7 @@
      ]
     },
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Moritz Seider",
       "Linus Ullmark"
@@ -13191,7 +13191,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Cole Caufield",
       "Andrei Vasilevskiy"
@@ -13747,7 +13747,7 @@
      ]
     },
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Nikita Kucherov"
      ]
@@ -14417,7 +14417,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Jake Sanderson",
       "Brandon Hagel"
@@ -15904,7 +15904,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "Mathew Barzal",
       "Jeremy Swayman"
@@ -16319,7 +16319,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2023-24:crosbys-cry-babies",
+     "teamId": "2023-24:crosbys-knightmares",
      "receives": [
       "J.T. Miller",
       "Kevin Fiala",
@@ -18363,7 +18363,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2024-25:crosbys-cry-babies",
+     "teamId": "2024-25:crosbys-knightmares",
      "receives": [
       "Alex Laferriere"
      ]
@@ -18968,7 +18968,7 @@
      ]
     },
     {
-     "teamId": "2024-25:crosbys-cry-babies",
+     "teamId": "2024-25:crosbys-knightmares",
      "receives": [
       "Jake Walman"
      ]
@@ -19905,7 +19905,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2024-25:crosbys-cry-babies",
+     "teamId": "2024-25:crosbys-knightmares",
      "receives": [
       "Martin Necas"
      ]
@@ -22539,7 +22539,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2024-25:crosbys-cry-babies",
+     "teamId": "2024-25:crosbys-knightmares",
      "receives": [
       "Jamie Benn"
      ]
@@ -26026,7 +26026,7 @@
      ]
     },
     {
-     "teamId": "2024-25:crosbys-cry-babies",
+     "teamId": "2024-25:crosbys-knightmares",
      "receives": [
       "Vincent Trocheck"
      ]
@@ -26748,7 +26748,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Miro Heiskanen"
      ]
@@ -26793,7 +26793,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:halifax-citadels",
+     "teamId": "2025-26:the-canadian-og",
      "receives": [
       "Dylan Guenther",
       "Travis Sanheim"
@@ -27343,7 +27343,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Joel Eriksson Ek"
      ]
@@ -27387,7 +27387,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Ryan Nugent-Hopkins",
       "Seth Jones",
@@ -27625,7 +27625,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:valpens-mammutsnabel",
+     "teamId": "2025-26:valpens-coyotes",
      "receives": [
       "Zach Werenski",
       "Nick Suzuki"
@@ -27648,13 +27648,13 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Josh Norris"
      ]
     },
     {
-     "teamId": "2025-26:klockarbergets-javlar",
+     "teamId": "2025-26:njurunda-devils",
      "receives": [
       "Steven Stamkos"
      ]
@@ -27747,7 +27747,7 @@
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Nikita Kucherov"
      ]
@@ -27769,7 +27769,7 @@
      ]
     },
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Connor Brown"
      ]
@@ -27814,7 +27814,7 @@
      ]
     },
     {
-     "teamId": "2025-26:sons-of-glenn",
+     "teamId": "2025-26:wealdstone-raiders",
      "receives": [
       "Trevor Zegras"
      ]
@@ -27996,7 +27996,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:klockarbergets-javlar",
+     "teamId": "2025-26:njurunda-devils",
      "receives": [
       "Artemi Panarin"
      ]
@@ -28049,13 +28049,13 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Rasmus Dahlin"
      ]
     },
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Martin Necas"
      ]
@@ -28117,7 +28117,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Tage Thompson"
      ]
@@ -28275,7 +28275,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:bronco",
+     "teamId": "2025-26:gustavs-grand-team",
      "receives": [
       "Elias Pettersson"
      ]
@@ -28370,7 +28370,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Mason Lohrei"
      ]
@@ -28386,7 +28386,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Dawson Mercer",
       "Alex Tuch"
@@ -28476,7 +28476,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:halifax-citadels",
+     "teamId": "2025-26:the-canadian-og",
      "receives": [
       "Nick Suzuki",
       "Drake Batherson",
@@ -28635,7 +28635,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Jake Walman"
      ]
@@ -28657,7 +28657,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Mikko Rantanen",
       "Damon Severson",
@@ -28942,7 +28942,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Jordan Staal",
       "Marat Khusnutdinov",
@@ -28960,7 +28960,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Dylan Guenther",
       "Vince Dunn",
@@ -28991,7 +28991,7 @@
      ]
     },
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Brent Burns",
       "Rasmus Andersson"
@@ -29015,7 +29015,7 @@
      ]
     },
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Jared Spurgeon",
       "Joel Farabee"
@@ -29032,7 +29032,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Marat Khusnutdinov"
      ]
@@ -29388,7 +29388,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Tyler Toffoli"
      ]
@@ -29435,7 +29435,7 @@
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Luke Hughes",
       "Brock Boeser",
@@ -29622,7 +29622,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Artemi Panarin"
      ]
@@ -29645,7 +29645,7 @@
      ]
     },
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Kirill Marchenko"
      ]
@@ -29689,7 +29689,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Alexis Lafreniere"
      ]
@@ -29756,7 +29756,7 @@
      ]
     },
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Kirill Marchenko"
      ]
@@ -29842,7 +29842,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Drew Doughty"
      ]
@@ -29886,7 +29886,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Connor Bedard"
      ]
@@ -29952,7 +29952,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Jesper Bratt",
       "Brayden Point"
@@ -29975,7 +29975,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Anthony Cirelli"
      ]
@@ -30041,7 +30041,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Jesper Bratt",
       "Brayden Point"
@@ -30182,13 +30182,13 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Anthony Cirelli"
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Evander Kane"
      ]
@@ -30248,7 +30248,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Beckett Sennecke",
       "Kirill Kaprizov"
@@ -30324,7 +30324,7 @@
      ]
     },
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Cole Caufield"
      ]
@@ -30363,7 +30363,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:gudrun-streamercanes",
+     "teamId": "2025-26:mac-attack",
      "receives": [
       "Chandler Stephenson"
      ]
@@ -30385,7 +30385,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:halifax-citadels",
+     "teamId": "2025-26:the-canadian-og",
      "receives": [
       "Artyom Levshunov",
       "Mika Zibanejad"
@@ -30485,7 +30485,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Brandt Clarke"
      ]
@@ -30501,7 +30501,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:halifax-citadels",
+     "teamId": "2025-26:the-canadian-og",
      "receives": [
       "John Tavares",
       "Jake DeBrusk",
@@ -30713,13 +30713,13 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Luke Hughes"
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Kris Letang"
      ]
@@ -30735,7 +30735,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Alexander Nikishin"
      ]
@@ -30763,7 +30763,7 @@
      ]
     },
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Adrian Kempe"
      ]
@@ -30779,7 +30779,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Morgan Geekie"
      ]
@@ -30823,14 +30823,14 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Thomas Harley",
       "Brayden Point"
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Alexis Lafreniere",
       "Dylan Guenther"
@@ -30913,7 +30913,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Denton Mateychuk",
       "Jake Oettinger"
@@ -30959,7 +30959,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:sega-puckar",
+     "teamId": "2025-26:snabba-puckar",
      "receives": [
       "Sean Durzi"
      ]
@@ -31014,7 +31014,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Andrei Vasilevskiy",
       "Ridly Greig"
@@ -31154,7 +31154,7 @@
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Jamie Benn"
      ]
@@ -31222,13 +31222,13 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Jimmy Snuggerud"
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Stuart Skinner"
      ]
@@ -31251,7 +31251,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Matty Beniers",
       "Jeremy Lauzon"
@@ -31268,7 +31268,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Dougie Hamilton",
       "Mika Zibanejad"
@@ -31366,7 +31366,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Alexander Wennberg",
       "Brayden Point"
@@ -31389,7 +31389,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Justin Sourdif",
       "Mathew Barzal"
@@ -31419,7 +31419,7 @@
      ]
     },
     {
-     "teamId": "2025-26:banan-med-permobil",
+     "teamId": "2025-26:chuck-norris-uppercuts",
      "receives": [
       "Claude Giroux"
      ]
@@ -31492,7 +31492,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Elias Pettersson"
      ]
@@ -31644,7 +31644,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Patrick Kane",
       "Rasmus Ristolainen"
@@ -31668,7 +31668,7 @@
    "status": "vetoed",
    "sides": [
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Anders Lee"
      ]
@@ -31744,7 +31744,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "MacKenzie Weegar"
      ]
@@ -31774,7 +31774,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Kent Johnson",
       "Josh Morrissey"
@@ -31820,7 +31820,7 @@
      ]
     },
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Adrian Kempe"
      ]
@@ -31864,7 +31864,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Sebastian Aho",
       "Drew Doughty"
@@ -31894,7 +31894,7 @@
      ]
     },
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Claude Giroux"
      ]
@@ -31910,7 +31910,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:patrik-uncut",
+     "teamId": "2025-26:vnhl-patrik",
      "receives": [
       "Connor McMichael"
      ]
@@ -32022,7 +32022,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Alex Ovechkin"
      ]
@@ -32159,7 +32159,7 @@
    "status": "completed",
    "sides": [
     {
-     "teamId": "2025-26:mot-divison-8-hc",
+     "teamId": "2025-26:borjebus",
      "receives": [
       "Nazem Kadri",
       "Filip Forsberg"
@@ -32288,7 +32288,7 @@
      ]
     },
     {
-     "teamId": "2025-26:musketorerna",
+     "teamId": "2025-26:haninge-musketorerna",
      "receives": [
       "Nick Schmaltz",
       "Auston Matthews",
@@ -32312,7 +32312,7 @@
      ]
     },
     {
-     "teamId": "2025-26:purple-cobras",
+     "teamId": "2025-26:proez",
      "receives": [
       "Morgan Rielly",
       "Auston Matthews",

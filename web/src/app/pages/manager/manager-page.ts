@@ -17,6 +17,7 @@ import {
   totals,
   headToHead,
   tradePartners,
+  teamNames,
   tradesOf,
 } from '../../data/stats';
 import {
@@ -78,11 +79,10 @@ export class ManagerPage {
     const m = this.manager();
     return m ? displayName(m) : '';
   });
-  protected readonly formerNames = computed(() =>
-    (this.manager()?.teamNames ?? []).filter(
-      (n) => n.toLowerCase() !== this.manager()?.name.toLowerCase(),
-    ),
-  );
+  protected readonly names = computed(() => {
+    const idx = this.index();
+    return idx ? teamNames(idx, this.id()) : [];
+  });
 
   protected readonly seasons = computed(() => {
     const idx = this.index();

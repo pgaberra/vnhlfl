@@ -4,8 +4,11 @@
       <header class="page-head">
         <p class="eyebrow">GM-profil</p>
         <h1>{{ name() }}</h1>
-        @if (formerNames().length) {
-          <p class="lede">Har även spelat som {{ formerNames().join(', ') }}.</p>
+        @if (names().length > 1) {
+          <p class="lede">
+            Har spelat under {{ names().length }} lagnamn sedan
+            {{ seasons()[0].division.seasonLabel }}. Alla räknas som en och samma GM.
+          </p>
         }
       </header>
 
@@ -21,6 +24,28 @@
           <app-stat-tile [label]="t.label" [value]="t.value" [sub]="t.sub" />
         }
       </section>
+
+      @if (names().length > 1) {
+        <section class="card" aria-labelledby="names">
+          <div class="card-head">
+            <h2 id="names">Lagnamn genom åren</h2>
+            <p class="hint">Ett namnbyte är samma lag: säsongerna räknas ihop i karriären.</p>
+          </div>
+          <ol class="names">
+            @for (n of names(); track n.name) {
+              <li [class.current]="n.current">
+                <span class="n-name">{{ n.name }}</span>
+                <span class="n-span">
+                  {{ n.span }}
+                  @if (n.current) {
+                    <span class="badge tier-1">Nuvarande</span>
+                  }
+                </span>
+              </li>
+            }
+          </ol>
+        </section>
+      }
 
       <section class="card" aria-labelledby="journey">
         <div class="card-head">
@@ -93,6 +118,9 @@
                   </td>
                   <td class="name">
                     {{ s.team.name }}
+                    @if (s.team.otherNames.length) {
+                      <span class="note">hette också {{ s.team.otherNames.join(', ') }}</span>
+                    }
                     @if (s.team.replaces; as r) {
                       <span class="note">tog över {{ idx.team.get(r.teamId)?.name }}</span>
                     }

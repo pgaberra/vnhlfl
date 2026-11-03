@@ -88,10 +88,15 @@ class Replacement:
 
 @dataclass
 class Owners:
-    """Team name -> manager, from the `Namn och lag` workbook. Names never leave the pipeline."""
+    """Team name -> manager, from the founder's workbooks. Names never leave the pipeline.
+
+    A manager is keyed by the founder's GM id (`#73`) where `Lag och GM` gives one, else by
+    their name, so two spellings of one person under one id stay one GM.
+    """
 
     by_team: dict[str, str] = field(default_factory=dict)  # key(team) -> manager full name
-    team_names: dict[str, list[str]] = field(default_factory=dict)  # key(manager) -> names
+    manager_of: dict[str, str] = field(default_factory=dict)  # key(team) -> manager key
+    team_names: dict[str, list[str]] = field(default_factory=dict)  # manager key -> names
 
 
 def _rows(path: Path, sheet: str) -> Iterator[tuple[int, dict[str, Any]]]:
@@ -243,20 +248,26 @@ def read_trades(path: Path) -> list[TradeRow]:
 
 def read_owners(path: Path, mapping: Path | None = None) -> Owners:
     owners = Owners()
+    id_of_name: dict[str, str] = {}  # key(manager name) -> manager key from the founder's id
 
-    def add(team: Any, manager: Any) -> None:
+    def add(team: Any, manager: Any, gm_id: Any = None) -> None:
         if _missing(team) or _missing(manager):
             return
         team_key, manager_name = key(team), clean(manager)
+        founder_id = None if _missing(gm_id) else f"#{_int(gm_id)}"
+        if founder_id:
+            id_of_name.setdefault(key(manager_name), founder_id)
+        manager_key = founder_id or id_of_name.get(key(manager_name), key(manager_name))
         owners.by_team.setdefault(team_key, manager_name)
-        names = owners.team_names.setdefault(key(manager_name), [])
+        owners.manager_of.setdefault(team_key, manager_key)
+        names = owners.team_names.setdefault(manager_key, [])
         if clean(team) not in names:
             names.append(clean(team))
 
     # The founder's filled-in `Lag och GM.xlsx` (see mapping_sheet.py) wins over the old sheets.
     if mapping and mapping.exists():
         for _, row in _rows(mapping, "Lag"):
-            add(row.get("Lagnamn"), row.get("GM"))
+            add(row.get("Lagnamn"), row.get("GM"), row.get("ID"))
     for _, row in _rows(path, "lagnamn"):
         add(row.get("Lagnamn"), row.get("Namn"))
     for _, row in _rows(path, "GMs"):

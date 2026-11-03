@@ -51,8 +51,11 @@ import { LoadState } from '../../shared/load-state';
       <section class="card prose">
         <h2>Namn</h2>
         <p>
-          Sidan visar bara lagnamn. En GM syns under sitt senaste lagnamn, och profilen listar de
-          namn hen spelat under tidigare. Riktiga namn publiceras inte.
+          Sidan visar bara lagnamn. Ligans grundare har kopplat vart och ett av ligans drygt 300
+          lagnamn till rätt GM, så ett lag som bytt namn räknas som ett och samma lag: karriären,
+          tabellen genom tiderna och inbördes möten följer GM:en. En GM syns under sitt senaste
+          lagnamn, och profilen visar vilka namn hen spelat under och när. Riktiga namn publiceras
+          inte.
         </p>
         <h2>Hur siffrorna räknas</h2>
         <p>
@@ -66,11 +69,6 @@ import { LoadState } from '../../shared/load-state';
           Matcher och trades från 2024/25 och 2025/26 finns bara som skärmdumpar från Yahoo och är
           avlästa därifrån. Varje lags vinster, förluster och poäng i de avlästa matcherna stämmer
           med sluttabellen. Veckotabellerna för de säsongerna är uträknade ur matcherna.
-        </p>
-        <h2>Det som saknas</h2>
-        <p>
-          Lag som dykt upp sedan 2025/26 är ännu inte kopplade till sina GM:s, så en GM som bytt
-          lagnamn kan synas som två tills kopplingen är på plats.
         </p>
         <h2>Hittat ett fel?</h2>
         <p>Hör av dig till ligans grundare, så rättar vi källdatan.</p>

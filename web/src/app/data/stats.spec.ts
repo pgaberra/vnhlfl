@@ -13,6 +13,7 @@ import {
   mostTradedPlayers,
   playoffSpots,
   rankPath,
+  teamNames,
   totals,
   tradePartners,
   weekRecords,
@@ -169,6 +170,53 @@ describe('career', () => {
     expect(career(index, 'wolves').map((s) => s.move)).toEqual(['down', null]);
     expect(career(index, 'bears').map((s) => s.move)).toEqual(['up', null]);
     expect(career(index, 'eagles')[0].next?.id).toBe('b1');
+  });
+});
+
+describe('teamNames', () => {
+  // Wolves become Wolfpack mid 2023/24, sit out 2024/25 and return as Grey Wolves.
+  const renamed = indexLeague({
+    ...league,
+    seasons: [
+      ...league.seasons,
+      { id: '2024-25', label: '2024/25', divisions: [] },
+      {
+        id: '2025-26',
+        label: '2025/26',
+        divisions: [
+          { id: 'd1', name: 'Div 1', tier: 1, draftFormat: 'snake', teamIds: ['2025-26:wolves'] },
+        ],
+      },
+    ],
+    managers: [
+      { id: 'wolves', name: 'Grey Wolves', teamNames: ['Wolves', 'Wolfpack', 'Grey Wolves'] },
+      ...league.managers.slice(1),
+    ],
+    teams: [
+      ...league.teams.filter((t) => t.managerId !== 'wolves'),
+      { ...team('2022-23', 'a1', 'wolves', null), name: 'Wolves' },
+      { ...team('2023-24', 'b2', 'wolves', null), name: 'Wolfpack', otherNames: ['Wolves'] },
+      { ...team('2025-26', 'd1', 'wolves', null), name: 'Grey Wolves', otherNames: ['WOLVES'] },
+    ],
+  });
+
+  it('lists each name once with the seasons it was used, as ranges', () => {
+    expect(teamNames(renamed, 'wolves')).toEqual([
+      {
+        name: 'WOLVES',
+        seasonIds: ['2022-23', '2023-24', '2025-26'],
+        span: '2022/23–2023/24, 2025/26',
+        current: false,
+      },
+      { name: 'Wolfpack', seasonIds: ['2023-24'], span: '2023/24', current: false },
+      { name: 'Grey Wolves', seasonIds: ['2025-26'], span: '2025/26', current: true },
+    ]);
+  });
+
+  it('gives a GM who kept their name one entry', () => {
+    expect(teamNames(index, 'bears')).toEqual([
+      { name: 'bears', seasonIds: ['2022-23', '2023-24'], span: '2022/23–2023/24', current: true },
+    ]);
   });
 });
 

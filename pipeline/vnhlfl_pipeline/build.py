@@ -145,7 +145,7 @@ class _TeamSeason:
 
     season: str
     division: str
-    manager: str  # manager key; a real name, so it never reaches the output
+    manager: str  # manager key: the founder's GM id or a real name, so it never reaches the output
     names: list[tuple[int, str]] = field(default_factory=list)  # (order, name)
     id: str = ""
 
@@ -167,10 +167,10 @@ class LeagueBuilder:
     # ---- identity -------------------------------------------------------------------------
 
     def manager_of(self, team: str) -> str:
-        owner = self.src.owners.by_team.get(key(team))
-        if owner:
-            self.manager_names.setdefault(key(owner), owner)
-            return key(owner)
+        manager = self.src.owners.manager_of.get(key(team))
+        if manager:
+            self.manager_names.setdefault(manager, self.src.owners.by_team[key(team)])
+            return manager
         if key(team) not in self._unknown:
             self._unknown.add(key(team))
             if key(team) not in self.src.unmapped:

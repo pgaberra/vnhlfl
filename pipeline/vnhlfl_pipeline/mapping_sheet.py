@@ -3,9 +3,10 @@
     python -m vnhlfl_pipeline.mapping_sheet --source ../source-data \
         --out "../source-data/Lag och GM.xlsx"
 
-Rows already mapped in `Namn och lag` come prefilled, so the founder only checks them and fills
-the blanks. The filled-in file goes back in `source-data/` and takes precedence over
-`Namn och lag` (see `sources.read_owners`). It contains real names: never commit it.
+Rows already mapped (in an earlier `Lag och GM`, ids included, or in `Namn och lag`) come
+prefilled, so the founder only checks them and fills the blanks. The filled-in file goes back
+in `source-data/` and takes precedence over `Namn och lag` (see `sources.read_owners`). It
+contains real names: never commit it.
 """
 
 from __future__ import annotations
@@ -28,12 +29,14 @@ from .normalize import clean, key, season_label
 SHEET = "Lag"
 TEAM_COLUMN = "Lagnamn"
 GM_COLUMN = "GM"
+ID_COLUMN = "ID"
 
 INSTRUCTIONS = [
     "Koppla varje lagnamn till rätt GM",
     "",
     "Fliken 'Lag' har ett lagnamn per rad: alla namn som förekommit i ligan sedan 2021/22.",
-    "Fyll i kolumnen GM med deltagarens namn. Gula rader saknar GM.",
+    "Fyll i kolumnen GM med deltagarens namn och kolumnen ID med deltagarens nummer.",
+    "Gula rader saknar GM.",
     "",
     "Så här:",
     "1. Samma person ska alltid skrivas exakt likadant. Har någon haft flera lagnamn genom åren",
@@ -43,6 +46,9 @@ INSTRUCTIONS = [
     "3. Rader som redan är ifyllda kommer från 'Namn och lag'. Rätta dem om något är fel.",
     "4. Kolumnen Förslag är bara en gissning utifrån liknande lagnamn. Kontrollera den.",
     "5. Byter ett lag GM mitt i säsongen syns det som två lagnamn. Skriv rätt GM på varje.",
+    "6. ID är deltagarens nummer: samma nummer på alla lag en person haft. En ny deltagare",
+    "   får nästa lediga nummer. Det är ID:t som binder ihop lagen, så stavas namnet olika",
+    "   på två rader räknas de ändå som samma GM.",
     "",
     "Namnen publiceras inte: sidan visar bara lagnamn tills alla har sagt ja till annat.",
 ]
@@ -68,10 +74,12 @@ def team_rows(source: Path) -> list[dict[str, str]]:
     rows = []
     for team_key, entry in sorted(seen.items(), key=lambda kv: (min(kv[1].where), kv[0])):
         gm = known.get(team_key, "")
+        manager = src.owners.manager_of.get(team_key, "")
         rows.append(
             {
                 "team": entry.spellings.most_common(1)[0][0],
                 "gm": gm,
+                "id": manager[1:] if manager.startswith("#") else "",
                 "where": "; ".join(f"{season_label(s)} {d}" for s, d in sorted(entry.where)),
                 "suggestion": "" if gm else suggest(team_key, known),
             }
@@ -99,23 +107,24 @@ def write(rows: list[dict[str, str]], gms: list[str], out: Path) -> None:
     intro.column_dimensions["A"].width = 100
 
     sheet = workbook.create_sheet(SHEET)
-    headers = [TEAM_COLUMN, GM_COLUMN, "Förekommer (säsong, division)", "Förslag"]
+    headers = [TEAM_COLUMN, GM_COLUMN, ID_COLUMN, "Förekommer (säsong, division)", "Förslag"]
     sheet.append(headers)
     for cell in sheet[1]:
         cell.font = Font(bold=True)
     for row in rows:
-        sheet.append([row["team"], row["gm"], row["where"], row["suggestion"]])
+        gm_id = int(row["id"]) if row["id"] else None
+        sheet.append([row["team"], row["gm"], gm_id, row["where"], row["suggestion"]])
     last = sheet.max_row
-    for column, width in zip("ABCD", (34, 30, 60, 46), strict=True):
+    for column, width in zip("ABCDE", (34, 30, 8, 60, 46), strict=True):
         sheet.column_dimensions[column].width = width
-    for cells in sheet.iter_rows(min_row=2, min_col=3, max_col=4):
+    for cells in sheet.iter_rows(min_row=2, min_col=4, max_col=5):
         for cell in cells:
             cell.alignment = Alignment(wrap_text=True, vertical="top")
     sheet.freeze_panes = "A2"
-    sheet.auto_filter.ref = f"A1:D{last}"
+    sheet.auto_filter.ref = f"A1:E{last}"
     yellow = PatternFill(start_color="FFF2B3", end_color="FFF2B3", fill_type="solid")
     sheet.conditional_formatting.add(
-        f"A2:D{last}", FormulaRule(formula=["LEN(TRIM($B2))=0"], fill=yellow)
+        f"A2:E{last}", FormulaRule(formula=["LEN(TRIM($B2))=0"], fill=yellow)
     )
 
     people = workbook.create_sheet("GM-lista")

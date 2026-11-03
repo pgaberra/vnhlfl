@@ -10,6 +10,8 @@ import {
   Matchup,
   MatchSide,
   Pick,
+  Season,
+  SeasonId,
   Snapshot,
   TeamId,
   TeamSeason,
@@ -135,6 +137,57 @@ export function career(index: LeagueIndex, managerId: ManagerId): CareerSeason[]
     }
     return { team, division, next, move };
   });
+}
+
+export interface TeamName {
+  name: string;
+  seasonIds: SeasonId[];
+  /** The seasons as ranges: `2022/23–2024/25`, a gap as `2021/22, 2023/24`. */
+  span: string;
+  /** The name the GM plays under now. */
+  current: boolean;
+}
+
+/** Same name ignoring case, accents, spaces and punctuation (the sheets have `Tea mstoof`). */
+function sameName(name: string): string {
+  return name
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[\s'’.,!/-]/g, '');
+}
+
+/** Every team name a GM has played under, first used first, each with its seasons. */
+export function teamNames(index: LeagueIndex, managerId: ManagerId): TeamName[] {
+  const used = new Map<string, { name: string; seasonIds: Set<SeasonId> }>();
+  for (const team of index.teamsOf.get(managerId) ?? []) {
+    for (const name of [...team.otherNames, team.name]) {
+      const entry = used.get(sameName(name)) ?? { name, seasonIds: new Set<SeasonId>() };
+      entry.name = name; // the latest spelling wins
+      entry.seasonIds.add(team.seasonId);
+      used.set(sameName(name), entry);
+    }
+  }
+  const current = sameName(index.manager.get(managerId)?.name ?? '');
+  return [...used.entries()].map(([key, { name, seasonIds }]) => ({
+    name,
+    seasonIds: [...seasonIds],
+    span: seasonSpan(index, seasonIds),
+    current: key === current,
+  }));
+}
+
+function seasonSpan(index: LeagueIndex, seasonIds: ReadonlySet<SeasonId>): string {
+  const runs: Season[][] = [];
+  index.seasons.forEach((season, i) => {
+    if (!seasonIds.has(season.id)) return;
+    const run = runs.at(-1);
+    if (run && run.at(-1) === index.seasons[i - 1]) run.push(season);
+    else runs.push([season]);
+  });
+  return runs
+    .map((run) => (run.length > 1 ? `${run[0].label}–${run.at(-1)!.label}` : run[0].label))
+    .join(', ');
 }
 
 /** How many teams in a division made the playoffs (Yahoo's `*`). */

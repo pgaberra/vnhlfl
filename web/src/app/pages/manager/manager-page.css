@@ -139,3 +139,39 @@ summary {
   font-size: var(--text-sm);
   color: var(--ink-2);
 }
+
+.names {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+}
+
+.names li {
+  position: relative;
+  display: grid;
+  gap: 2px;
+  padding-left: var(--space-4);
+  border-left: 3px solid var(--line-strong);
+  min-width: 0;
+}
+
+.names li.current {
+  border-left-color: var(--accent);
+}
+
+.n-name {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.n-span {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}

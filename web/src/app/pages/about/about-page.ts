@@ -1,10 +1,11 @@
 import { Component, computed, inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { LeagueData } from '../../data/league-data';
 import { LoadState } from '../../shared/load-state';
 
 @Component({
   selector: 'app-about-page',
-  imports: [LoadState],
+  imports: [LoadState, RouterLink],
   template: `
     <div class="page">
       <header class="page-head">
@@ -71,7 +72,10 @@ import { LoadState } from '../../shared/load-state';
           med sluttabellen. Veckotabellerna för de säsongerna är uträknade ur matcherna.
         </p>
         <h2>Hittat ett fel?</h2>
-        <p>Hör av dig till ligans grundare, så rättar vi källdatan.</p>
+        <p>
+          <a routerLink="/tyck-till">Rapportera det här</a>, så rättar vi källdatan. Där kan du
+          också föreslå något nytt på sidan.
+        </p>
       </section>
     </div>
   `,

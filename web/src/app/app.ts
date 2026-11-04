@@ -1,5 +1,7 @@
 import { Component, computed, inject } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { filter, map } from 'rxjs';
 import { LeagueData } from './data/league-data';
 
 @Component({
@@ -36,7 +38,10 @@ import { LeagueData } from './data/league-data';
     <footer class="site-footer">
       <p>
         VNHLFL, Veckans NHL Fantasy League. Statistik från ligans egna sammanställningar.
-        <a routerLink="/om">Om datan</a>
+        <a routerLink="/om">Om datan</a> ·
+        <a routerLink="/tyck-till" [queryParams]="{ sida: feedbackPage() }"
+          >Hittat ett fel eller har en idé?</a
+        >
       </p>
       @if (version(); as v) {
         <p class="muted">Dataversion {{ v }}</p>
@@ -175,7 +180,21 @@ export class App {
     { path: '/trades', label: 'Trades' },
     { path: '/draft', label: 'Draft' },
     { path: '/om', label: 'Om' },
+    { path: '/tyck-till', label: 'Tyck till' },
   ];
+
+  private readonly url = toSignal(
+    inject(Router).events.pipe(
+      filter((e) => e instanceof NavigationEnd),
+      map((e) => e.urlAfterRedirects),
+    ),
+  );
+
+  /** The page a footer report is about, so the form can prefill it. */
+  protected readonly feedbackPage = computed(() => {
+    const url = this.url();
+    return url && !url.startsWith('/tyck-till') ? url : null;
+  });
 
   protected readonly version = computed(() =>
     this.data.league.hasValue() ? this.data.league.value().dataVersion : null,

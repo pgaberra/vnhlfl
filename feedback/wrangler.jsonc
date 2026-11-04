@@ -1,0 +1,14 @@
+// The Worker behind the site's "Tyck till" form. Secrets (GITHUB_TOKEN, TURNSTILE_SECRET) are set
+// with `npx wrangler secret put`, never here; see README.md.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vnhlfl-feedback",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "observability": { "enabled": true },
+  "vars": {
+    "GITHUB_REPO": "pgaberra/vnhlfl",
+    "ATTACHMENT_BRANCH": "feedback-attachments",
+    "ALLOWED_ORIGINS": "https://pgaberra.github.io",
+  },
+}

@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["--prefix", "web", "start", "--", "--port", "4310"],
       "port": 4310
+    },
+    {
+      "name": "feedback",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "feedback", "run", "dev"],
+      "port": 8787
     }
   ]
 }

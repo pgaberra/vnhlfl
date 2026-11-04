@@ -30,6 +30,12 @@ founder's .xlsx files ──▶ pipeline/ (Python) ──▶ web/public/data/*.j
    send it, and put the filled-in file back in `source-data/`; it takes precedence over `Namn och lag`.
 4. Commit `web/public/data` and push; the site redeploys.
 
+## Bug reports and suggestions
+
+The site's **Tyck till** page lets members report a bug or suggest a feature, with screenshots
+or PDFs attached. A small Cloudflare Worker in `feedback/` turns each one into an issue here,
+labelled `from-site`; setup and deploy steps are in [feedback/README.md](feedback/README.md).
+
 ## What's missing
 
 - Nothing from the screenshots: 2024/25 and 2025/26 games and trades were transcribed from the

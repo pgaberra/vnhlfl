@@ -1,0 +1,5 @@
+# Copy to .dev.vars for `npm run dev`. The Turnstile secret is Cloudflare's always-pass test
+# secret; the GitHub token is a real fine-grained token, so local submissions create real issues.
+GITHUB_TOKEN=
+TURNSTILE_SECRET=1x0000000000000000000000000000000AA
+ALLOWED_ORIGINS=http://localhost:4200

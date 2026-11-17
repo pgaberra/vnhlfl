@@ -54,6 +54,11 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/about/about-page').then((m) => m.AboutPage),
   },
   {
+    path: 'tyck-till',
+    title: `Tyck till${suffix}`,
+    loadComponent: () => import('./pages/feedback/feedback-page').then((m) => m.FeedbackPage),
+  },
+  {
     path: '**',
     title: `Sidan finns inte${suffix}`,
     loadComponent: () => import('./pages/not-found-page').then((m) => m.NotFoundPage),

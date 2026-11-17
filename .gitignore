@@ -26,3 +26,7 @@ Thumbs.db
 INFRASTRUCTURE.md
 .claude/settings.local.json
 *.egg-info/
+
+# Cloudflare Worker: local secrets and wrangler state
+feedback/.dev.vars
+feedback/.wrangler/

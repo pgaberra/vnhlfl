@@ -1,0 +1,155 @@
+<div class="page">
+  <header class="page-head">
+    <p class="eyebrow">Tyck till</p>
+    <h1>Hittat en bugg eller har en idé?</h1>
+    <p class="lede">
+      Berätta vad som är fel eller vad du vill se på sidan, stort som smått. Det blir ett ärende på
+      sidans GitHub, där vi följer upp det.
+    </p>
+  </header>
+
+  @if (!config.endpoint) {
+    <section class="card">
+      <h2>Formuläret öppnar snart</h2>
+      <p>Tills dess: hör av dig till ligans grundare.</p>
+    </section>
+  } @else if (sent(); as issue) {
+    <section class="card done" aria-live="polite">
+      <h2>Tack! Ärendet är #{{ issue.number }}</h2>
+      <p>
+        Du kan följa det på <a [href]="issue.url" target="_blank" rel="noopener">GitHub</a>, där det
+        också syns när det är åtgärdat.
+      </p>
+      <div class="actions">
+        <button type="button" class="btn" (click)="again()">Skicka ett till</button>
+        <a class="btn" routerLink="/">Till startsidan</a>
+      </div>
+    </section>
+  } @else {
+    <form class="card" novalidate (submit)="send($event)" (paste)="paste($event)">
+      <fieldset class="kinds">
+        <legend>Vad gäller det?</legend>
+        <label class="kind">
+          <input type="radio" value="bug" [formField]="f.kind" />
+          <span><strong>Något är fel</strong> En bugg, en felaktig siffra eller text</span>
+        </label>
+        <label class="kind">
+          <input type="radio" value="feature" [formField]="f.kind" />
+          <span><strong>Ett förslag</strong> En ändring, en ny statistik eller en ny sida</span>
+        </label>
+      </fieldset>
+
+      <label class="field">
+        <span>Rubrik</span>
+        <input
+          type="text"
+          [formField]="f.title"
+          aria-describedby="title-error"
+          [attr.aria-invalid]="f.title().touched() && f.title().invalid()"
+          [placeholder]="
+            draft().kind === 'bug'
+              ? 'T.ex. Fel poäng i tabellen för 2023/24'
+              : 'T.ex. Visa längsta segersvit'
+          "
+        />
+        @if (f.title().touched() && f.title().invalid()) {
+          <span id="title-error" class="error">{{ f.title().errors()[0].message }}</span>
+        }
+      </label>
+
+      <label class="field">
+        <span>Beskrivning</span>
+        <span class="hint" id="description-hint">
+          @if (draft().kind === 'bug') {
+            Vad hände, och vad borde ha hänt? Skriv gärna vilken säsong, division eller GM det
+            gäller.
+          } @else {
+            Beskriv idén och hur du vill att den ska se ut. Vill du ändra en text: skriv vad den ska
+            ändras till.
+          }
+        </span>
+        <textarea
+          rows="7"
+          [formField]="f.description"
+          aria-describedby="description-hint description-error"
+          [attr.aria-invalid]="f.description().touched() && f.description().invalid()"
+        ></textarea>
+        @if (f.description().touched() && f.description().invalid()) {
+          <span id="description-error" class="error">{{
+            f.description().errors()[0].message
+          }}</span>
+        }
+      </label>
+
+      <label class="field">
+        <span>Sida <span class="muted">(valfritt)</span></span>
+        <input type="text" [formField]="f.page" placeholder="T.ex. /sasong/2024-25" />
+      </label>
+
+      <div class="field">
+        <span id="files-label">Bilagor <span class="muted">(valfritt)</span></span>
+        <div class="drop" (dragover)="$event.preventDefault()" (drop)="drop($event)">
+          <input
+            id="files"
+            class="sr-only"
+            type="file"
+            multiple
+            [accept]="accept"
+            aria-labelledby="files-label"
+            aria-describedby="files-hint"
+            (change)="pick($event)"
+          />
+          <label for="files" class="btn">Välj filer</label>
+          <span class="hint" id="files-hint">
+            {{ draft().kind === 'bug' ? 'En skärmdump' : 'En skiss eller design' }} säger ofta mer
+            än ord. Dra hit eller klistra in. Bilder eller PDF, högst {{ limits.files }} filer på
+            {{ formatBytes(limits.fileBytes) }}.
+          </span>
+        </div>
+        @if (attachments().length > 0) {
+          <ul class="files">
+            @for (a of attachments(); track a) {
+              <li>
+                @if (a.preview) {
+                  <img [src]="a.preview" alt="" />
+                } @else {
+                  <span class="pdf" aria-hidden="true">PDF</span>
+                }
+                <span class="name">{{ a.file.name }}</span>
+                <span class="muted">{{ formatBytes(a.file.size) }}</span>
+                <button
+                  type="button"
+                  class="btn"
+                  [attr.aria-label]="'Ta bort ' + a.file.name"
+                  (click)="remove(a)"
+                >
+                  Ta bort
+                </button>
+              </li>
+            }
+          </ul>
+        }
+        @for (problem of fileProblems(); track problem) {
+          <span class="error" role="alert">{{ problem }}</span>
+        }
+      </div>
+
+      <p class="notice">
+        <strong>Allt du skickar in syns öppet på GitHub.</strong> Skriv inga riktiga namn, och dölj
+        namn i skärmdumpar, till exempel från Yahoo.
+      </p>
+
+      <app-turnstile [siteKey]="config.turnstileSiteKey" [(token)]="token" />
+
+      @if (error(); as message) {
+        <p class="error" role="alert">{{ message }}</p>
+      }
+
+      <div class="actions">
+        <button type="submit" class="btn btn-primary" [disabled]="sending()">
+          {{ sending() ? 'Skickar…' : 'Skicka in' }}
+        </button>
+      </div>
+    </form>
+  }
+</div>
